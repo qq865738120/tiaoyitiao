@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "stage": "01",
+  "scope": "pure TypeScript skeleton only",
+  "projectPath": "/Users/zhengwenjun/tiaoyitiao",
+  "projectUuid": "4856b445-bfe4-49c2-8933-59e229f06792",
+  "creatorVersion": "3.8.8",
+  "gameAgentVersion": "0.4.0 (assignment context; not independently runtime-queried)",
+  "configVersion": "jump-learning-1.0",
+  "seed": 20260930,
+  "configSha256": "6bdf0dcaf6dfeb153ed81518ed85bec53633deaa5bfa96b6dcf64cf0c4dcdb91",
+  "executedAt": "2026-10-01T08:33:04.415Z",
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "darwin",
+    "arch": "arm64",
+    "osRelease": "25.6.0",
+    "typescript": "Version 4.9.5",
+    "compilerSource": "existing Creator engine dependency; no network or installation"
+  },
+  "commands": [
+    "node \"/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc\" --strict --target ES2018 --module commonjs --moduleResolution node --skipLibCheck --rootDir . --outDir \"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-1f0a19921ab224b04c8327f84565fc9d/session-42507be7aa1297608a7ad217afb7a1a8/jump-core-tests\" tests/jump/run-tests.ts",
+    "JUMP_TEST_OUT=\"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-1f0a19921ab224b04c8327f84565fc9d/session-42507be7aa1297608a7ad217afb7a1a8/jump-core-tests\" node \"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-1f0a19921ab224b04c8327f84565fc9d/session-42507be7aa1297608a7ad217afb7a1a8/jump-core-tests/tests/jump/run-tests.js\" --evidence"
+  ],
+  "sourceSha256": {
+    "assets/scripts/jump/core/clock.ts": "8356eceee1b24a142d50f5ebdf585288d70a7897f45ddf21f802471e6c29f130",
+    "assets/scripts/jump/core/config.ts": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178",
+    "assets/scripts/jump/core/index.ts": "c47d3d207abed9de5925d6a20fc688046a2a5cdbc3f471e5c078172e51d4922c",
+    "assets/scripts/jump/core/random.ts": "edb5d031623fe3061bb0daa094effe5f8580b4c5e3961e57c0a73b104a2ff49d",
+    "assets/scripts/jump/core/state-machine.ts": "75e9635d0088009ddc0001f7715f008eed2e4e9d9fe4f8dc1282ad277df8240f",
+    "assets/scripts/jump/core/types.ts": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364",
+    "docs/数据/验收基准.json": "7be0c4317178709aca6dcb5710e1397dd91b80176c1a11a4857b38360cf71995",
+    "tests/jump/run-tests.ts": "03c946159426d85c6d060207d399421432176d81bbb5b6f91232208be7e9fdd0"
+  },
+  "summary": {
+    "cases": 27,
+    "pass": 27,
+    "fail": 0,
+    "assertions": 1353
+  },
+  "cases": [
+    {
+      "caseId": "P01-prng-100-repeat",
+      "expected": "100 identical uint32s for seed=20260930; float [0,1)",
+      "actual": {
+        "count": 100,
+        "sha256": "5f1aeb6b5d86a1cc55327b7b997fcaef43dc4a7dfff8cb5cd93618d34ea1c2e7"
+      },
+      "status": "pass",
+      "assertions": 201
+    },
+    {
+      "caseId": "P02-prng-first16-baseline",
+      "expected": "exact match to independent precomputed first16",
+      "actual": [
+        597324252,
+        3650692748,
+        1414782248,
+        3509555379,
+        1141228751,
+        1863781025,
+        1177476480,
+        776796847,
+        2452686403,
+        3990804703,
+        3999355933,
+        1487952876,
+        712225610,
+        3745609127,
+        3477620477,
+        895951862
+      ],
+      "status": "pass",
+      "assertions": 3
+    },
+    {
+      "caseId": "P03-zero-seed",
+      "expected": "0 normalizes to 1 in config, PRNG and run",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 105
+    },
+    {
+      "caseId": "P04-seed-validation",
+      "expected": "negative, fraction, NaN, Infinity and >uint32 rejected; maxuint32 accepted",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 11
+    },
+    {
+      "caseId": "C01-design-single-source",
+      "expected": "all design values and model order exact; derived T=.6/apex=3.6",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 8
+    },
+    {
+      "caseId": "C02-illegal-config",
+      "expected": "invalid numbers, ordering, bounds, whitelist rejected before run",
+      "actual": {
+        "rejectedConfigs": 26
+      },
+      "status": "pass",
+      "assertions": 26
+    },
+    {
+      "caseId": "S01-menu-and-illegal-transitions",
+      "expected": "no tick in menu; all tested invalid transitions reject without mutations/events",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 27
+    },
+    {
+      "caseId": "S02-owner-short-cancel",
+      "expected": "one owner; 4 ticks (<.08) cancels; explicit cancel ready without jump/score",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 21
+    },
+    {
+      "caseId": "S03-charging-pause-cancel",
+      "expected": "pause/focus/background cancel charging; resume ready, fresh press required",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 351
+    },
+    {
+      "caseId": "S04-airborne-pause-resume",
+      "expected": "airborne plan/token/tick preserved; async and transition callbacks blocked while paused",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 25
+    },
+    {
+      "caseId": "S05-target-cycle-and-score-boundary",
+      "expected": "target path completes; input ignored busy; scoring permit once; no scoring formula",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 42
+    },
+    {
+      "caseId": "S06-current-cycle",
+      "expected": "current landing no score and no recenter; restores ready",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 19
+    },
+    {
+      "caseId": "S07-fall-terminal-once",
+      "expected": "fall→gameover emits Failed once; gameover frozen",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 25
+    },
+    {
+      "caseId": "S08-old-run-restart-home",
+      "expected": "new run and home invalidate old callbacks, score claims and failure transitions",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 40
+    },
+    {
+      "caseId": "S09-old-jump-same-run",
+      "expected": "jumpId increases in run; previous jump cannot mutate current flight",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 27
+    },
+    {
+      "caseId": "S09b-missing-invalid-jump-token",
+      "expected": "runtime commands missing jumpId or using null/noninteger reject without mutation",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 45
+    },
+    {
+      "caseId": "S10-boundary-lifecycle",
+      "expected": "each kind once; stale tokens reject; duplicate open/start cannot reset dedup",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 17
+    },
+    {
+      "caseId": "S11-plan-validation-and-freeze",
+      "expected": "bad plans reject; valid plan defensively copied and frozen; invalid seed leaves state intact",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 23
+    },
+    {
+      "caseId": "S12-pause-all-active-phases",
+      "expected": "ready/landing/recentering/falling pause and recover original state without ticks",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 52
+    },
+    {
+      "caseId": "T01-five-ticks-limit",
+      "expected": "5 ticks processed; negative/nonfinite deltas reject; reset clears",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 8
+    },
+    {
+      "caseId": "T02-backlog-freeze-preserve",
+      "expected": "6 ticks freezes at 0; keeps .1s; no new wall time while frozen; explicit recovery 5+1",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 14
+    },
+    {
+      "caseId": "T03-large-backlog-no-drop",
+      "expected": "60 pending ticks retained and drained in 12 explicit recovery frames",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 17
+    },
+    {
+      "caseId": "T04-pause-resume-ignore-background",
+      "expected": "pause preserves fraction; resume skips first wall delta; no background catchup",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 6
+    },
+    {
+      "caseId": "T05-synchronous-pause",
+      "expected": "onTick pause stops batch immediately without deleting remaining ticks",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 5
+    },
+    {
+      "caseId": "T06-clock-30-60-120fps",
+      "expected": "each 1s clock sequence produces exactly ticks 1..60 (not full gameplay replay)",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 215
+    },
+    {
+      "caseId": "T07-machine-clock-pause-integration",
+      "expected": "app paired pause/resume freezes flying tick; resume delta skipped; plan unchanged",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 13
+    },
+    {
+      "caseId": "A01-core-no-cc",
+      "expected": "core TypeScript sources have no cc dependency",
+      "actual": {
+        "checkedFiles": 6
+      },
+      "status": "pass",
+      "assertions": 6
+    }
+  ],
+  "notRun": [
+    "Creator preview/visual verification (parent-owned)",
+    "stage02 platform generation/reachability/collision/reward formulas",
+    "20-jump full gameplay replay/storage/audio"
+  ],
+  "integration": [
+    "pair clock and state pause/resume; reset clock for new run",
+    "phase02 must atomically combine score claim, score reducer and Scored publication"
+  ],
+  "firstWriteTransaction": "UeA-sCihpZg2U-ppcMbso (assets/scripts/jump/core/README.md)"
+}
