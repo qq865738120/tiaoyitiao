@@ -1,1 +1,1 @@
-"use strict";var e=require("../../chunks/imageGenerationSettingsPanel-DBKa8Zc_.js");module.exports=Editor.Panel.define(e.createImageGenerationSettingsPanelDefinition({},2)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);
+"use strict";var e=require("../../chunks/imageGenerationSettingsPanel-BB6r-8l3.js");module.exports=Editor.Panel.define(e.createImageGenerationSettingsPanelDefinition({},2)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);

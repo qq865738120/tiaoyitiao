@@ -2,34 +2,34 @@
   "schema_version": 2,
   "protection_status": "obfuscated",
   "seal_algorithm": "ecdsa-p256-sha256-p1363",
-  "seal_key_fingerprint": "0d55560540239c04302c29c97e3e9ee1e28f33b768fea9f896170b9dfeb15f50",
-  "seal_public_key_spki": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEg7QFPT+1ltEUV+x2Qb6ZO+Rt+xXjh61PnoubKJ/RCZcUBbOUAEkHMLleQc/GNGaTKIUojoulvzppeJiiJW5VTQ==",
+  "seal_key_fingerprint": "85ed4f1c9a7b9d448b864e2ac168a5a673ce7ed21f1c827bc7f4abd1cbb4f0b1",
+  "seal_public_key_spki": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsF6e4T7QXvMeCN+Dhc6rXkp/mZsfizy6pzX4xtr3pqPZQ0M40/bLaOhYEcz32PLiiR8NjO0qCO2X6B83Mrg5lw==",
   "files": [
     {
-      "path": "chunks/license-bootstrap-protected-BA0YklFk.js",
+      "path": "chunks/license-bootstrap-protected-DlnG5vSq.js",
       "category": "license-bootstrap",
-      "sha256": "c543b764c4de43c595471bc55c8c26cdef5002a08a1a7fac033c3e431a41baba"
+      "sha256": "4acf773ff3d1ac20defdada12da80560d4a37a09db877370d652cb6a7843d758"
     },
     {
-      "path": "chunks/license-core-protected-BLOyukoO.js",
+      "path": "chunks/license-core-protected-C3eVN7kV.js",
       "category": "license",
-      "sha256": "9e4dd9af19f61a946c7a0c476ff8acd22f8ecd129be522ae9b2174e503de08c6"
+      "sha256": "0dc9f2ae7b25ff2de06f23b45cc6400161c2b63320822fd071990188d0e69769"
     },
     {
-      "path": "chunks/license-panel-protected-CRsupQIv.js",
+      "path": "chunks/license-panel-protected-DMBNzpwJ.js",
       "category": "license-panel",
-      "sha256": "f7a71835d2982d831983733ca3061ca60e9a60b32ef07b1d2214e52614d3613c"
+      "sha256": "1a69c31bba16dce264fc19535daea7142fb30aaa77cf43cf2b55fb7e91bb82cb"
     },
     {
-      "path": "chunks/paid-entry-protected-Bc4Vxp6a.js",
+      "path": "chunks/paid-entry-protected-BlDSeWGY.js",
       "category": "protected-entry",
-      "sha256": "65174d4e86857b38213a4a6c52100a7c0911d1babc9d70fb66c39b8b0e16d8a9"
+      "sha256": "dc344ed3b7f6a783eec275545edf83dcf57f86b75f0c3bd5e57fbd94589d1c42"
     },
     {
       "path": "main/index.js",
       "category": "license-entry",
-      "sha256": "e181a8cf4ea8286bf1a137b88ce6952cb23c28b17742b5a4d97b60748ab5c092"
+      "sha256": "b70ef23fb8f1e40fb9c347b3eb24e2b9cb38ccda7fb72c6eada19c798fbb92ae"
     }
   ],
-  "signature": "TnmYY2Fu6gc1ISlSJUx4gRFXddWWuPAwwig63ruGUxucSDWETkxWIoEvKqIOHM1AhTe8p3apscrEvAoDoeF7Fg=="
+  "signature": "QIeas+EXSq6WSSum7AEkmkxUMKFYztpAbw9JnGAVt3E0hz1RHuZLHxC+VIO46Ee0pg8O+3dbdh43O7ko4dJFCg=="
 }
