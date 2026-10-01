@@ -1,0 +1,227 @@
+{
+  "purpose": "预计算共同契约期望数据，不是测试结果",
+  "configVersion": "jump-learning-1.0",
+  "seed": 20260930,
+  "prng": {
+    "algorithm": "xorshift32",
+    "first16Uint32": [
+      597324252,
+      3650692748,
+      1414782248,
+      3509555379,
+      1141228751,
+      1863781025,
+      1177476480,
+      776796847,
+      2452686403,
+      3990804703,
+      3999355933,
+      1487952876,
+      712225610,
+      3745609127,
+      3477620477,
+      895951862
+    ]
+  },
+  "initialPlatforms": [
+    {
+      "id": 0,
+      "modelKey": "block_00",
+      "scale": 1,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "shape": "rect"
+    },
+    {
+      "id": 1,
+      "modelKey": "block_01",
+      "scale": 1,
+      "centerXZ": [
+        14,
+        0
+      ],
+      "shape": "rect"
+    }
+  ],
+  "generatedPlatforms": [
+    {
+      "id": 2,
+      "axis": "X",
+      "scale": 0.9699986284598708,
+      "gap": 3.9764279685914516,
+      "centerDistance": 13.826421110890806,
+      "centerXZ": [
+        27.826421110890806,
+        0.0
+      ],
+      "modelKey": "block_34",
+      "shape": "rect"
+    },
+    {
+      "id": 3,
+      "axis": "X",
+      "scale": 0.8867890671361238,
+      "gap": 3.6449156403541565,
+      "centerDistance": 12.92885411833413,
+      "centerXZ": [
+        40.755275229224935,
+        0.0
+      ],
+      "modelKey": "block_01",
+      "shape": "rect"
+    },
+    {
+      "id": 4,
+      "axis": "Z",
+      "scale": 0.985836325539276,
+      "gap": 7.587035696487874,
+      "centerDistance": 16.950162659864873,
+      "centerXZ": [
+        40.755275229224935,
+        16.950162659864873
+      ],
+      "modelKey": "block_04",
+      "shape": "rect"
+    },
+    {
+      "id": 5,
+      "axis": "X",
+      "scale": 0.9744185167830438,
+      "gap": 6.858179684262723,
+      "centerDistance": 16.65945389587432,
+      "centerXZ": [
+        57.41472912509926,
+        16.950162659864873
+      ],
+      "modelKey": "block_03",
+      "shape": "circle"
+    },
+    {
+      "id": 6,
+      "axis": "Z",
+      "scale": 0.8463554239366204,
+      "gap": 2.680354804266244,
+      "centerDistance": 11.784224507864565,
+      "centerXZ": [
+        57.41472912509926,
+        28.734387167729437
+      ],
+      "modelKey": "block_08",
+      "shape": "rect"
+    },
+    {
+      "id": 7,
+      "axis": "Z",
+      "scale": 0.9701383428648115,
+      "gap": 5.14941157726571,
+      "centerDistance": 14.231880411272869,
+      "centerXZ": [
+        57.41472912509926,
+        42.966267579002306
+      ],
+      "modelKey": "block_04",
+      "shape": "rect"
+    },
+    {
+      "id": 8,
+      "axis": "Z",
+      "scale": 0.879826242197305,
+      "gap": 7.049870176240802,
+      "centerDistance": 16.299693101551384,
+      "centerXZ": [
+        57.41472912509926,
+        59.26596068055369
+      ],
+      "modelKey": "block_33",
+      "shape": "rect"
+    },
+    {
+      "id": 9,
+      "axis": "X",
+      "scale": 0.8122496042866261,
+      "gap": 5.218810603488237,
+      "centerDistance": 13.679189835907891,
+      "centerXZ": [
+        71.09391896100715,
+        59.26596068055369
+      ],
+      "modelKey": "block_35",
+      "shape": "rect"
+    },
+    {
+      "id": 10,
+      "axis": "X",
+      "scale": 0.8524204430636019,
+      "gap": 5.046159341931343,
+      "centerDistance": 13.369509578682482,
+      "centerXZ": [
+        84.46342853968963,
+        59.26596068055369
+      ],
+      "modelKey": "block_00",
+      "shape": "rect"
+    },
+    {
+      "id": 11,
+      "axis": "Z",
+      "scale": 0.9652200750075282,
+      "gap": 5.555115147959441,
+      "centerDistance": 14.64331773831509,
+      "centerXZ": [
+        84.46342853968963,
+        73.90927841886878
+      ],
+      "modelKey": "block_34",
+      "shape": "rect"
+    }
+  ],
+  "chargeCases": [
+    {
+      "holdSeconds": 0.08,
+      "distance": 4
+    },
+    {
+      "holdSeconds": 0.64,
+      "distance": 13
+    },
+    {
+      "holdSeconds": 1.2,
+      "distance": 22
+    },
+    {
+      "holdSeconds": 2,
+      "distance": 22
+    }
+  ],
+  "ballisticCases": [
+    {
+      "t": 0,
+      "deltaY": 0,
+      "progress": 0
+    },
+    {
+      "t": 0.3,
+      "deltaY": 3.6,
+      "progress": 0.5
+    },
+    {
+      "t": 0.6,
+      "deltaY": 0,
+      "progress": 1
+    }
+  ],
+  "centerRewards": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    16
+  ],
+  "floatTolerance": 1e-05
+}

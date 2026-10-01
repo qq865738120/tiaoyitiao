@@ -1,0 +1,16 @@
+{
+  "Collider2D": {
+    "doc": "api-reference/collider-2d.md",
+    "related": [
+      "recipes/detect-collision-2d.md",
+      "troubleshooting/collision-not-triggered.md"
+    ]
+  },
+  "RigidBody2D": {
+    "doc": "api-reference/rigid-body-2d.md",
+    "related": [
+      "recipes/detect-collision-2d.md",
+      "troubleshooting/collision-not-triggered.md"
+    ]
+  }
+}

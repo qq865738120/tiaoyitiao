@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 2,
+  "wrapperPackage": "@vscode/ripgrep",
+  "wrapperVersion": "1.18.0",
+  "ripgrepVersion": "15.0.0",
+  "source": "https://github.com/microsoft/vscode-ripgrep",
+  "license": "MIT",
+  "wrapperLicense": "LICENSE-vscode-ripgrep",
+  "targets": {
+    "darwin-arm64": {
+      "platform": "darwin",
+      "arch": "arm64",
+      "platformPackage": "@vscode/ripgrep-darwin-arm64",
+      "executable": "darwin-arm64/rg",
+      "size": 4528512,
+      "sha256": "6ef40346bf31fcce79d9614c7745c198542925a0c7d4911e1ffe794c53392ac1",
+      "licenseFile": "LICENSE-darwin-arm64"
+    },
+    "darwin-x64": {
+      "platform": "darwin",
+      "arch": "x64",
+      "platformPackage": "@vscode/ripgrep-darwin-x64",
+      "executable": "darwin-x64/rg",
+      "size": 4742676,
+      "sha256": "f999495980a5e6f1e7d26461ef5768b4013a62df610ed7d77a8b2de247a5b228",
+      "licenseFile": "LICENSE-darwin-x64"
+    },
+    "linux-arm64": {
+      "platform": "linux",
+      "arch": "arm64",
+      "platformPackage": "@vscode/ripgrep-linux-arm64",
+      "executable": "linux-arm64/rg",
+      "size": 4771240,
+      "sha256": "e152ea689d6e8420357e592f0d8253b96476c164118ca3e6e13074fa1705ddda",
+      "licenseFile": "LICENSE-linux-arm64"
+    },
+    "linux-x64": {
+      "platform": "linux",
+      "arch": "x64",
+      "platformPackage": "@vscode/ripgrep-linux-x64",
+      "executable": "linux-x64/rg",
+      "size": 5728032,
+      "sha256": "193906679498de4d939345b937fa24e0e69a03c244bd70c859f5e41232713f21",
+      "licenseFile": "LICENSE-linux-x64"
+    },
+    "win32-arm64": {
+      "platform": "win32",
+      "arch": "arm64",
+      "platformPackage": "@vscode/ripgrep-win32-arm64",
+      "executable": "win32-arm64/rg.exe",
+      "size": 4883968,
+      "sha256": "0015ba7dfb2d8b62c39332d64e50c6e85f75230125e10c50a950ed14995c79bf",
+      "licenseFile": "LICENSE-win32-arm64"
+    },
+    "win32-x64": {
+      "platform": "win32",
+      "arch": "x64",
+      "platformPackage": "@vscode/ripgrep-win32-x64",
+      "executable": "win32-x64/rg.exe",
+      "size": 5429760,
+      "sha256": "f9dde63498b3193f098355dbec97af99dc4f6b8fa0df5ed04114a03012c042cb",
+      "licenseFile": "LICENSE-win32-x64"
+    }
+  }
+}

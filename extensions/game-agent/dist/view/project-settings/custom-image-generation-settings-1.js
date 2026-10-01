@@ -1,0 +1,1 @@
+"use strict";var e=require("../../chunks/imageGenerationSettingsPanel-DBKa8Zc_.js");module.exports=Editor.Panel.define(e.createImageGenerationSettingsPanelDefinition({},1)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);

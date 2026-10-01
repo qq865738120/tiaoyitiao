@@ -1,0 +1,124 @@
+{
+  "3D 性能卡顿": [
+    "troubleshooting/performance-issues.md",
+    "troubleshooting/material-breaks-batching.md"
+  ],
+  "3D 性能优化": [
+    "recipes/optimize-large-3d-scene.md",
+    "concepts/profiler-workflow.md",
+    "troubleshooting/performance-issues.md",
+    "recipes/use-node-pool.md"
+  ],
+  "掉帧": [
+    "troubleshooting/frame-rate-low.md",
+    "troubleshooting/performance-issues.md"
+  ],
+  "空引用": [
+    "troubleshooting/null-component.md"
+  ],
+  "模型太多掉帧": [
+    "troubleshooting/performance-issues.md",
+    "troubleshooting/3d-object-not-visible.md"
+  ],
+  "内存上涨": [
+    "troubleshooting/performance-issues.md",
+    "recipes/release-resource.md"
+  ],
+  "内存泄漏": [
+    "troubleshooting/memory-leak.md",
+    "troubleshooting/performance-issues.md"
+  ],
+  "性能分析": [
+    "concepts/profiler-workflow.md",
+    "troubleshooting/performance-issues.md"
+  ],
+  "性能问题": [
+    "troubleshooting/performance-issues.md"
+  ],
+  "性能诊断": [
+    "concepts/profiler-workflow.md"
+  ],
+  "游戏卡顿": [
+    "troubleshooting/performance-issues.md"
+  ],
+  "长列表优化": [
+    "ui-2d/list-virtualization.md",
+    "troubleshooting/performance-issues.md"
+  ],
+  "遮挡剔除": [
+    "recipes/optimize-large-3d-scene.md"
+  ],
+  "帧率": [
+    "api-reference/game.md"
+  ],
+  "帧率不达标": [
+    "troubleshooting/frame-rate-low.md",
+    "concepts/profiler-workflow.md"
+  ],
+  "帧率低": [
+    "troubleshooting/frame-rate-low.md",
+    "troubleshooting/performance-issues.md"
+  ],
+  "Creator Profiler": [
+    "concepts/profiler-workflow.md"
+  ],
+  "FPS 低": [
+    "troubleshooting/frame-rate-low.md",
+    "concepts/profiler-workflow.md"
+  ],
+  "large 3D scene performance": [
+    "troubleshooting/performance-issues.md",
+    "troubleshooting/frame-rate-low.md",
+    "concepts/3d-scene-rendering.md"
+  ],
+  "LOD": [
+    "recipes/optimize-large-3d-scene.md"
+  ],
+  "null reference": [
+    "troubleshooting/null-component.md"
+  ],
+  "Profiler": [
+    "concepts/profiler-workflow.md"
+  ],
+  "updateWorldTransform 很高": [
+    "recipes/optimize-large-3d-scene.md"
+  ],
+  "临时对象复用": [
+    "recipes/optimize-large-3d-scene.md"
+  ],
+  "out 参数复用": [
+    "recipes/optimize-large-3d-scene.md",
+    "api-reference/vec3.md"
+  ],
+  "时间分片": [
+    "recipes/optimize-large-3d-scene.md"
+  ],
+  "分帧初始化": [
+    "recipes/optimize-large-3d-scene.md"
+  ],
+  "更新节流": [
+    "recipes/optimize-large-3d-scene.md",
+    "recipes/optimize-update-loop.md"
+  ],
+  "throttle 优化": [
+    "recipes/optimize-large-3d-scene.md",
+    "recipes/optimize-update-loop.md"
+  ],
+  "性能热点定位顺序": [
+    "troubleshooting/performance-issues.md",
+    "concepts/profiler-workflow.md"
+  ],
+  "Profiler 原生限制": [
+    "concepts/profiler-workflow.md"
+  ],
+  "原生 Profiler": [
+    "concepts/profiler-workflow.md"
+  ],
+  "Chrome DevTools 性能分析": [
+    "concepts/profiler-workflow.md"
+  ],
+  "发布包性能测试": [
+    "concepts/profiler-workflow.md",
+    "troubleshooting/performance-issues.md"
+  ]
+}

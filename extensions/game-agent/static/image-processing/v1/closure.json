@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "operation": "remove-solid-background",
+  "files": [
+    {
+      "path": "processor.py",
+      "bytes": 7340,
+      "sha256": "d99516d981e0edcbbc2152aa8ed300c8d9f180c3bd252bcf2a9af063aa3a03bc"
+    },
+    {
+      "path": "matting.py",
+      "bytes": 20858,
+      "sha256": "31375439b20bb553cddeccbe084c3312dad719cf4855a2969f84060e5f20ead4"
+    },
+    {
+      "path": "profile.json",
+      "bytes": 341,
+      "sha256": "32d830d145b797c678d2f2d012b2b3f2a1b32f516bc3e9189dc5043a0b9967ee"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 4108,
+      "sha256": "510ee428c73b2b83e32753ffbfe1f3b26d41136f516ca8cd707f819cd3981c1c"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 987,
+      "sha256": "4eb1d0e1fe6324095942663f8f858398a662b16c55d0c0e8bc408b2fbc479f29"
+    }
+  ]
+}

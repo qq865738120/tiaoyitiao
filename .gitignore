@@ -1,0 +1,35 @@
+
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
+library/
+temp/
+local/
+build/
+profiles/
+native
+#//////////////////////////
+# NPM
+#//////////////////////////
+node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/
+
+# Game Agent runtime state is per-project; keep commands and rules
+/.gameagent/.data/
+
+# Game Agent model settings may contain API keys
+/settings/v2/packages/game-agent.json
+
+# Local OS and Python cache files
+.DS_Store
+__pycache__/
+*.py[cod]

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "id": "image-generation",
+  "name": "图片生成",
+  "description": "根据明确画面描述生成图片，并以父子结果协议返回 MediaPart 与 ArtifactRef。",
+  "agentType": "image-generation",
+  "model": "image:auto",
+  "tools": [],
+  "mcpServers": [],
+  "promptTemplate": "生成可用于游戏开发筛选的基础图片资产，包括角色、场景、道具、界面概念或宣传视觉。\n保持主体清晰、构图完整，并严格遵守本次任务指定的风格、画幅、尺寸、背景和质量要求。\n不要添加未要求的文字、水印、边框或无关元素；产出图片必须便于顶层智能体进行真实视觉检查和后续筛选。",
+  "timeoutMinutes": 5,
+  "enabledByDefault": true
+}

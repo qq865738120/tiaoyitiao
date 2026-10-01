@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "protection_status": "obfuscated",
+  "seal_algorithm": "ecdsa-p256-sha256-p1363",
+  "seal_key_fingerprint": "0d55560540239c04302c29c97e3e9ee1e28f33b768fea9f896170b9dfeb15f50",
+  "seal_public_key_spki": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEg7QFPT+1ltEUV+x2Qb6ZO+Rt+xXjh61PnoubKJ/RCZcUBbOUAEkHMLleQc/GNGaTKIUojoulvzppeJiiJW5VTQ==",
+  "files": [
+    {
+      "path": "chunks/license-bootstrap-protected-BA0YklFk.js",
+      "category": "license-bootstrap",
+      "sha256": "c543b764c4de43c595471bc55c8c26cdef5002a08a1a7fac033c3e431a41baba"
+    },
+    {
+      "path": "chunks/license-core-protected-BLOyukoO.js",
+      "category": "license",
+      "sha256": "9e4dd9af19f61a946c7a0c476ff8acd22f8ecd129be522ae9b2174e503de08c6"
+    },
+    {
+      "path": "chunks/license-panel-protected-CRsupQIv.js",
+      "category": "license-panel",
+      "sha256": "f7a71835d2982d831983733ca3061ca60e9a60b32ef07b1d2214e52614d3613c"
+    },
+    {
+      "path": "chunks/paid-entry-protected-Bc4Vxp6a.js",
+      "category": "protected-entry",
+      "sha256": "65174d4e86857b38213a4a6c52100a7c0911d1babc9d70fb66c39b8b0e16d8a9"
+    },
+    {
+      "path": "main/index.js",
+      "category": "license-entry",
+      "sha256": "e181a8cf4ea8286bf1a137b88ce6952cb23c28b17742b5a4d97b60748ab5c092"
+    }
+  ],
+  "signature": "TnmYY2Fu6gc1ISlSJUx4gRFXddWWuPAwwig63ruGUxucSDWETkxWIoEvKqIOHM1AhTe8p3apscrEvAoDoeF7Fg=="
+}

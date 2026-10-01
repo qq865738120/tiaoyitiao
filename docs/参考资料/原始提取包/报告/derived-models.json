@@ -1,0 +1,722 @@
+{
+  "models": [
+    {
+      "file": "派生模型/block_00.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 38,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 0,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_01.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 62,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 1,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_02.glb",
+      "nodes": 5,
+      "meshes": 3,
+      "triangles": 402,
+      "textures": [
+        "res/desk_shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 2,
+      "source": "代码参考/js/block.js",
+      "height": 0.3928571428571429,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_03.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 462,
+      "textures": [
+        "res/cylinder_shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 3,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_04.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 134,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 4,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_05.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 38,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 5,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_06.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 38,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 6,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_07.glb",
+      "nodes": 5,
+      "meshes": 3,
+      "triangles": 402,
+      "textures": [
+        "res/desk_shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 7,
+      "source": "代码参考/js/block.js",
+      "height": 0.3928571428571429,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_08.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 62,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 8,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_09.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 16,
+      "textures": [
+        "res/shadow.png",
+        "res/game.png"
+      ],
+      "kind": "local-block",
+      "id": 9,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_10.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 418,
+      "textures": [
+        "res/shadow.png",
+        "res/emotion.png"
+      ],
+      "kind": "local-block",
+      "id": 10,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_11.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 40,
+      "textures": [
+        "res/shadow.png",
+        "res/green_face.png"
+      ],
+      "kind": "local-block",
+      "id": 11,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_12.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 40,
+      "textures": [
+        "res/shadow.png",
+        "res/white_face.png"
+      ],
+      "kind": "local-block",
+      "id": 12,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_13.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 16,
+      "textures": [
+        "res/shadow.png",
+        "res/money.png"
+      ],
+      "kind": "local-block",
+      "id": 13,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_14.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 14,
+      "textures": [
+        "res/shadow.png",
+        "res/tit.png"
+      ],
+      "kind": "local-block",
+      "id": 14,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_15.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 14,
+      "textures": [
+        "res/shadow.png",
+        "res/bag.png"
+      ],
+      "kind": "local-block",
+      "id": 15,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": 20
+    },
+    {
+      "file": "派生模型/block_16.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 14,
+      "textures": [
+        "res/shadow.png",
+        "res/dict.png"
+      ],
+      "kind": "local-block",
+      "id": 16,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_17.glb",
+      "nodes": 5,
+      "meshes": 3,
+      "triangles": 38,
+      "textures": [
+        "res/shadow.png",
+        "res/box_middle.png",
+        "res/box_top.png",
+        "res/box_bottom.png"
+      ],
+      "kind": "local-block",
+      "id": 17,
+      "source": "代码参考/js/block.js",
+      "height": 1.8333333333333333,
+      "radius": 5,
+      "score": 10
+    },
+    {
+      "file": "派生模型/block_18.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 14,
+      "textures": [
+        "res/shadow.png",
+        "res/express.png"
+      ],
+      "kind": "local-block",
+      "id": 18,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_19.glb",
+      "nodes": 7,
+      "meshes": 4,
+      "triangles": 266,
+      "textures": [
+        "res/shadow.png",
+        "res/record.png",
+        "res/sing.png"
+      ],
+      "kind": "local-block",
+      "id": 19,
+      "source": "代码参考/js/block.js",
+      "height": 1.0476190476190477,
+      "radius": 5,
+      "score": 30
+    },
+    {
+      "file": "派生模型/block_20.glb",
+      "nodes": 5,
+      "meshes": 3,
+      "triangles": 18,
+      "textures": [
+        "res/shadow.png",
+        "res/disk_light.png",
+        "res/disk.png",
+        "res/disk_dark.png"
+      ],
+      "kind": "local-block",
+      "id": 20,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_21.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 452,
+      "textures": [
+        "res/cylinder_shadow.png",
+        "res/westore.png",
+        "res/westore_desk.png"
+      ],
+      "kind": "local-block",
+      "id": 21,
+      "source": "代码参考/js/block.js",
+      "height": 1.0476190476190477,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_22.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 26,
+      "textures": [
+        "res/shadow.png",
+        "res/gift.png"
+      ],
+      "kind": "local-block",
+      "id": 22,
+      "source": "代码参考/js/block.js",
+      "height": 1.5714285714285716,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_23.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 50,
+      "textures": [
+        "res/stool_shadow.png",
+        "res/stool.png"
+      ],
+      "kind": "local-block",
+      "id": 23,
+      "source": "代码参考/js/block.js",
+      "height": 1.3095238095238095,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_24.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 32,
+      "textures": [
+        "res/shadow.png",
+        "res/door.png",
+        "res/second_door.png",
+        "res/store_top.png",
+        "res/store_bottom.png",
+        "res/indoor.png"
+      ],
+      "kind": "local-block",
+      "id": 24,
+      "source": "代码参考/js/block.js",
+      "height": 1.5714285714285716,
+      "radius": 5,
+      "score": 15
+    },
+    {
+      "file": "派生模型/block_25.glb",
+      "nodes": 9,
+      "meshes": 7,
+      "triangles": 144,
+      "textures": [
+        "res/shadow.png",
+        "res/point.png",
+        "res/0.png",
+        "res/1.png",
+        "res/6.png",
+        "res/7.png",
+        "res/clock.png",
+        "res/stripe.png"
+      ],
+      "kind": "local-block",
+      "id": 25,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_26.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 14,
+      "textures": [
+        "res/shadow.png",
+        "res/well.png"
+      ],
+      "kind": "local-block",
+      "id": 26,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": 5
+    },
+    {
+      "file": "派生模型/block_27.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 414,
+      "textures": [
+        "res/cylinder_shadow.png",
+        "res/flag.png",
+        "res/golf_bottom.png",
+        "res/golf_top.png"
+      ],
+      "kind": "local-block",
+      "id": 27,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_28.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 232,
+      "textures": [
+        "res/cylinder_shadow.png",
+        "res/paper_bottom.png",
+        "res/paper_top.png"
+      ],
+      "kind": "local-block",
+      "id": 28,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_29.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 652,
+      "textures": [
+        "res/cylinder_shadow.png",
+        "res/stripe.png",
+        "res/medicine.png"
+      ],
+      "kind": "local-block",
+      "id": 29,
+      "source": "代码参考/js/block.js",
+      "height": 1.0476190476190477,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_30.glb",
+      "nodes": 11,
+      "meshes": 9,
+      "triangles": 58,
+      "textures": [
+        "res/shadow.png",
+        "res/music_icon_two.png",
+        "res/luban.png"
+      ],
+      "kind": "local-block",
+      "id": 30,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": 20
+    },
+    {
+      "file": "派生模型/block_31.glb",
+      "nodes": 7,
+      "meshes": 4,
+      "triangles": 176,
+      "textures": [
+        "res/shadow.png",
+        "res/wechat_logo.png",
+        "res/wechat_top.png",
+        "res/wechat_close.png"
+      ],
+      "kind": "local-block",
+      "id": 31,
+      "source": "代码参考/js/block.js",
+      "height": 1.8333333333333335,
+      "radius": 5,
+      "score": 20
+    },
+    {
+      "file": "派生模型/block_32.glb",
+      "nodes": 11,
+      "meshes": 8,
+      "triangles": 578,
+      "textures": [
+        "res/relax_back.png",
+        "res/relax_front.png",
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 32,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": -20
+    },
+    {
+      "file": "派生模型/block_33.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 38,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 33,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_34.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 38,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 34,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/block_35.glb",
+      "nodes": 4,
+      "meshes": 2,
+      "triangles": 38,
+      "textures": [
+        "res/shadow.png"
+      ],
+      "kind": "local-block",
+      "id": 35,
+      "source": "代码参考/js/block.js",
+      "height": 5.5,
+      "radius": 5,
+      "score": null
+    },
+    {
+      "file": "派生模型/numbered_block_0.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 28,
+      "textures": [
+        "res/shadow.png",
+        "res/gray.png",
+        "res/number.png"
+      ],
+      "kind": "numbered-block",
+      "id": 0,
+      "source": "代码参考/js/block.js"
+    },
+    {
+      "file": "派生模型/numbered_block_1.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 28,
+      "textures": [
+        "res/shadow.png",
+        "res/gray.png",
+        "res/number.png"
+      ],
+      "kind": "numbered-block",
+      "id": 1,
+      "source": "代码参考/js/block.js"
+    },
+    {
+      "file": "派生模型/numbered_block_2.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 28,
+      "textures": [
+        "res/shadow.png",
+        "res/gray.png",
+        "res/number.png"
+      ],
+      "kind": "numbered-block",
+      "id": 2,
+      "source": "代码参考/js/block.js"
+    },
+    {
+      "file": "派生模型/numbered_block_3.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 28,
+      "textures": [
+        "res/shadow.png",
+        "res/gray.png",
+        "res/number.png"
+      ],
+      "kind": "numbered-block",
+      "id": 3,
+      "source": "代码参考/js/block.js"
+    },
+    {
+      "file": "派生模型/numbered_block_4.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 28,
+      "textures": [
+        "res/shadow.png",
+        "res/gray.png",
+        "res/number.png"
+      ],
+      "kind": "numbered-block",
+      "id": 4,
+      "source": "代码参考/js/block.js"
+    },
+    {
+      "file": "派生模型/numbered_block_5.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 28,
+      "textures": [
+        "res/shadow.png",
+        "res/gray.png",
+        "res/number.png"
+      ],
+      "kind": "numbered-block",
+      "id": 5,
+      "source": "代码参考/js/block.js"
+    },
+    {
+      "file": "派生模型/numbered_block_6.glb",
+      "nodes": 6,
+      "meshes": 4,
+      "triangles": 28,
+      "textures": [
+        "res/shadow.png",
+        "res/gray.png",
+        "res/number.png"
+      ],
+      "kind": "numbered-block",
+      "id": 6,
+      "source": "代码参考/js/block.js"
+    },
+    {
+      "file": "派生模型/bottle_default.glb",
+      "nodes": 6,
+      "meshes": 3,
+      "triangles": 1228,
+      "textures": [
+        "res/bottom.png",
+        "res/middle.png",
+        "res/head.png"
+      ],
+      "kind": "default-character",
+      "source": "代码参考/js/bottle.js"
+    },
+    {
+      "file": "派生模型/accessory_scarf.glb",
+      "nodes": 5,
+      "meshes": 4,
+      "triangles": 92,
+      "textures": [],
+      "kind": "accessory",
+      "source": "代码参考/js/bottle.js"
+    },
+    {
+      "file": "派生模型/accessory_hat.glb",
+      "nodes": 4,
+      "meshes": 3,
+      "triangles": 220,
+      "textures": [],
+      "kind": "accessory",
+      "source": "代码参考/js/bottle.js"
+    }
+  ],
+  "errors": []
+}

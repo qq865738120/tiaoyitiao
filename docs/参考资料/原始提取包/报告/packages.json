@@ -1,0 +1,16 @@
+[
+  {
+    "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wx7c8d593b2c3a7703/112/__WITHOUT_MULTI_PLUGINCODE__.wxapkg",
+    "raw_path": "原始包副本/112/__WITHOUT_MULTI_PLUGINCODE__.wxapkg",
+    "raw_bytes": 3968893,
+    "raw_sha256": "a210b1cdfe2b5d731da3b53e8a71c53f5611339ff555515b173e8633d81b1a67",
+    "source_mtime_ns": 1790754629739843401,
+    "decoded_path": "还原后的资源包/112/__WITHOUT_MULTI_PLUGINCODE__.wxapkg",
+    "decoded_bytes": 3968886,
+    "decoded_sha256": "0e2495a2628017cf657cabc04ab09b4e44c7bf93f511acb2285d020f959b0c0f",
+    "file_count": 190,
+    "index_bytes": 5483,
+    "body_bytes": 3963389,
+    "status": "extracted"
+  }
+]

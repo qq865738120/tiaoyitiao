@@ -1,0 +1,1 @@
+"use strict";var e=require("../../chunks/customModelSettingsPanel-CqSKtme-.js");module.exports=Editor.Panel.define(e.createCustomModelSettingsPanelDefinition(2)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);

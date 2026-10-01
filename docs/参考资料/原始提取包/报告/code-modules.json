@@ -1,0 +1,1388 @@
+[
+  {
+    "module": "@babel/runtime/helpers/Arrayincludes.js",
+    "source": "游戏资源/game.js",
+    "start": 2,
+    "end": 479,
+    "startLine": 2,
+    "endLine": 4,
+    "referencePath": "代码参考/@babel/runtime/helpers/Arrayincludes.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/arrayLikeToArray.js",
+    "source": "游戏资源/game.js",
+    "start": 483,
+    "end": 740,
+    "startLine": 5,
+    "endLine": 7,
+    "referencePath": "代码参考/@babel/runtime/helpers/arrayLikeToArray.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/arrayWithHoles.js",
+    "source": "游戏资源/game.js",
+    "start": 744,
+    "end": 932,
+    "startLine": 8,
+    "endLine": 10,
+    "referencePath": "代码参考/@babel/runtime/helpers/arrayWithHoles.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/arrayWithoutHoles.js",
+    "source": "游戏资源/game.js",
+    "start": 936,
+    "end": 1202,
+    "startLine": 11,
+    "endLine": 13,
+    "referencePath": "代码参考/@babel/runtime/helpers/arrayWithoutHoles.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/assertThisInitialized.js",
+    "source": "游戏资源/game.js",
+    "start": 1206,
+    "end": 1495,
+    "startLine": 14,
+    "endLine": 16,
+    "referencePath": "代码参考/@babel/runtime/helpers/assertThisInitialized.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/asyncToGenerator.js",
+    "source": "游戏资源/game.js",
+    "start": 1499,
+    "end": 2017,
+    "startLine": 17,
+    "endLine": 19,
+    "referencePath": "代码参考/@babel/runtime/helpers/asyncToGenerator.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/classCallCheck.js",
+    "source": "游戏资源/game.js",
+    "start": 2021,
+    "end": 2260,
+    "startLine": 20,
+    "endLine": 22,
+    "referencePath": "代码参考/@babel/runtime/helpers/classCallCheck.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/createClass.js",
+    "source": "游戏资源/game.js",
+    "start": 2264,
+    "end": 2782,
+    "startLine": 23,
+    "endLine": 25,
+    "referencePath": "代码参考/@babel/runtime/helpers/createClass.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/createForOfIteratorHelper.js",
+    "source": "游戏资源/game.js",
+    "start": 2786,
+    "end": 3702,
+    "startLine": 26,
+    "endLine": 28,
+    "referencePath": "代码参考/@babel/runtime/helpers/createForOfIteratorHelper.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/defineProperty.js",
+    "source": "游戏资源/game.js",
+    "start": 3706,
+    "end": 4033,
+    "startLine": 29,
+    "endLine": 31,
+    "referencePath": "代码参考/@babel/runtime/helpers/defineProperty.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/get.js",
+    "source": "游戏资源/game.js",
+    "start": 4037,
+    "end": 4488,
+    "startLine": 32,
+    "endLine": 34,
+    "referencePath": "代码参考/@babel/runtime/helpers/get.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/getPrototypeOf.js",
+    "source": "游戏资源/game.js",
+    "start": 4492,
+    "end": 4817,
+    "startLine": 35,
+    "endLine": 37,
+    "referencePath": "代码参考/@babel/runtime/helpers/getPrototypeOf.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/inherits.js",
+    "source": "游戏资源/game.js",
+    "start": 4821,
+    "end": 5287,
+    "startLine": 38,
+    "endLine": 40,
+    "referencePath": "代码参考/@babel/runtime/helpers/inherits.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/interopRequireDefault.js",
+    "source": "游戏资源/game.js",
+    "start": 5291,
+    "end": 5531,
+    "startLine": 41,
+    "endLine": 44,
+    "referencePath": "代码参考/@babel/runtime/helpers/interopRequireDefault.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/interopRequireWildcard.js",
+    "source": "游戏资源/game.js",
+    "start": 5535,
+    "end": 6324,
+    "startLine": 45,
+    "endLine": 48,
+    "referencePath": "代码参考/@babel/runtime/helpers/interopRequireWildcard.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/iterableToArray.js",
+    "source": "游戏资源/game.js",
+    "start": 6328,
+    "end": 6590,
+    "startLine": 49,
+    "endLine": 51,
+    "referencePath": "代码参考/@babel/runtime/helpers/iterableToArray.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/iterableToArrayLimit.js",
+    "source": "游戏资源/game.js",
+    "start": 6594,
+    "end": 7153,
+    "startLine": 52,
+    "endLine": 54,
+    "referencePath": "代码参考/@babel/runtime/helpers/iterableToArrayLimit.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/nonIterableRest.js",
+    "source": "游戏资源/game.js",
+    "start": 7157,
+    "end": 7479,
+    "startLine": 55,
+    "endLine": 57,
+    "referencePath": "代码参考/@babel/runtime/helpers/nonIterableRest.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/nonIterableSpread.js",
+    "source": "游戏资源/game.js",
+    "start": 7483,
+    "end": 7806,
+    "startLine": 58,
+    "endLine": 60,
+    "referencePath": "代码参考/@babel/runtime/helpers/nonIterableSpread.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/objectSpread2.js",
+    "source": "游戏资源/game.js",
+    "start": 7810,
+    "end": 8605,
+    "startLine": 61,
+    "endLine": 63,
+    "referencePath": "代码参考/@babel/runtime/helpers/objectSpread2.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/possibleConstructorReturn.js",
+    "source": "游戏资源/game.js",
+    "start": 8609,
+    "end": 9079,
+    "startLine": 64,
+    "endLine": 66,
+    "referencePath": "代码参考/@babel/runtime/helpers/possibleConstructorReturn.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/regeneratorRuntime.js",
+    "source": "游戏资源/game.js",
+    "start": 9083,
+    "end": 15959,
+    "startLine": 67,
+    "endLine": 70,
+    "referencePath": "代码参考/@babel/runtime/helpers/regeneratorRuntime.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/setPrototypeOf.js",
+    "source": "游戏资源/game.js",
+    "start": 15963,
+    "end": 16272,
+    "startLine": 71,
+    "endLine": 73,
+    "referencePath": "代码参考/@babel/runtime/helpers/setPrototypeOf.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/slicedToArray.js",
+    "source": "游戏资源/game.js",
+    "start": 16276,
+    "end": 16752,
+    "startLine": 74,
+    "endLine": 76,
+    "referencePath": "代码参考/@babel/runtime/helpers/slicedToArray.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/superPropBase.js",
+    "source": "游戏资源/game.js",
+    "start": 16756,
+    "end": 17050,
+    "startLine": 77,
+    "endLine": 79,
+    "referencePath": "代码参考/@babel/runtime/helpers/superPropBase.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/toArray.js",
+    "source": "游戏资源/game.js",
+    "start": 17054,
+    "end": 17491,
+    "startLine": 80,
+    "endLine": 82,
+    "referencePath": "代码参考/@babel/runtime/helpers/toArray.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/toConsumableArray.js",
+    "source": "游戏资源/game.js",
+    "start": 17495,
+    "end": 17977,
+    "startLine": 83,
+    "endLine": 85,
+    "referencePath": "代码参考/@babel/runtime/helpers/toConsumableArray.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/toPrimitive.js",
+    "source": "游戏资源/game.js",
+    "start": 17981,
+    "end": 18421,
+    "startLine": 86,
+    "endLine": 88,
+    "referencePath": "代码参考/@babel/runtime/helpers/toPrimitive.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/toPropertyKey.js",
+    "source": "游戏资源/game.js",
+    "start": 18425,
+    "end": 18720,
+    "startLine": 89,
+    "endLine": 91,
+    "referencePath": "代码参考/@babel/runtime/helpers/toPropertyKey.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/typeof.js",
+    "source": "游戏资源/game.js",
+    "start": 18724,
+    "end": 19102,
+    "startLine": 92,
+    "endLine": 94,
+    "referencePath": "代码参考/@babel/runtime/helpers/typeof.js"
+  },
+  {
+    "module": "@babel/runtime/helpers/unsupportedIterableToArray.js",
+    "source": "游戏资源/game.js",
+    "start": 19106,
+    "end": 19654,
+    "startLine": 95,
+    "endLine": 97,
+    "referencePath": "代码参考/@babel/runtime/helpers/unsupportedIterableToArray.js"
+  },
+  {
+    "module": "js/block.js",
+    "source": "游戏资源/game.js",
+    "start": 19658,
+    "end": 58913,
+    "startLine": 98,
+    "endLine": 100,
+    "referencePath": "代码参考/js/block.js"
+  },
+  {
+    "module": "js/bottle.js",
+    "source": "游戏资源/game.js",
+    "start": 58917,
+    "end": 75164,
+    "startLine": 101,
+    "endLine": 103,
+    "referencePath": "代码参考/js/bottle.js"
+  },
+  {
+    "module": "js/chat.js",
+    "source": "游戏资源/game.js",
+    "start": 75168,
+    "end": 75504,
+    "startLine": 104,
+    "endLine": 106,
+    "referencePath": "代码参考/js/chat.js"
+  },
+  {
+    "module": "js/chattool.js",
+    "source": "游戏资源/game.js",
+    "start": 75508,
+    "end": 78042,
+    "startLine": 107,
+    "endLine": 109,
+    "referencePath": "代码参考/js/chattool.js"
+  },
+  {
+    "module": "js/config.js",
+    "source": "游戏资源/game.js",
+    "start": 78046,
+    "end": 86104,
+    "startLine": 110,
+    "endLine": 112,
+    "referencePath": "代码参考/js/config.js"
+  },
+  {
+    "module": "js/control/battleCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 86108,
+    "end": 92266,
+    "startLine": 113,
+    "endLine": 115,
+    "referencePath": "代码参考/js/control/battleCtrl.js"
+  },
+  {
+    "module": "js/control/bottleSkinBaseCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 92270,
+    "end": 98037,
+    "startLine": 116,
+    "endLine": 118,
+    "referencePath": "代码参考/js/control/bottleSkinBaseCtrl.js"
+  },
+  {
+    "module": "js/control/bottleSkinShopCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 98041,
+    "end": 100266,
+    "startLine": 119,
+    "endLine": 121,
+    "referencePath": "代码参考/js/control/bottleSkinShopCtrl.js"
+  },
+  {
+    "module": "js/control/getGiftPageCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 100270,
+    "end": 102349,
+    "startLine": 122,
+    "endLine": 124,
+    "referencePath": "代码参考/js/control/getGiftPageCtrl.js"
+  },
+  {
+    "module": "js/control/groupShareCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 102353,
+    "end": 105500,
+    "startLine": 125,
+    "endLine": 127,
+    "referencePath": "代码参考/js/control/groupShareCtrl.js"
+  },
+  {
+    "module": "js/control/instructionCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 105504,
+    "end": 107433,
+    "startLine": 128,
+    "endLine": 130,
+    "referencePath": "代码参考/js/control/instructionCtrl.js"
+  },
+  {
+    "module": "js/control/modeCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 107437,
+    "end": 117064,
+    "startLine": 131,
+    "endLine": 133,
+    "referencePath": "代码参考/js/control/modeCtrl.js"
+  },
+  {
+    "module": "js/control/msgBoxCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 117068,
+    "end": 120189,
+    "startLine": 134,
+    "endLine": 136,
+    "referencePath": "代码参考/js/control/msgBoxCtrl.js"
+  },
+  {
+    "module": "js/control/networkCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 120193,
+    "end": 125680,
+    "startLine": 137,
+    "endLine": 139,
+    "referencePath": "代码参考/js/control/networkCtrl.js"
+  },
+  {
+    "module": "js/control/observeCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 125684,
+    "end": 131345,
+    "startLine": 140,
+    "endLine": 142,
+    "referencePath": "代码参考/js/control/observeCtrl.js"
+  },
+  {
+    "module": "js/control/onebyoneCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 131349,
+    "end": 139631,
+    "startLine": 143,
+    "endLine": 145,
+    "referencePath": "代码参考/js/control/onebyoneCtrl.js"
+  },
+  {
+    "module": "js/control/playerCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 139635,
+    "end": 142964,
+    "startLine": 146,
+    "endLine": 148,
+    "referencePath": "代码参考/js/control/playerCtrl.js"
+  },
+  {
+    "module": "js/control/profileCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 142968,
+    "end": 146437,
+    "startLine": 149,
+    "endLine": 151,
+    "referencePath": "代码参考/js/control/profileCtrl.js"
+  },
+  {
+    "module": "js/control/propertyCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 146441,
+    "end": 150306,
+    "startLine": 152,
+    "endLine": 154,
+    "referencePath": "代码参考/js/control/propertyCtrl.js"
+  },
+  {
+    "module": "js/control/queryCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 150310,
+    "end": 151747,
+    "startLine": 155,
+    "endLine": 157,
+    "referencePath": "代码参考/js/control/queryCtrl.js"
+  },
+  {
+    "module": "js/control/relayCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 151751,
+    "end": 169334,
+    "startLine": 158,
+    "endLine": 160,
+    "referencePath": "代码参考/js/control/relayCtrl.js"
+  },
+  {
+    "module": "js/control/relayInstructionCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 169338,
+    "end": 177292,
+    "startLine": 161,
+    "endLine": 163,
+    "referencePath": "代码参考/js/control/relayInstructionCtrl.js"
+  },
+  {
+    "module": "js/control/reviewCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 177296,
+    "end": 187282,
+    "startLine": 164,
+    "endLine": 166,
+    "referencePath": "代码参考/js/control/reviewCtrl.js"
+  },
+  {
+    "module": "js/control/reviewPageCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 187286,
+    "end": 188594,
+    "startLine": 167,
+    "endLine": 169,
+    "referencePath": "代码参考/js/control/reviewPageCtrl.js"
+  },
+  {
+    "module": "js/control/singleCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 188598,
+    "end": 201118,
+    "startLine": 170,
+    "endLine": 172,
+    "referencePath": "代码参考/js/control/singleCtrl.js"
+  },
+  {
+    "module": "js/font.js",
+    "source": "游戏资源/game.js",
+    "start": 201122,
+    "end": 214711,
+    "startLine": 173,
+    "endLine": 175,
+    "referencePath": "代码参考/js/font.js"
+  },
+  {
+    "module": "js/gameCtrl.js",
+    "source": "游戏资源/game.js",
+    "start": 214715,
+    "end": 232157,
+    "startLine": 176,
+    "endLine": 178,
+    "referencePath": "代码参考/js/gameCtrl.js"
+  },
+  {
+    "module": "js/gameModel.js",
+    "source": "游戏资源/game.js",
+    "start": 232161,
+    "end": 236337,
+    "startLine": 179,
+    "endLine": 181,
+    "referencePath": "代码参考/js/gameModel.js"
+  },
+  {
+    "module": "js/gameView.js",
+    "source": "游戏资源/game.js",
+    "start": 236341,
+    "end": 238224,
+    "startLine": 182,
+    "endLine": 184,
+    "referencePath": "代码参考/js/gameView.js"
+  },
+  {
+    "module": "js/getPlugin.js",
+    "source": "游戏资源/game.js",
+    "start": 238228,
+    "end": 239087,
+    "startLine": 185,
+    "endLine": 187,
+    "referencePath": "代码参考/js/getPlugin.js"
+  },
+  {
+    "module": "js/ground.js",
+    "source": "游戏资源/game.js",
+    "start": 239091,
+    "end": 241632,
+    "startLine": 188,
+    "endLine": 190,
+    "referencePath": "代码参考/js/ground.js"
+  },
+  {
+    "module": "js/index.js",
+    "source": "游戏资源/game.js",
+    "start": 241636,
+    "end": 293101,
+    "startLine": 191,
+    "endLine": 193,
+    "referencePath": "代码参考/js/index.js"
+  },
+  {
+    "module": "js/lib/aes.js",
+    "source": "游戏资源/game.js",
+    "start": 293105,
+    "end": 307666,
+    "startLine": 194,
+    "endLine": 196,
+    "referencePath": "代码参考/js/lib/aes.js"
+  },
+  {
+    "module": "js/lib/animation.js",
+    "source": "游戏资源/game.js",
+    "start": 307670,
+    "end": 310147,
+    "startLine": 197,
+    "endLine": 199,
+    "referencePath": "代码参考/js/lib/animation.js"
+  },
+  {
+    "module": "js/lib/mue/eventcenter.js",
+    "source": "游戏资源/game.js",
+    "start": 310151,
+    "end": 312378,
+    "startLine": 200,
+    "endLine": 202,
+    "referencePath": "代码参考/js/lib/mue/eventcenter.js"
+  },
+  {
+    "module": "js/lib/mue/lookcenter.js",
+    "source": "游戏资源/game.js",
+    "start": 312382,
+    "end": 314699,
+    "startLine": 203,
+    "endLine": 205,
+    "referencePath": "代码参考/js/lib/mue/lookcenter.js"
+  },
+  {
+    "module": "js/lib/mue/mock/mocker.js",
+    "source": "游戏资源/game.js",
+    "start": 314703,
+    "end": 316241,
+    "startLine": 206,
+    "endLine": 208,
+    "referencePath": "代码参考/js/lib/mue/mock/mocker.js"
+  },
+  {
+    "module": "js/lib/mue/mock/requestmocker.js",
+    "source": "游戏资源/game.js",
+    "start": 316245,
+    "end": 318068,
+    "startLine": 209,
+    "endLine": 211,
+    "referencePath": "代码参考/js/lib/mue/mock/requestmocker.js"
+  },
+  {
+    "module": "js/lib/mue/mock/socketmocker.js",
+    "source": "游戏资源/game.js",
+    "start": 318072,
+    "end": 321082,
+    "startLine": 212,
+    "endLine": 214,
+    "referencePath": "代码参考/js/lib/mue/mock/socketmocker.js"
+  },
+  {
+    "module": "js/lib/mue/mock/sockettask.js",
+    "source": "游戏资源/game.js",
+    "start": 321086,
+    "end": 322413,
+    "startLine": 215,
+    "endLine": 217,
+    "referencePath": "代码参考/js/lib/mue/mock/sockettask.js"
+  },
+  {
+    "module": "js/lib/mue/mockcenter.js",
+    "source": "游戏资源/game.js",
+    "start": 322417,
+    "end": 323727,
+    "startLine": 218,
+    "endLine": 220,
+    "referencePath": "代码参考/js/lib/mue/mockcenter.js"
+  },
+  {
+    "module": "js/lib/mue/util.js",
+    "source": "游戏资源/game.js",
+    "start": 323731,
+    "end": 323974,
+    "startLine": 221,
+    "endLine": 223,
+    "referencePath": "代码参考/js/lib/mue/util.js"
+  },
+  {
+    "module": "js/lib/point-in-polygon.js",
+    "source": "游戏资源/game.js",
+    "start": 323978,
+    "end": 324262,
+    "startLine": 224,
+    "endLine": 226,
+    "referencePath": "代码参考/js/lib/point-in-polygon.js"
+  },
+  {
+    "module": "js/lib/three.js",
+    "source": "游戏资源/game.js",
+    "start": 324266,
+    "end": 843430,
+    "startLine": 227,
+    "endLine": 231,
+    "referencePath": "代码参考/js/lib/three.js"
+  },
+  {
+    "module": "js/lib/tween.js",
+    "source": "游戏资源/game.js",
+    "start": 843434,
+    "end": 846574,
+    "startLine": 232,
+    "endLine": 234,
+    "referencePath": "代码参考/js/lib/tween.js"
+  },
+  {
+    "module": "js/network/getAuth.js",
+    "source": "游戏资源/game.js",
+    "start": 846578,
+    "end": 850772,
+    "startLine": 235,
+    "endLine": 237,
+    "referencePath": "代码参考/js/network/getAuth.js"
+  },
+  {
+    "module": "js/network/network.js",
+    "source": "游戏资源/game.js",
+    "start": 850776,
+    "end": 872709,
+    "startLine": 238,
+    "endLine": 240,
+    "referencePath": "代码参考/js/network/network.js"
+  },
+  {
+    "module": "js/network/relayMoniter.js",
+    "source": "游戏资源/game.js",
+    "start": 872713,
+    "end": 874054,
+    "startLine": 241,
+    "endLine": 243,
+    "referencePath": "代码参考/js/network/relayMoniter.js"
+  },
+  {
+    "module": "js/network/reporter.js",
+    "source": "游戏资源/game.js",
+    "start": 874058,
+    "end": 883836,
+    "startLine": 244,
+    "endLine": 246,
+    "referencePath": "代码参考/js/network/reporter.js"
+  },
+  {
+    "module": "js/network/socket.js",
+    "source": "游戏资源/game.js",
+    "start": 883840,
+    "end": 888608,
+    "startLine": 247,
+    "endLine": 249,
+    "referencePath": "代码参考/js/network/socket.js"
+  },
+  {
+    "module": "js/pages/battle/battleGamePage.js",
+    "source": "游戏资源/game.js",
+    "start": 888612,
+    "end": 889459,
+    "startLine": 250,
+    "endLine": 252,
+    "referencePath": "代码参考/js/pages/battle/battleGamePage.js"
+  },
+  {
+    "module": "js/pages/battle/battlePkPage.js",
+    "source": "游戏资源/game.js",
+    "start": 889463,
+    "end": 890079,
+    "startLine": 253,
+    "endLine": 255,
+    "referencePath": "代码参考/js/pages/battle/battlePkPage.js"
+  },
+  {
+    "module": "js/pages/battle/battlePkRulePage.js",
+    "source": "游戏资源/game.js",
+    "start": 890083,
+    "end": 890784,
+    "startLine": 256,
+    "endLine": 258,
+    "referencePath": "代码参考/js/pages/battle/battlePkRulePage.js"
+  },
+  {
+    "module": "js/pages/bottleShop/bottleShop.js",
+    "source": "游戏资源/game.js",
+    "start": 890788,
+    "end": 892071,
+    "startLine": 259,
+    "endLine": 261,
+    "referencePath": "代码参考/js/pages/bottleShop/bottleShop.js"
+  },
+  {
+    "module": "js/pages/full2D.js",
+    "source": "游戏资源/game.js",
+    "start": 892075,
+    "end": 911614,
+    "startLine": 262,
+    "endLine": 264,
+    "referencePath": "代码参考/js/pages/full2D.js"
+  },
+  {
+    "module": "js/pages/gift/getGiftPage.js",
+    "source": "游戏资源/game.js",
+    "start": 911618,
+    "end": 911719,
+    "startLine": 265,
+    "endLine": 267,
+    "referencePath": "代码参考/js/pages/gift/getGiftPage.js"
+  },
+  {
+    "module": "js/pages/group/groupPage.js",
+    "source": "游戏资源/game.js",
+    "start": 911723,
+    "end": 912310,
+    "startLine": 268,
+    "endLine": 270,
+    "referencePath": "代码参考/js/pages/group/groupPage.js"
+  },
+  {
+    "module": "js/pages/headimgAnimation.js",
+    "source": "游戏资源/game.js",
+    "start": 912314,
+    "end": 921566,
+    "startLine": 271,
+    "endLine": 273,
+    "referencePath": "代码参考/js/pages/headimgAnimation.js"
+  },
+  {
+    "module": "js/pages/lookers.js",
+    "source": "游戏资源/game.js",
+    "start": 921570,
+    "end": 925075,
+    "startLine": 274,
+    "endLine": 276,
+    "referencePath": "代码参考/js/pages/lookers.js"
+  },
+  {
+    "module": "js/pages/observe/observeGg.js",
+    "source": "游戏资源/game.js",
+    "start": 925079,
+    "end": 925783,
+    "startLine": 277,
+    "endLine": 279,
+    "referencePath": "代码参考/js/pages/observe/observeGg.js"
+  },
+  {
+    "module": "js/pages/observe/observeOut.js",
+    "source": "游戏资源/game.js",
+    "start": 925787,
+    "end": 926485,
+    "startLine": 280,
+    "endLine": 282,
+    "referencePath": "代码参考/js/pages/observe/observeOut.js"
+  },
+  {
+    "module": "js/pages/observe/observeWaiting.js",
+    "source": "游戏资源/game.js",
+    "start": 926489,
+    "end": 927366,
+    "startLine": 283,
+    "endLine": 285,
+    "referencePath": "代码参考/js/pages/observe/observeWaiting.js"
+  },
+  {
+    "module": "js/pages/pages2d/base.js",
+    "source": "游戏资源/game.js",
+    "start": 927370,
+    "end": 937780,
+    "startLine": 286,
+    "endLine": 288,
+    "referencePath": "代码参考/js/pages/pages2d/base.js"
+  },
+  {
+    "module": "js/pages/pages2d/beginner.js",
+    "source": "游戏资源/game.js",
+    "start": 937784,
+    "end": 938633,
+    "startLine": 289,
+    "endLine": 291,
+    "referencePath": "代码参考/js/pages/pages2d/beginner.js"
+  },
+  {
+    "module": "js/pages/pages2d/bl.js",
+    "source": "游戏资源/game.js",
+    "start": 938637,
+    "end": 942375,
+    "startLine": 292,
+    "endLine": 294,
+    "referencePath": "代码参考/js/pages/pages2d/bl.js"
+  },
+  {
+    "module": "js/pages/pages2d/gg.js",
+    "source": "游戏资源/game.js",
+    "start": 942379,
+    "end": 964936,
+    "startLine": 295,
+    "endLine": 297,
+    "referencePath": "代码参考/js/pages/pages2d/gg.js"
+  },
+  {
+    "module": "js/pages/pages2d/lookers.js",
+    "source": "游戏资源/game.js",
+    "start": 964940,
+    "end": 967676,
+    "startLine": 298,
+    "endLine": 300,
+    "referencePath": "代码参考/js/pages/pages2d/lookers.js"
+  },
+  {
+    "module": "js/pages/pages2d/msg.js",
+    "source": "游戏资源/game.js",
+    "start": 967680,
+    "end": 973039,
+    "startLine": 301,
+    "endLine": 303,
+    "referencePath": "代码参考/js/pages/pages2d/msg.js"
+  },
+  {
+    "module": "js/pages/pages2d/pk.js",
+    "source": "游戏资源/game.js",
+    "start": 973043,
+    "end": 984539,
+    "startLine": 304,
+    "endLine": 306,
+    "referencePath": "代码参考/js/pages/pages2d/pk.js"
+  },
+  {
+    "module": "js/pages/pages2d/profile.js",
+    "source": "游戏资源/game.js",
+    "start": 984543,
+    "end": 991069,
+    "startLine": 307,
+    "endLine": 309,
+    "referencePath": "代码参考/js/pages/pages2d/profile.js"
+  },
+  {
+    "module": "js/pages/pages2d/rank.js",
+    "source": "游戏资源/game.js",
+    "start": 991073,
+    "end": 998257,
+    "startLine": 310,
+    "endLine": 312,
+    "referencePath": "代码参考/js/pages/pages2d/rank.js"
+  },
+  {
+    "module": "js/pages/pages2d/record.js",
+    "source": "游戏资源/game.js",
+    "start": 998261,
+    "end": 1002640,
+    "startLine": 313,
+    "endLine": 315,
+    "referencePath": "代码参考/js/pages/pages2d/record.js"
+  },
+  {
+    "module": "js/pages/pages2d/relay.js",
+    "source": "游戏资源/game.js",
+    "start": 1002644,
+    "end": 1022721,
+    "startLine": 316,
+    "endLine": 318,
+    "referencePath": "代码参考/js/pages/pages2d/relay.js"
+  },
+  {
+    "module": "js/pages/pages2d/shareskin.js",
+    "source": "游戏资源/game.js",
+    "start": 1022725,
+    "end": 1026072,
+    "startLine": 319,
+    "endLine": 321,
+    "referencePath": "代码参考/js/pages/pages2d/shareskin.js"
+  },
+  {
+    "module": "js/pages/pages2d/skin.js",
+    "source": "游戏资源/game.js",
+    "start": 1026076,
+    "end": 1029129,
+    "startLine": 322,
+    "endLine": 324,
+    "referencePath": "代码参考/js/pages/pages2d/skin.js"
+  },
+  {
+    "module": "js/pages/pages2d/start.js",
+    "source": "游戏资源/game.js",
+    "start": 1029133,
+    "end": 1032506,
+    "startLine": 325,
+    "endLine": 327,
+    "referencePath": "代码参考/js/pages/pages2d/start.js"
+  },
+  {
+    "module": "js/pages/pages2d/verify.js",
+    "source": "游戏资源/game.js",
+    "start": 1032510,
+    "end": 1039126,
+    "startLine": 328,
+    "endLine": 330,
+    "referencePath": "代码参考/js/pages/pages2d/verify.js"
+  },
+  {
+    "module": "js/pages/player/playerGamePage.js",
+    "source": "游戏资源/game.js",
+    "start": 1039130,
+    "end": 1039947,
+    "startLine": 331,
+    "endLine": 333,
+    "referencePath": "代码参考/js/pages/player/playerGamePage.js"
+  },
+  {
+    "module": "js/pages/profile/profile.js",
+    "source": "游戏资源/game.js",
+    "start": 1039951,
+    "end": 1042214,
+    "startLine": 334,
+    "endLine": 336,
+    "referencePath": "代码参考/js/pages/profile/profile.js"
+  },
+  {
+    "module": "js/pages/relay/fakeRoomPage.js",
+    "source": "游戏资源/game.js",
+    "start": 1042218,
+    "end": 1042875,
+    "startLine": 337,
+    "endLine": 339,
+    "referencePath": "代码参考/js/pages/relay/fakeRoomPage.js"
+  },
+  {
+    "module": "js/pages/relay/gamePage.js",
+    "source": "游戏资源/game.js",
+    "start": 1042879,
+    "end": 1043765,
+    "startLine": 340,
+    "endLine": 342,
+    "referencePath": "代码参考/js/pages/relay/gamePage.js"
+  },
+  {
+    "module": "js/pages/relay/room.js",
+    "source": "游戏资源/game.js",
+    "start": 1043769,
+    "end": 1044614,
+    "startLine": 343,
+    "endLine": 345,
+    "referencePath": "代码参考/js/pages/relay/room.js"
+  },
+  {
+    "module": "js/pages/review/review.js",
+    "source": "游戏资源/game.js",
+    "start": 1044618,
+    "end": 1051904,
+    "startLine": 346,
+    "endLine": 348,
+    "referencePath": "代码参考/js/pages/review/review.js"
+  },
+  {
+    "module": "js/pages/review/shareCard.js",
+    "source": "游戏资源/game.js",
+    "start": 1051908,
+    "end": 1053356,
+    "startLine": 349,
+    "endLine": 351,
+    "referencePath": "代码参考/js/pages/review/shareCard.js"
+  },
+  {
+    "module": "js/pages/shareCard.js",
+    "source": "游戏资源/game.js",
+    "start": 1053360,
+    "end": 1055892,
+    "startLine": 352,
+    "endLine": 354,
+    "referencePath": "代码参考/js/pages/shareCard.js"
+  },
+  {
+    "module": "js/pages/single/bottleSkinSharePage.js",
+    "source": "游戏资源/game.js",
+    "start": 1055896,
+    "end": 1056781,
+    "startLine": 355,
+    "endLine": 357,
+    "referencePath": "代码参考/js/pages/single/bottleSkinSharePage.js"
+  },
+  {
+    "module": "js/pages/single/relayGuide.js",
+    "source": "游戏资源/game.js",
+    "start": 1056785,
+    "end": 1057557,
+    "startLine": 358,
+    "endLine": 360,
+    "referencePath": "代码参考/js/pages/single/relayGuide.js"
+  },
+  {
+    "module": "js/pages/single/singleFriendRankPage.js",
+    "source": "游戏资源/game.js",
+    "start": 1057561,
+    "end": 1058242,
+    "startLine": 361,
+    "endLine": 363,
+    "referencePath": "代码参考/js/pages/single/singleFriendRankPage.js"
+  },
+  {
+    "module": "js/pages/single/singleGameOverPage.js",
+    "source": "游戏资源/game.js",
+    "start": 1058246,
+    "end": 1060525,
+    "startLine": 364,
+    "endLine": 366,
+    "referencePath": "代码参考/js/pages/single/singleGameOverPage.js"
+  },
+  {
+    "module": "js/pages/single/singleGamePage.js",
+    "source": "游戏资源/game.js",
+    "start": 1060529,
+    "end": 1062078,
+    "startLine": 367,
+    "endLine": 369,
+    "referencePath": "代码参考/js/pages/single/singleGamePage.js"
+  },
+  {
+    "module": "js/pages/single/singleStartPage.js",
+    "source": "游戏资源/game.js",
+    "start": 1062082,
+    "end": 1063313,
+    "startLine": 370,
+    "endLine": 372,
+    "referencePath": "代码参考/js/pages/single/singleStartPage.js"
+  },
+  {
+    "module": "js/pages/singleSettlementPage.js",
+    "source": "游戏资源/game.js",
+    "start": 1063317,
+    "end": 1064191,
+    "startLine": 373,
+    "endLine": 375,
+    "referencePath": "代码参考/js/pages/singleSettlementPage.js"
+  },
+  {
+    "module": "js/pages/threePage.js",
+    "source": "游戏资源/game.js",
+    "start": 1064195,
+    "end": 1065180,
+    "startLine": 376,
+    "endLine": 378,
+    "referencePath": "代码参考/js/pages/threePage.js"
+  },
+  {
+    "module": "js/random.js",
+    "source": "游戏资源/game.js",
+    "start": 1065184,
+    "end": 1065687,
+    "startLine": 379,
+    "endLine": 381,
+    "referencePath": "代码参考/js/random.js"
+  },
+  {
+    "module": "js/rankSystem.js",
+    "source": "游戏资源/game.js",
+    "start": 1065691,
+    "end": 1070210,
+    "startLine": 382,
+    "endLine": 384,
+    "referencePath": "代码参考/js/rankSystem.js"
+  },
+  {
+    "module": "js/report.js",
+    "source": "游戏资源/game.js",
+    "start": 1070214,
+    "end": 1071073,
+    "startLine": 385,
+    "endLine": 387,
+    "referencePath": "代码参考/js/report.js"
+  },
+  {
+    "module": "js/scroll/friction.js",
+    "source": "游戏资源/game.js",
+    "start": 1071077,
+    "end": 1072123,
+    "startLine": 388,
+    "endLine": 390,
+    "referencePath": "代码参考/js/scroll/friction.js"
+  },
+  {
+    "module": "js/scroll/scroll.js",
+    "source": "游戏资源/game.js",
+    "start": 1072127,
+    "end": 1073793,
+    "startLine": 391,
+    "endLine": 393,
+    "referencePath": "代码参考/js/scroll/scroll.js"
+  },
+  {
+    "module": "js/scroll/scrollHandler.js",
+    "source": "游戏资源/game.js",
+    "start": 1073797,
+    "end": 1076275,
+    "startLine": 394,
+    "endLine": 396,
+    "referencePath": "代码参考/js/scroll/scrollHandler.js"
+  },
+  {
+    "module": "js/scroll/spring.js",
+    "source": "游戏资源/game.js",
+    "start": 1076279,
+    "end": 1078906,
+    "startLine": 397,
+    "endLine": 399,
+    "referencePath": "代码参考/js/scroll/spring.js"
+  },
+  {
+    "module": "js/shareApp.js",
+    "source": "游戏资源/game.js",
+    "start": 1078910,
+    "end": 1087483,
+    "startLine": 400,
+    "endLine": 402,
+    "referencePath": "代码参考/js/shareApp.js"
+  },
+  {
+    "module": "js/skin.js",
+    "source": "游戏资源/game.js",
+    "start": 1087487,
+    "end": 1092570,
+    "startLine": 403,
+    "endLine": 405,
+    "referencePath": "代码参考/js/skin.js"
+  },
+  {
+    "module": "js/skins/scarf.js",
+    "source": "游戏资源/game.js",
+    "start": 1092574,
+    "end": 1092771,
+    "startLine": 406,
+    "endLine": 408,
+    "referencePath": "代码参考/js/skins/scarf.js"
+  },
+  {
+    "module": "js/stageManager.js",
+    "source": "游戏资源/game.js",
+    "start": 1092775,
+    "end": 1093510,
+    "startLine": 409,
+    "endLine": 411,
+    "referencePath": "代码参考/js/stageManager.js"
+  },
+  {
+    "module": "js/store/historyTimes.js",
+    "source": "游戏资源/game.js",
+    "start": 1093514,
+    "end": 1095010,
+    "startLine": 412,
+    "endLine": 414,
+    "referencePath": "代码参考/js/store/historyTimes.js"
+  },
+  {
+    "module": "js/store/session.js",
+    "source": "游戏资源/game.js",
+    "start": 1095014,
+    "end": 1096132,
+    "startLine": 415,
+    "endLine": 417,
+    "referencePath": "代码参考/js/store/session.js"
+  },
+  {
+    "module": "js/store/storage.js",
+    "source": "游戏资源/game.js",
+    "start": 1096136,
+    "end": 1101921,
+    "startLine": 418,
+    "endLine": 420,
+    "referencePath": "代码参考/js/store/storage.js"
+  },
+  {
+    "module": "js/tailSystem.js",
+    "source": "游戏资源/game.js",
+    "start": 1101925,
+    "end": 1104794,
+    "startLine": 421,
+    "endLine": 423,
+    "referencePath": "代码参考/js/tailSystem.js"
+  },
+  {
+    "module": "js/text.js",
+    "source": "游戏资源/game.js",
+    "start": 1104798,
+    "end": 1107313,
+    "startLine": 424,
+    "endLine": 426,
+    "referencePath": "代码参考/js/text.js"
+  },
+  {
+    "module": "js/ui.js",
+    "source": "游戏资源/game.js",
+    "start": 1107317,
+    "end": 1111899,
+    "startLine": 427,
+    "endLine": 429,
+    "referencePath": "代码参考/js/ui.js"
+  },
+  {
+    "module": "js/ui/adBoard.js",
+    "source": "游戏资源/game.js",
+    "start": 1111903,
+    "end": 1114180,
+    "startLine": 430,
+    "endLine": 432,
+    "referencePath": "代码参考/js/ui/adBoard.js"
+  },
+  {
+    "module": "js/ui/audioManager.js",
+    "source": "游戏资源/game.js",
+    "start": 1114184,
+    "end": 1115984,
+    "startLine": 433,
+    "endLine": 435,
+    "referencePath": "代码参考/js/ui/audioManager.js"
+  },
+  {
+    "module": "js/ui/propAniManager.js",
+    "source": "游戏资源/game.js",
+    "start": 1115988,
+    "end": 1117749,
+    "startLine": 436,
+    "endLine": 438,
+    "referencePath": "代码参考/js/ui/propAniManager.js"
+  },
+  {
+    "module": "js/ui/propBoard.js",
+    "source": "游戏资源/game.js",
+    "start": 1117753,
+    "end": 1119281,
+    "startLine": 439,
+    "endLine": 441,
+    "referencePath": "代码参考/js/ui/propBoard.js"
+  },
+  {
+    "module": "js/util/common.js",
+    "source": "游戏资源/game.js",
+    "start": 1119285,
+    "end": 1120603,
+    "startLine": 442,
+    "endLine": 444,
+    "referencePath": "代码参考/js/util/common.js"
+  },
+  {
+    "module": "js/util/encryption.js",
+    "source": "游戏资源/game.js",
+    "start": 1120607,
+    "end": 1121275,
+    "startLine": 445,
+    "endLine": 447,
+    "referencePath": "代码参考/js/util/encryption.js"
+  },
+  {
+    "module": "js/util/forceUpdate.js",
+    "source": "游戏资源/game.js",
+    "start": 1121279,
+    "end": 1122634,
+    "startLine": 448,
+    "endLine": 450,
+    "referencePath": "代码参考/js/util/forceUpdate.js"
+  },
+  {
+    "module": "js/util/log.js",
+    "source": "游戏资源/game.js",
+    "start": 1122638,
+    "end": 1123260,
+    "startLine": 451,
+    "endLine": 453,
+    "referencePath": "代码参考/js/util/log.js"
+  },
+  {
+    "module": "js/util/util.js",
+    "source": "游戏资源/game.js",
+    "start": 1123264,
+    "end": 1124986,
+    "startLine": 454,
+    "endLine": 456,
+    "referencePath": "代码参考/js/util/util.js"
+  },
+  {
+    "module": "js/viewer.js",
+    "source": "游戏资源/game.js",
+    "start": 1124990,
+    "end": 1126623,
+    "startLine": 457,
+    "endLine": 459,
+    "referencePath": "代码参考/js/viewer.js"
+  },
+  {
+    "module": "js/wave.js",
+    "source": "游戏资源/game.js",
+    "start": 1126627,
+    "end": 1127427,
+    "startLine": 460,
+    "endLine": 462,
+    "referencePath": "代码参考/js/wave.js"
+  },
+  {
+    "module": "js/weapp-adapter.js",
+    "source": "游戏资源/game.js",
+    "start": 1127431,
+    "end": 1150054,
+    "startLine": 463,
+    "endLine": 465,
+    "referencePath": "代码参考/js/weapp-adapter.js"
+  },
+  {
+    "module": "game.js",
+    "source": "游戏资源/game.js",
+    "start": 1151050,
+    "end": 1151155,
+    "startLine": 466,
+    "endLine": 468,
+    "referencePath": "代码参考/game.js"
+  }
+]

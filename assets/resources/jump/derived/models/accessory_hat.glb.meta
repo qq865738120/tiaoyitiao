@@ -1,0 +1,148 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a",
+  "files": [],
+  "subMetas": {
+    "85634": {
+      "importer": "gltf-scene",
+      "uuid": "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@85634",
+      "displayName": "",
+      "id": "85634",
+      "name": "accessory_hat.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce205": {
+      "importer": "gltf-mesh",
+      "uuid": "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@ce205",
+      "displayName": "",
+      "id": "ce205",
+      "name": "CylinderGeometry-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2a176": {
+      "importer": "gltf-mesh",
+      "uuid": "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@2a176",
+      "displayName": "",
+      "id": "2a176",
+      "name": "CylinderGeometry-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1cfb1": {
+      "importer": "gltf-mesh",
+      "uuid": "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@1cfb1",
+      "displayName": "",
+      "id": "1cfb1",
+      "name": "CylinderGeometry-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c65f": {
+      "importer": "gltf-material",
+      "uuid": "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@9c65f",
+      "displayName": "",
+      "id": "9c65f",
+      "name": "MeshLambertMaterial-0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fdb1e": {
+      "importer": "gltf-material",
+      "uuid": "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@fdb1e",
+      "displayName": "",
+      "id": "fdb1e",
+      "name": "MeshLambertMaterial-1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@ce205",
+        "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@2a176",
+        "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@1cfb1"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@9c65f",
+        "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@fdb1e"
+      ],
+      "scenes": [
+        "d29a06fc-b6ca-4a95-8ae7-c446a3b3cd4a@85634"
+      ]
+    }
+  }
+}

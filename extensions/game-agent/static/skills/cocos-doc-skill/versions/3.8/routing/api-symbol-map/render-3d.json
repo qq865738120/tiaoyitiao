@@ -1,0 +1,106 @@
+{
+  "Camera": {
+    "doc": "api-reference/camera.md",
+    "related": [
+      "recipes/camera-follow-target.md",
+      "troubleshooting/coordinate-conversion-wrong.md"
+    ]
+  },
+  "DirectionalLight": {
+    "doc": "api-reference/directional-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "DirectionalLightComponent": {
+    "doc": "api-reference/directional-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "SphereLight": {
+    "doc": "api-reference/sphere-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "SphereLightComponent": {
+    "doc": "api-reference/sphere-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "SpotLight": {
+    "doc": "api-reference/spot-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "SpotLightComponent": {
+    "doc": "api-reference/spot-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "MeshRenderer": {
+    "doc": "api-reference/mesh-renderer.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "api-reference/material.md",
+      "api-reference/effect-asset.md",
+      "recipes/change-material-property.md",
+      "troubleshooting/material-not-updated.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "ModelComponent": {
+    "doc": "api-reference/mesh-renderer.md",
+    "related": [
+      "api-reference/material.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "Material": {
+    "doc": "api-reference/material.md",
+    "related": [
+      "api-reference/effect-asset.md",
+      "api-reference/mesh-renderer.md",
+      "recipes/change-material-property.md",
+      "troubleshooting/material-not-updated.md"
+    ]
+  },
+  "EffectAsset": {
+    "doc": "api-reference/effect-asset.md",
+    "related": [
+      "api-reference/material.md",
+      "api-reference/mesh-renderer.md",
+      "recipes/change-material-property.md",
+      "recipes/create-simple-effect.md",
+      "troubleshooting/material-not-updated.md",
+      "troubleshooting/shader-compile-failed.md"
+    ]
+  },
+  "ParticleSystem": {
+    "doc": "api-reference/particle-system.md",
+    "related": [
+      "api-reference/particle-system-2d.md"
+    ]
+  },
+  "ParticleSystemComponent": {
+    "doc": "api-reference/particle-system.md",
+    "related": []
+  },
+  "ParticleSystem2D": {
+    "doc": "api-reference/particle-system-2d.md",
+    "related": [
+      "api-reference/particle-system.md",
+      "api-reference/sprite.md"
+    ]
+  }
+}

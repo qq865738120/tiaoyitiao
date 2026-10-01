@@ -1,0 +1,33 @@
+{
+  "$schema": "game-agent.cocos-asset-profile/v1",
+  "profileVersion": 1,
+  "cocosCreator": ">=3.8.0",
+  "pixelDensity": 1,
+  "filter": "nearest",
+  "wrap": "clamp-to-edge",
+  "alphaMode": "straight",
+  "pixelArt": {
+    "integerScaleRequired": true,
+    "paletteColors": 64,
+    "paletteDither": false,
+    "alphaValues": [0, 255],
+    "sourceGridFidelityMin": 0.5,
+    "sourceGridColorTolerance": 16
+  },
+  "sprite": {
+    "defaultAnchor": [0.5, 0.0],
+    "preserveScale": true,
+    "atlas": { "padding": 2, "extrusion": 1 }
+  },
+  "map": {
+    "origin": "top-left",
+    "yAxis": "down",
+    "tile": { "margin": 1, "spacing": 2, "extrusion": 1 }
+  },
+  "budgets": {
+    "maxInputBytes": 33554432,
+    "maxOutputBytes": 67108864,
+    "maxPixelsPerImage": 16777216,
+    "maxFrames": 128
+  }
+}

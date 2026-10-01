@@ -1,0 +1,66 @@
+[
+  {
+    "project": "/Users/zhengwenjun/tiaoyitiao",
+    "assets": 250,
+    "imported_meta": 250,
+    "commands": 4,
+    "library_checked": true,
+    "library_missing_files": [],
+    "comparison": {
+      "assets": {
+        "files": 516,
+        "equal": true,
+        "differences": []
+      },
+      "docs": {
+        "files": 490,
+        "equal": true,
+        "differences": []
+      },
+      ".gameagent/commands": {
+        "files": 4,
+        "equal": true,
+        "differences": []
+      },
+      ".gameagent/rules": {
+        "files": 3,
+        "equal": true,
+        "differences": []
+      }
+    },
+    "errors": [],
+    "scope": "仅素材/文档/命令基线；不代表游戏实施或游戏验收通过"
+  },
+  {
+    "project": "/Users/zhengwenjun/tiaoyitiao2",
+    "assets": 250,
+    "imported_meta": 250,
+    "commands": 4,
+    "library_checked": true,
+    "library_missing_files": [],
+    "comparison": {
+      "assets": {
+        "files": 516,
+        "equal": true,
+        "differences": []
+      },
+      "docs": {
+        "files": 490,
+        "equal": true,
+        "differences": []
+      },
+      ".gameagent/commands": {
+        "files": 4,
+        "equal": true,
+        "differences": []
+      },
+      ".gameagent/rules": {
+        "files": 3,
+        "equal": true,
+        "differences": []
+      }
+    },
+    "errors": [],
+    "scope": "仅素材/文档/命令基线；不代表游戏实施或游戏验收通过"
+  }
+]

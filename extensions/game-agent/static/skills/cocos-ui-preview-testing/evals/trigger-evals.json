@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "skill_name": "cocos-ui-preview-testing",
+  "evals": [
+    {
+      "input": "这个弹框很难触发，请独立预览并与效果图对照。",
+      "should_trigger": true
+    },
+    {
+      "input": "复用测试场景，核对背包和动态新武器弹框，要求90%。",
+      "should_trigger": true
+    },
+    {
+      "input": "cc.Widget 的 API 是什么？",
+      "should_trigger": false
+    },
+    {
+      "input": "把已经确认的按钮文字改成继续。",
+      "should_trigger": false
+    },
+    {
+      "input": "完整测试战斗通关与存档流程。",
+      "should_trigger": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "game-agent.cocos-2dsprite-spec/v1",
+  "assetKind": "action",
+  "renderIntent": { "mode": "pixel-art", "reason": "explicit-user" },
+  "layoutIntent": { "marginMode": "safe", "marginReason": "animation-safe" },
+  "name": "hero-idle",
+  "target": [64, 64],
+  "anchor": [0.5, 0.0],
+  "frames": 4,
+  "fps": 8,
+  "loop": true,
+  "preserveScale": true
+}

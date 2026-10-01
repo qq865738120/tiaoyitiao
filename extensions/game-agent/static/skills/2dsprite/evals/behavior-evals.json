@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "skill_name": "2dsprite",
+  "evals": [
+    { "name": "real-image-chain", "must_include": ["image:auto", "model_selection_id", "AgentWait", "GameAssetV1", "begin-game-asset"] },
+    { "name": "python-gate", "must_include": ["PythonRuntime", "status=ready"] },
+    { "name": "adaptive-render-mode", "must_include": ["renderMode", "default-raster", "pixel-art"] },
+    { "name": "adaptive-transparent-margin", "must_include": ["marginMode", "tight", "safe"] },
+    { "name": "opaque-background", "must_include": ["background", "transparencyMode", "opaque", "full-canvas-raster-v1"] },
+    { "name": "conditional-authority", "must_include": ["static-single-frame", "loose", "权威"] },
+    { "name": "visual-evidence", "must_include": ["半透明", "像素", "反证"] },
+    { "name": "creator-boundary", "must_include": ["不写", "AssetDB", "Scene", "Prefab"] },
+    { "name": "playback-boundary", "must_include": ["playbackVerified", "false"] }
+  ]
+}

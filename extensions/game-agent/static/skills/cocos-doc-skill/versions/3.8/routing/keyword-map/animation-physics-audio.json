@@ -1,0 +1,346 @@
+{
+  "2D 碰撞": [
+    "recipes/detect-collision-2d.md",
+    "api-reference/collider-2d.md",
+    "api-reference/rigid-body-2d.md"
+  ],
+  "3D 角色移动": [
+    "api-reference/character-controller.md",
+    "api-reference/rigid-body.md"
+  ],
+  "3D 拾取": [
+    "recipes/raycast-3d.md"
+  ],
+  "3D 物理": [
+    "api-reference/physics-system.md",
+    "api-reference/rigid-body.md",
+    "api-reference/collider.md"
+  ],
+  "播放动画": [
+    "recipes/play-animation.md",
+    "api-reference/animation.md"
+  ],
+  "播放视频": [
+    "recipes/play-video.md",
+    "api-reference/video-player.md"
+  ],
+  "播放音频": [
+    "recipes/play-audio.md",
+    "api-reference/audio-source.md"
+  ],
+  "地图对象层": [
+    "api-reference/tiled-map.md"
+  ],
+  "点对点约束": [
+    "recipes/use-physics-constraint.md"
+  ],
+  "动画播放": [
+    "recipes/play-animation.md",
+    "api-reference/animation.md"
+  ],
+  "动画播完没回调": [
+    "troubleshooting/animation-event-not-fired.md",
+    "recipes/animation-event-callback.md"
+  ],
+  "动画播完没事件": [
+    "troubleshooting/animation-event-not-fired.md"
+  ],
+  "动画不播放": [
+    "troubleshooting/animation-not-playing.md",
+    "api-reference/animation.md"
+  ],
+  "动画放完不响应": [
+    "troubleshooting/animation-event-not-fired.md"
+  ],
+  "动画分层": [
+    "concepts/animation-blending.md",
+    "concepts/animation-graph.md"
+  ],
+  "动画过渡": [
+    "concepts/animation-blending.md",
+    "api-reference/animation.md"
+  ],
+  "动画回调": [
+    "recipes/animation-event-callback.md",
+    "troubleshooting/animation-event-not-fired.md"
+  ],
+  "动画混合": [
+    "concepts/animation-blending.md",
+    "api-reference/animation.md"
+  ],
+  "动画剪辑": [
+    "api-reference/animation.md"
+  ],
+  "动画控制器": [
+    "api-reference/animation-controller.md",
+    "concepts/animation-graph.md"
+  ],
+  "动画没效果": [
+    "troubleshooting/animation-not-playing.md"
+  ],
+  "动画事件": [
+    "recipes/animation-event-callback.md",
+    "concepts/animation-blending.md"
+  ],
+  "动画事件不触发": [
+    "troubleshooting/animation-event-not-fired.md",
+    "recipes/animation-event-callback.md",
+    "api-reference/animation-controller.md"
+  ],
+  "动画事件回调": [
+    "troubleshooting/animation-event-not-fired.md",
+    "api-reference/animation.md"
+  ],
+  "动画图": [
+    "concepts/animation-graph.md",
+    "api-reference/animation-controller.md"
+  ],
+  "动画帧事件": [
+    "recipes/animation-event-callback.md",
+    "troubleshooting/animation-event-not-fired.md"
+  ],
+  "动画状态机": [
+    "concepts/animation-graph.md",
+    "api-reference/animation-controller.md"
+  ],
+  "刚体类型": [
+    "api-reference/rigid-body.md"
+  ],
+  "骨骼动画": [
+    "api-reference/skeletal-animation.md",
+    "assets/spine-dragonbones.md"
+  ],
+  "骨骼挂点": [
+    "api-reference/skeletal-animation.md"
+  ],
+  "角色控制器": [
+    "api-reference/character-controller.md"
+  ],
+  "铰链约束": [
+    "recipes/use-physics-constraint.md"
+  ],
+  "精灵帧": [
+    "ui-2d/sprite.md",
+    "api-reference/sprite.md"
+  ],
+  "门合页": [
+    "recipes/use-physics-constraint.md"
+  ],
+  "碰撞不触发": [
+    "troubleshooting/collision-not-triggered.md"
+  ],
+  "碰撞分组": [
+    "concepts/physics-filtering-and-collision-matrix.md",
+    "api-reference/collider.md"
+  ],
+  "碰撞过滤": [
+    "concepts/physics-filtering-and-collision-matrix.md",
+    "api-reference/physics-system.md"
+  ],
+  "碰撞回调": [
+    "recipes/detect-collision-2d.md",
+    "troubleshooting/collision-not-triggered.md"
+  ],
+  "碰撞矩阵": [
+    "api-reference/collider.md",
+    "api-reference/physics-system.md",
+    "troubleshooting/physics-3d-not-triggered.md"
+  ],
+  "嵌入网页": [
+    "api-reference/web-view.md"
+  ],
+  "切换动画状态": [
+    "recipes/switch-animation-state.md",
+    "api-reference/animation-controller.md",
+    "concepts/animation-graph.md"
+  ],
+  "切换图片": [
+    "ui-2d/sprite.md",
+    "api-reference/sprite.md"
+  ],
+  "射线检测": [
+    "recipes/raycast-3d.md",
+    "api-reference/physics-system.md"
+  ],
+  "声音断了": [
+    "troubleshooting/audio-not-playing.md"
+  ],
+  "视频播放": [
+    "api-reference/video-player.md",
+    "recipes/play-video.md"
+  ],
+  "视频播放完成": [
+    "recipes/play-video.md",
+    "api-reference/video-player.md"
+  ],
+  "视频不播放": [
+    "troubleshooting/video-webview-not-working.md",
+    "api-reference/video-player.md"
+  ],
+  "瓦片地图": [
+    "api-reference/tiled-map.md"
+  ],
+  "网页打不开": [
+    "troubleshooting/video-webview-not-working.md",
+    "api-reference/web-view.md"
+  ],
+  "物理不触发": [
+    "troubleshooting/physics-3d-not-triggered.md"
+  ],
+  "物理分组": [
+    "api-reference/collider.md",
+    "api-reference/physics-system.md"
+  ],
+  "物理约束": [
+    "recipes/use-physics-constraint.md"
+  ],
+  "音乐没了": [
+    "troubleshooting/audio-not-playing.md"
+  ],
+  "音频格式": [
+    "troubleshooting/audio-format-compat.md"
+  ],
+  "音频管理器": [
+    "recipes/audio-manager-pattern.md",
+    "api-reference/audio-source.md"
+  ],
+  "音频没声音": [
+    "troubleshooting/audio-not-playing.md"
+  ],
+  "音效不播放": [
+    "troubleshooting/audio-not-playing.md",
+    "api-reference/audio-source.md"
+  ],
+  "音效控制": [
+    "recipes/audio-manager-pattern.md",
+    "api-reference/audio-source.md"
+  ],
+  "预烘焙动画": [
+    "api-reference/skeletal-animation.md"
+  ],
+  "AnimationController": [
+    "api-reference/animation-controller.md",
+    "concepts/animation-graph.md",
+    "recipes/switch-animation-state.md"
+  ],
+  "BGM 不播": [
+    "troubleshooting/audio-not-playing.md",
+    "api-reference/audio-source.md"
+  ],
+  "BGM 没声音": [
+    "troubleshooting/audio-not-playing.md"
+  ],
+  "BoxCollider": [
+    "api-reference/collider.md"
+  ],
+  "CapsuleCollider": [
+    "api-reference/collider.md"
+  ],
+  "Collider": [
+    "api-reference/collider.md"
+  ],
+  "crossFade": [
+    "concepts/animation-blending.md",
+    "api-reference/animation.md"
+  ],
+  "getObjectGroup": [
+    "api-reference/tiled-map.md"
+  ],
+  "group mask": [
+    "concepts/physics-filtering-and-collision-matrix.md"
+  ],
+  "Marionette": [
+    "concepts/animation-graph.md",
+    "api-reference/animation-controller.md"
+  ],
+  "onCollisionEnter 不触发": [
+    "troubleshooting/physics-3d-not-triggered.md"
+  ],
+  "PhysicsSystem": [
+    "api-reference/physics-system.md"
+  ],
+  "raycast": [
+    "recipes/raycast-3d.md",
+    "api-reference/physics-system.md"
+  ],
+  "RigidBody": [
+    "api-reference/rigid-body.md"
+  ],
+  "sensor 触发器": [
+    "concepts/physics-filtering-and-collision-matrix.md",
+    "troubleshooting/collision-not-triggered.md"
+  ],
+  "setValue": [
+    "api-reference/animation-controller.md",
+    "recipes/switch-animation-state.md"
+  ],
+  "SkeletalAnimation": [
+    "api-reference/skeletal-animation.md"
+  ],
+  "Socket挂点": [
+    "api-reference/skeletal-animation.md"
+  ],
+  "SphereCollider": [
+    "api-reference/collider.md"
+  ],
+  "StateMachineComponent": [
+    "api-reference/animation-controller.md",
+    "troubleshooting/animation-event-not-fired.md"
+  ],
+  "Trigger 不触发": [
+    "troubleshooting/physics-3d-not-triggered.md"
+  ],
+  "tween 缓动": [
+    "api-reference/tween.md",
+    "recipes/play-animation.md"
+  ],
+  "useBakedAnimation": [
+    "api-reference/skeletal-animation.md"
+  ],
+  "VideoPlayer": [
+    "api-reference/video-player.md"
+  ],
+  "WebView": [
+    "api-reference/web-view.md"
+  ],
+  "动画播完": [
+    "troubleshooting/animation-event-not-fired.md",
+    "recipes/animation-event-callback.md"
+  ],
+  "播完回调": [
+    "troubleshooting/animation-event-not-fired.md",
+    "recipes/animation-event-callback.md"
+  ],
+  "音乐不播放": [
+    "troubleshooting/audio-not-playing.md",
+    "recipes/play-audio.md"
+  ],
+  "音乐突然不播放": [
+    "troubleshooting/audio-not-playing.md",
+    "recipes/play-audio.md"
+  ],
+  "音频播不出来": [
+    "troubleshooting/audio-not-playing.md",
+    "recipes/play-audio.md"
+  ],
+  "播放音效": [
+    "recipes/play-audio.md",
+    "troubleshooting/audio-not-playing.md"
+  ],
+  "碰撞没有触发": [
+    "troubleshooting/collision-not-triggered.md",
+    "recipes/detect-collision-2d.md"
+  ],
+  "2D碰撞没有检测": [
+    "troubleshooting/collision-not-triggered.md",
+    "recipes/detect-collision-2d.md"
+  ],
+  "播放骨骼动画": [
+    "assets/spine-dragonbones.md",
+    "api-reference/skeletal-animation.md"
+  ],
+  "摇杆控制": [
+    "recipes/handle-touch-and-keyboard.md",
+    "scripting/input-events.md"
+  ]
+}

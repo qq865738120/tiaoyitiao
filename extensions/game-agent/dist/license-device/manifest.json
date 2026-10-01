@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "protocol": 1,
+  "toolchain": "go1.27.1",
+  "source_sha256": "e2a5c2d4aebd654781e7bfb94d29310a6656d5aff5a6b5d105a83fb31d1980e1",
+  "license_sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+  "files": [
+    {
+      "target": "win32-x64",
+      "path": "win32-x64/license-device.exe",
+      "machine": 34404,
+      "size": 3289088,
+      "sha256": "345f2fd95e869720a9132ac53264f0cb170d3322747921bc4c77b11f7d4e5274",
+      "imports": [
+        "kernel32.dll"
+      ]
+    },
+    {
+      "target": "win32-arm64",
+      "path": "win32-arm64/license-device.exe",
+      "machine": 43620,
+      "size": 3017728,
+      "sha256": "0dba0ac71576812b50be4761eb989b93b4ec6e5bdb96b17f86d2acdcad10b509",
+      "imports": [
+        "kernel32.dll"
+      ]
+    }
+  ]
+}

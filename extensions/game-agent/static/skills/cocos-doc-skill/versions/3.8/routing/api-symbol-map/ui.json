@@ -1,0 +1,126 @@
+{
+  "UITransform": {
+    "doc": "api-reference/ui-transform.md",
+    "related": [
+      "ui-2d/ui-transform.md",
+      "recipes/screen-adaptation.md",
+      "troubleshooting/ui-not-visible.md"
+    ]
+  },
+  "Label": {
+    "doc": "api-reference/label.md",
+    "related": [
+      "ui-2d/label.md",
+      "recipes/change-label-text.md",
+      "troubleshooting/ui-not-visible.md"
+    ]
+  },
+  "Sprite": {
+    "doc": "api-reference/sprite.md",
+    "related": [
+      "ui-2d/sprite.md",
+      "troubleshooting/ui-not-visible.md"
+    ]
+  },
+  "Button": {
+    "doc": "api-reference/button.md",
+    "related": [
+      "ui-2d/button.md",
+      "recipes/button-click.md",
+      "troubleshooting/button-not-clickable.md"
+    ]
+  },
+  "EditBox": {
+    "doc": "api-reference/edit-box.md",
+    "related": [
+      "api-reference/button.md",
+      "api-reference/label.md",
+      "troubleshooting/input-not-triggered.md"
+    ]
+  },
+  "Toggle": {
+    "doc": "api-reference/toggle.md",
+    "related": [
+      "api-reference/button.md",
+      "troubleshooting/button-not-clickable.md"
+    ]
+  },
+  "ToggleContainer": {
+    "doc": "api-reference/toggle.md",
+    "related": []
+  },
+  "Slider": {
+    "doc": "api-reference/slider.md",
+    "related": [
+      "api-reference/progress-bar.md"
+    ]
+  },
+  "ProgressBar": {
+    "doc": "api-reference/progress-bar.md",
+    "related": [
+      "api-reference/slider.md"
+    ]
+  },
+  "PageView": {
+    "doc": "api-reference/page-view.md",
+    "related": [
+      "ui-2d/scroll-view.md"
+    ]
+  },
+  "PageViewIndicator": {
+    "doc": "api-reference/page-view.md",
+    "related": []
+  },
+  "Mask": {
+    "doc": "api-reference/mask.md",
+    "related": [
+      "api-reference/ui-transform.md",
+      "api-reference/sprite.md",
+      "troubleshooting/click-through.md"
+    ]
+  },
+  "Graphics": {
+    "doc": "api-reference/graphics.md",
+    "related": [
+      "api-reference/ui-transform.md",
+      "ui-2d/draw-call-batching.md"
+    ]
+  },
+  "SafeArea": {
+    "doc": "api-reference/safe-area.md",
+    "related": [
+      "ui-2d/widget.md",
+      "recipes/screen-adaptation.md"
+    ]
+  },
+  "VideoPlayer": {
+    "doc": "api-reference/video-player.md",
+    "related": [
+      "recipes/play-video.md",
+      "troubleshooting/video-webview-not-working.md"
+    ]
+  },
+  "WebView": {
+    "doc": "api-reference/web-view.md",
+    "related": [
+      "recipes/play-video.md",
+      "troubleshooting/video-webview-not-working.md"
+    ]
+  },
+  "TiledMap": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  },
+  "TiledLayer": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  },
+  "TiledObjectGroup": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  },
+  "TMXObject": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  }
+}

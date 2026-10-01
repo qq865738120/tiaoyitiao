@@ -1,0 +1,74 @@
+{
+  "PhysicsSystem": {
+    "doc": "api-reference/physics-system.md",
+    "related": [
+      "api-reference/rigid-body.md",
+      "api-reference/collider.md",
+      "recipes/raycast-3d.md",
+      "troubleshooting/physics-3d-not-triggered.md"
+    ]
+  },
+  "PhysicsRayResult": {
+    "doc": "api-reference/physics-system.md",
+    "related": [
+      "recipes/raycast-3d.md"
+    ]
+  },
+  "RigidBody": {
+    "doc": "api-reference/rigid-body.md",
+    "related": [
+      "api-reference/collider.md",
+      "troubleshooting/physics-3d-not-triggered.md"
+    ]
+  },
+  "Collider": {
+    "doc": "api-reference/collider.md",
+    "related": [
+      "troubleshooting/physics-3d-not-triggered.md"
+    ]
+  },
+  "BoxCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "SphereCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "CapsuleCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "MeshCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "CharacterController": {
+    "doc": "api-reference/character-controller.md",
+    "related": [
+      "recipes/use-physics-constraint.md",
+      "api-reference/collider.md"
+    ]
+  },
+  "BoxCharacterController": {
+    "doc": "api-reference/character-controller.md",
+    "inheritsFrom": "CharacterController"
+  },
+  "CapsuleCharacterController": {
+    "doc": "api-reference/character-controller.md",
+    "inheritsFrom": "CharacterController"
+  },
+  "HingeConstraint": {
+    "doc": "recipes/use-physics-constraint.md",
+    "api": "api-reference/character-controller.md",
+    "related": [
+      "api-reference/physics-system.md"
+    ]
+  },
+  "PointToPointConstraint": {
+    "doc": "recipes/use-physics-constraint.md",
+    "related": [
+      "api-reference/physics-system.md"
+    ]
+  }
+}

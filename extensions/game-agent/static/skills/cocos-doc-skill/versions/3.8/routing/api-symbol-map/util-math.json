@@ -1,0 +1,16 @@
+{
+  "Vec3": {
+    "doc": "api-reference/vec3.md",
+    "related": [
+      "recipes/camera-follow-target.md",
+      "troubleshooting/coordinate-conversion-wrong.md"
+    ]
+  },
+  "Color": {
+    "doc": "api-reference/color.md",
+    "related": [
+      "api-reference/sprite.md",
+      "api-reference/label.md"
+    ]
+  }
+}

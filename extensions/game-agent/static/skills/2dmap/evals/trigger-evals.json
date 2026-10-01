@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "skill_name": "2dmap",
+  "evals": [
+    { "input": "给 Cocos 3.8 生成可编辑 TMX 地图和 TSX", "should_trigger": true },
+    { "input": "制作含碰撞、出生点和触发区的 TileMap handoff", "should_trigger": true },
+    { "input": "生成 foundation/foreground 分层地图", "should_trigger": true },
+    { "input": "只生成一个角色跑步动作", "should_trigger": false },
+    { "input": "直接修改当前 Scene", "should_trigger": false },
+    { "input": "解释 TiledMap API", "should_trigger": false }
+  ]
+}

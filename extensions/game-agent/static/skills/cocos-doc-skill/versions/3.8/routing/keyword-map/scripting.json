@@ -1,0 +1,170 @@
+{
+  "编辑器扩展脚本": [
+    "scripting/script-types-and-loading.md"
+  ],
+  "编码陷阱": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "插件脚本": [
+    "scripting/script-types-and-loading.md"
+  ],
+  "调度器": [
+    "scripting/scheduler-timer.md",
+    "api-reference/component.md"
+  ],
+  "调试": [
+    "scripting/debugging.md"
+  ],
+  "对象池": [
+    "recipes/use-node-pool.md",
+    "api-reference/node-pool.md"
+  ],
+  "怪物复用": [
+    "recipes/use-node-pool.md",
+    "api-reference/node-pool.md"
+  ],
+  "回调回来 this.node 不存在": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "回调回来组件没了": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "获取组件失败": [
+    "troubleshooting/null-component.md",
+    "scripting/node-component-access.md"
+  ],
+  "获取组件为空": [
+    "troubleshooting/null-component.md",
+    "scripting/node-component-access.md"
+  ],
+  "脚本分类": [
+    "scripting/script-types-and-loading.md"
+  ],
+  "节点复用": [
+    "recipes/use-node-pool.md",
+    "api-reference/node-pool.md"
+  ],
+  "节点销毁异步回调": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "节点已销毁": [
+    "scripting/coding-pitfalls.md",
+    "scene-node-component/destroy-lifecycle.md"
+  ],
+  "跨组件引用": [
+    "scripting/node-component-access.md"
+  ],
+  "每帧查找": [
+    "recipes/optimize-update-loop.md"
+  ],
+  "模块导入": [
+    "scripting/module-import.md"
+  ],
+  "如何访问节点": [
+    "scripting/node-component-access.md"
+  ],
+  "生命周期": [
+    "concepts/lifecycle-overview.md",
+    "scripting/component-lifecycle.md"
+  ],
+  "事件捕获": [
+    "scripting/input-events.md"
+  ],
+  "事件不响应": [
+    "scripting/input-events.md",
+    "scripting/event-system.md"
+  ],
+  "事件冒泡": [
+    "scripting/input-events.md"
+  ],
+  "事件系统": [
+    "scripting/event-system.md"
+  ],
+  "输入事件": [
+    "scripting/input-events.md",
+    "scripting/input-system.md"
+  ],
+  "输入系统": [
+    "scripting/input-system.md",
+    "api-reference/input.md"
+  ],
+  "属性绑定": [
+    "scripting/node-component-access.md",
+    "scene-node-component/common-patterns.md"
+  ],
+  "属性装饰器": [
+    "scripting/ccclass-property.md"
+  ],
+  "异步编程": [
+    "scripting/async-and-promise.md"
+  ],
+  "异步回调节点销毁": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "子弹池": [
+    "recipes/use-node-pool.md",
+    "api-reference/node-pool.md"
+  ],
+  "async 后 this.node 不存在": [
+    "scripting/async-and-promise.md",
+    "scripting/coding-pitfalls.md"
+  ],
+  "ccclass": [
+    "scripting/ccclass-property.md",
+    "scripting/typescript-basics.md"
+  ],
+  "Editor.Message": [
+    "scripting/script-types-and-loading.md"
+  ],
+  "EventKeyboard": [
+    "api-reference/input.md"
+  ],
+  "EventTouch": [
+    "api-reference/input.md"
+  ],
+  "getComponent 性能": [
+    "recipes/optimize-update-loop.md"
+  ],
+  "input.on": [
+    "api-reference/input.md",
+    "scripting/input-system.md"
+  ],
+  "isValid": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "isValid 判断": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "NodePool": [
+    "api-reference/node-pool.md",
+    "recipes/use-node-pool.md"
+  ],
+  "this 是 null": [
+    "scripting/coding-pitfalls.md"
+  ],
+  "update 性能": [
+    "recipes/optimize-update-loop.md"
+  ],
+  "update 优化": [
+    "recipes/optimize-update-loop.md"
+  ],
+  "触摸事件不响应": [
+    "troubleshooting/click-through.md",
+    "troubleshooting/input-not-triggered.md"
+  ],
+  "事件没有被触发": [
+    "troubleshooting/input-not-triggered.md",
+    "troubleshooting/click-through.md",
+    "troubleshooting/animation-event-not-fired.md"
+  ],
+  "监听键盘": [
+    "recipes/handle-touch-and-keyboard.md",
+    "scripting/input-events.md"
+  ],
+  "第三方库": [
+    "scripting/module-import.md"
+  ],
+  "本地化": [
+    "recipes/i18n-multi-language.md"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "skill_name": "cocos-ui-preview-testing",
+  "evals": [
+    {
+      "name": "metric-pass-visual-fail",
+      "input": "显示 fixtures/panel.png 与 fixtures/missing-button.png，报告分数96.05。要求80。",
+      "expected_behavior": "指出右下按钮缺失，visual failed，整体未通过。"
+    },
+    {
+      "name": "metric-fail-visual-pass",
+      "input": "评估score=79.9999，显示四舍五入80.00；视觉复核passed。",
+      "expected_behavior": "仍未通过，不采用显示值。"
+    },
+    {
+      "name": "media-unavailable",
+      "input": "报告分数95，只有文件路径，没有收到像素。",
+      "expected_behavior": "visual unavailable，不主观补齐。"
+    },
+    {
+      "name": "script-failure",
+      "input": "script error，score=null；用户询问是否达到80%。",
+      "expected_behavior": "准确报告错误阶段和不能评估，不估分冒充。"
+    },
+    {
+      "name": "explicit-threshold",
+      "input": "用户指定90，当前有效评分85且视觉passed。",
+      "expected_behavior": "按90未通过，threshold_source=user。"
+    },
+    {
+      "name": "geometry-unknown",
+      "input": "参考有不明手机边框，actual比例不同。",
+      "expected_behavior": "先确认游戏范围，无法对应则not_comparable，不自动最佳裁剪。"
+    },
+    {
+      "name": "stale-success",
+      "input": "上一run通过，本轮取消只产生部分PNG。",
+      "expected_behavior": "本轮未完成，不复用上轮成功。"
+    },
+    {
+      "name": "real-dynamic-content",
+      "input": "预览新武器弹框，结构存在但动态列表尚未加载。",
+      "expected_behavior": "等待真实列表和ready，不截空壳结案。"
+    },
+    {
+      "name": "inspect-only",
+      "input": "用户只核对，五例之一低于80。",
+      "expected_behavior": "逐项报告未通过，不擅改正式UI或删失败用例。"
+    },
+    {
+      "name": "fixture-host-scaling",
+      "input": "正式页面在0.8倍pageHost下，弹框挂独立1倍dialogContent。夹具把真实弹框放到0.8倍pageHost下；ready=true且数值82。用户只授权核对。",
+      "expected_behavior": "夹具显示合同不等价，不能通过或归因正式UI；修正自己的弹框挂载与适配，保留旧证据，仅重采受影响弹框；不按高分挑挂载方式。"
+    }
+  ]
+}

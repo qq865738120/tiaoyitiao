@@ -1,0 +1,98 @@
+[
+  {
+    "appid": "wx2ea687f4258401a9",
+    "version": "183",
+    "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wx2ea687f4258401a9/183/__PLUGINCODE__.wxapkg",
+    "source_sha256": "ee8c5539f043aff7b95e8cab78b4f10e403e79e2aa10449cbcba24492563f719",
+    "source_mtime_ns": 1790754630052698791,
+    "decoded_sha256": "2976ed426bf1218bcb06aa3256aaf18de14ad424bc60b5030fdfbd60c51c9806",
+    "files": [
+      {
+        "path": "共享插件参考/wx2ea687f4258401a9/183/资源/plugin.json",
+        "bytes": 19,
+        "sha256": "fa169fb2395681fcdf0b3a86553d7a66cd896d9eb9325b6f34235247c0f4d7e8"
+      },
+      {
+        "path": "共享插件参考/wx2ea687f4258401a9/183/资源/plugin.js",
+        "bytes": 211808,
+        "sha256": "4ff7a633368f93830fb4e20b2fd4a26ed5da2790ff483f412103fc962c459ca6"
+      }
+    ],
+    "extensions": {
+      ".json": 1,
+      ".js": 1
+    },
+    "count": 2,
+    "index_bytes": 50,
+    "body_bytes": 211827,
+    "format_field": 0
+  },
+  {
+    "appid": "wxaed5ace05d92b218",
+    "version": "65",
+    "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wxaed5ace05d92b218/65/__PLUGINCODE__.wxapkg",
+    "source_sha256": "218b8ba88e29c3ccec0d885661d2bf0b5c94d4c5d3d9fb775197343c3786c13d",
+    "source_mtime_ns": 1790754629402748296,
+    "decoded_sha256": "e76826dc641e44c725b275a5ab842bcd9f5a058278c34c0fcbb3f077d767c539",
+    "files": [
+      {
+        "path": "共享插件参考/wxaed5ace05d92b218/65/资源/plugin.json",
+        "bytes": 19,
+        "sha256": "fa169fb2395681fcdf0b3a86553d7a66cd896d9eb9325b6f34235247c0f4d7e8"
+      },
+      {
+        "path": "共享插件参考/wxaed5ace05d92b218/65/资源/plugin.js",
+        "bytes": 320459,
+        "sha256": "2b98a7bc614646d43b46b89ee5c08546d3c2d6a436931f82c418cb10ae29ba2b"
+      },
+      {
+        "path": "共享插件参考/wxaed5ace05d92b218/65/资源/index.js.LICENSE.txt",
+        "bytes": 34,
+        "sha256": "27c9227cfdf3417e9c0970a9148ee9e3be3af83ee61fd73a578834f85d1614a0"
+      }
+    ],
+    "extensions": {
+      ".json": 1,
+      ".js": 1,
+      ".txt": 1
+    },
+    "count": 3,
+    "index_bytes": 82,
+    "body_bytes": 320512,
+    "format_field": 0
+  },
+  {
+    "appid": "wxaed5ace05d92b218",
+    "version": "66",
+    "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wxaed5ace05d92b218/66/__PLUGINCODE__.wxapkg",
+    "source_sha256": "f92c9b41d21f1e3d92df36a02229ede3cc054254bf3466f56e39c9647f4a370c",
+    "source_mtime_ns": 1790754630059096115,
+    "decoded_sha256": "a495797abc3dfca8845a4047b035193347019d5d0f3baad23c2eb10d5912fefa",
+    "files": [
+      {
+        "path": "共享插件参考/wxaed5ace05d92b218/66/资源/plugin.json",
+        "bytes": 19,
+        "sha256": "fa169fb2395681fcdf0b3a86553d7a66cd896d9eb9325b6f34235247c0f4d7e8"
+      },
+      {
+        "path": "共享插件参考/wxaed5ace05d92b218/66/资源/plugin.js",
+        "bytes": 320992,
+        "sha256": "17ad9b521fa0571410fbdd4967c570c1f9a33adfd31e62d74197e4aa6fd8542a"
+      },
+      {
+        "path": "共享插件参考/wxaed5ace05d92b218/66/资源/index.js.LICENSE.txt",
+        "bytes": 34,
+        "sha256": "27c9227cfdf3417e9c0970a9148ee9e3be3af83ee61fd73a578834f85d1614a0"
+      }
+    ],
+    "extensions": {
+      ".json": 1,
+      ".js": 1,
+      ".txt": 1
+    },
+    "count": 3,
+    "index_bytes": 82,
+    "body_bytes": 321045,
+    "format_field": 0
+  }
+]

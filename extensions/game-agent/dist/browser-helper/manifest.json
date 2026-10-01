@@ -1,0 +1,6 @@
+{
+  "name": "browser-helper",
+  "entry": "browser-helper.js",
+  "nodeMajor": 20,
+  "stage": "health-spike"
+}

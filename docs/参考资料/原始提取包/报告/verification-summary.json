@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-30",
+  "core_files": 190,
+  "core_images": 162,
+  "core_audio": 22,
+  "font": {
+    "valid": true,
+    "glyphs": 99,
+    "tables": [
+      "OS/2",
+      "cmap",
+      "glyf",
+      "head",
+      "hhea",
+      "hmtx",
+      "loca",
+      "maxp",
+      "name",
+      "post"
+    ],
+    "check": "SFNT table bounds and checksums; FreeType font loading"
+  },
+  "resource_issues": [],
+  "source_checks": [
+    {
+      "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wx7c8d593b2c3a7703/112/__WITHOUT_MULTI_PLUGINCODE__.wxapkg",
+      "sha256": "a210b1cdfe2b5d731da3b53e8a71c53f5611339ff555515b173e8633d81b1a67",
+      "unchanged": true
+    },
+    {
+      "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wx2ea687f4258401a9/183/__PLUGINCODE__.wxapkg",
+      "sha256": "ee8c5539f043aff7b95e8cab78b4f10e403e79e2aa10449cbcba24492563f719",
+      "unchanged": true
+    },
+    {
+      "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wxaed5ace05d92b218/65/__PLUGINCODE__.wxapkg",
+      "sha256": "218b8ba88e29c3ccec0d885661d2bf0b5c94d4c5d3d9fb775197343c3786c13d",
+      "unchanged": true
+    },
+    {
+      "source": "/Users/zhengwenjun/Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/radium/users/47a62ab6eba55f85fb90d3f4da683f7d/applet/packages/wxaed5ace05d92b218/66/__PLUGINCODE__.wxapkg",
+      "sha256": "f92c9b41d21f1e3d92df36a02229ede3cc054254bf3466f56e39c9647f4a370c",
+      "unchanged": true
+    }
+  ],
+  "missing_packaged_references": [
+    {
+      "path": "res/store.mp3",
+      "used_by": [
+        "js/config.js"
+      ],
+      "status": "本地游戏包未包含；未生成占位文件"
+    },
+    {
+      "path": "res/water.mp3",
+      "used_by": [
+        "js/config.js"
+      ],
+      "status": "本地游戏包未包含；未生成占位文件"
+    }
+  ],
+  "derived_models": 46,
+  "creator_gui_import": "未执行",
+  "scope": "本机已下载游戏包 112；服务器全量资源未确认",
+  "model_validation": {
+    "validator_version": "2.0.0-dev.3.10",
+    "files": 46,
+    "errors": 0,
+    "warnings": 0
+  },
+  "browser_preview": {
+    "status": "passed",
+    "representative_models": [
+      "block_00.glb",
+      "block_17.glb",
+      "block_25.glb",
+      "numbered_block_0.glb",
+      "bottle_default.glb",
+      "accessory_hat.glb"
+    ],
+    "search": "title matched title.png",
+    "console_errors": 0,
+    "scope": "本地浏览器预览；不等于 Creator GUI 验收"
+  },
+  "embedded_typeface_glyphs": 26,
+  "derived_material_revision": "2026-09-30-shadow-blend",
+  "revision_note": "本工程的派生GLB与离线浏览器已修正43处阴影BLEND，原始游戏包和媒体未改变；当前Creator导入及验证见项目素材修正报告。"
+}

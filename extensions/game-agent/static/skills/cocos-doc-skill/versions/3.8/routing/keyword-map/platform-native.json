@@ -1,0 +1,340 @@
+{
+  "APK 构建": [
+    "troubleshooting/build-android.md"
+  ],
+  "Android NDK 配置": [
+    "troubleshooting/build-android-gradle-ndk.md"
+  ],
+  "Android compileSdk": [
+    "troubleshooting/build-android.md"
+  ],
+  "Android compileSdk 编译": [
+    "troubleshooting/build-android-targetsdk.md",
+    "troubleshooting/build-android-gradle-ndk.md"
+  ],
+  "Android targetSdk": [
+    "troubleshooting/build-android.md"
+  ],
+  "Android targetSdk 35": [
+    "troubleshooting/build-android.md"
+  ],
+  "Android targetSdk 输入框": [
+    "api-reference/edit-box.md",
+    "troubleshooting/build-android.md"
+  ],
+  "Android 工程升级": [
+    "troubleshooting/build-android.md"
+  ],
+  "Android 工程升级兼容": [
+    "troubleshooting/build-android-targetsdk.md"
+  ],
+  "Android 打包": [
+    "troubleshooting/build-android.md"
+  ],
+  "Android 构建": [
+    "troubleshooting/build-android.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "Android 签名": [
+    "troubleshooting/build-android.md"
+  ],
+  "Android 编译错误": [
+    "troubleshooting/build-android-gradle-ndk.md",
+    "troubleshooting/build-android.md"
+  ],
+  "CI 构建": [
+    "recipes/command-line-build.md"
+  ],
+  "CocoaPods": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "CocoaPods 报错": [
+    "troubleshooting/build-ios.md"
+  ],
+  "EditBox 聚焦不弹键盘": [
+    "troubleshooting/build-android-targetsdk.md",
+    "troubleshooting/build-android.md"
+  ],
+  "EditBox 输入框弹不出": [
+    "api-reference/edit-box.md",
+    "troubleshooting/build-android.md"
+  ],
+  "Gradle 依赖冲突": [
+    "troubleshooting/build-android-gradle-ndk.md"
+  ],
+  "Gradle 失败": [
+    "troubleshooting/build-android.md"
+  ],
+  "Gradle 构建失败": [
+    "troubleshooting/build-android.md"
+  ],
+  "JSB": [
+    "concepts/native-jsb-overview.md",
+    "troubleshooting/jsb-bridge-failed.md"
+  ],
+  "JsbBridge": [
+    "concepts/native-jsb-overview.md",
+    "troubleshooting/jsb-bridge-failed.md"
+  ],
+  "Web Desktop 构建": [
+    "troubleshooting/build-web.md"
+  ],
+  "Web Mobile 构建": [
+    "troubleshooting/build-web.md"
+  ],
+  "Web 打包": [
+    "troubleshooting/build-web.md"
+  ],
+  "Web 构建失败": [
+    "troubleshooting/build-web.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "Xcode": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "Xcode 26": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "Xcode 26.5": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "Xcode 报错": [
+    "troubleshooting/build-errors.md"
+  ],
+  "Xcode 构建失败": [
+    "troubleshooting/build-ios.md"
+  ],
+  "Xcode 版本": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "Xcode 编译报错 26": [
+    "troubleshooting/build-ios-xcode.md",
+    "troubleshooting/build-ios.md"
+  ],
+  "enoki half.h": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "enoki half.h 报错": [
+    "troubleshooting/build-ios-xcode.md",
+    "troubleshooting/build-ios.md"
+  ],
+  "enoki/half.h": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "iOS deployment target": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "iOS deployment target 12": [
+    "troubleshooting/build-ios-xcode.md",
+    "troubleshooting/build-ios.md"
+  ],
+  "iOS 打包": [
+    "troubleshooting/build-errors.md"
+  ],
+  "iOS 构建": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "iOS 构建失败": [
+    "troubleshooting/build-ios.md"
+  ],
+  "iOS 真机黑屏": [
+    "troubleshooting/build-ios-xcode.md",
+    "troubleshooting/build-ios.md"
+  ],
+  "iOS 签名": [
+    "troubleshooting/build-ios.md"
+  ],
+  "iOS 证书": [
+    "troubleshooting/build-ios.md"
+  ],
+  "iOS 运行黑屏": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "iOS 音量": [
+    "troubleshooting/audio-format-compat.md",
+    "recipes/audio-manager-pattern.md"
+  ],
+  "iOS 黑屏": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "manifest": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "onNative": [
+    "troubleshooting/jsb-bridge-failed.md"
+  ],
+  "project.manifest": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "sendToJS": [
+    "troubleshooting/jsb-bridge-failed.md"
+  ],
+  "sendToNative": [
+    "troubleshooting/jsb-bridge-failed.md",
+    "concepts/native-jsb-overview.md"
+  ],
+  "targetSdk 35 EditBox": [
+    "api-reference/edit-box.md",
+    "troubleshooting/build-android.md"
+  ],
+  "version.manifest": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "原生反射": [
+    "concepts/native-jsb-overview.md"
+  ],
+  "原生插件": [
+    "concepts/native-jsb-overview.md"
+  ],
+  "原生通信": [
+    "concepts/native-jsb-overview.md",
+    "troubleshooting/jsb-bridge-failed.md"
+  ],
+  "原生通信失败": [
+    "troubleshooting/jsb-bridge-failed.md"
+  ],
+  "发布不了": [
+    "troubleshooting/build-errors.md"
+  ],
+  "发布报错": [
+    "troubleshooting/build-errors.md"
+  ],
+  "命令行构建": [
+    "recipes/command-line-build.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "安卓构建失败": [
+    "troubleshooting/build-android.md"
+  ],
+  "小游戏构建": [
+    "troubleshooting/build-errors.md",
+    "assets/asset-bundle.md"
+  ],
+  "小游戏构建失败": [
+    "troubleshooting/build-wechat-game.md"
+  ],
+  "微信小游戏分享": [
+    "troubleshooting/build-wechat-game.md"
+  ],
+  "微信小游戏打包": [
+    "troubleshooting/build-errors.md"
+  ],
+  "微信小游戏构建": [
+    "troubleshooting/build-wechat-game.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "微信小游戏白屏": [
+    "troubleshooting/build-wechat-game.md"
+  ],
+  "打包出错": [
+    "troubleshooting/build-errors.md"
+  ],
+  "打包失败": [
+    "troubleshooting/build-errors.md",
+    "troubleshooting/build-web.md",
+    "troubleshooting/build-android.md",
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-wechat-game.md"
+  ],
+  "无头构建": [
+    "recipes/command-line-build.md"
+  ],
+  "构建失败": [
+    "troubleshooting/build-errors.md"
+  ],
+  "构建报错": [
+    "troubleshooting/build-errors.md"
+  ],
+  "浏览器白屏": [
+    "troubleshooting/build-web.md"
+  ],
+  "热更": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新": [
+    "troubleshooting/hot-update-failed.md",
+    "concepts/native-jsb-overview.md"
+  ],
+  "热更新 UPDATE_FAILED": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新 packageUrl": [
+    "troubleshooting/hot-update-manifest.md",
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新manifest": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新下载错误": [
+    "troubleshooting/hot-update-search-paths.md",
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新不生效": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新原生边界": [
+    "troubleshooting/hot-update-failed.md",
+    "concepts/native-jsb-overview.md"
+  ],
+  "热更新搜索路径": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新搜索路径设置": [
+    "troubleshooting/hot-update-search-paths.md",
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新版本比较": [
+    "troubleshooting/hot-update-manifest.md",
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "热更新重启游戏": [
+    "troubleshooting/hot-update-search-paths.md",
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "自动化构建": [
+    "recipes/command-line-build.md"
+  ],
+  "苹果构建": [
+    "troubleshooting/build-errors.md"
+  ],
+  "编译报错": [
+    "troubleshooting/build-errors.md"
+  ],
+  "构建安卓包": [
+    "troubleshooting/build-android.md",
+    "troubleshooting/build-android-gradle-ndk.md"
+  ],
+  "构建iOS失败": [
+    "troubleshooting/build-ios.md",
+    "troubleshooting/build-ios-xcode.md"
+  ],
+  "构建发布流程": [
+    "recipes/command-line-build.md",
+    "troubleshooting/build-errors.md"
+  ],
+  "微信小游戏SDK": [
+    "troubleshooting/build-wechat-game.md"
+  ],
+  "导出微信小游戏": [
+    "troubleshooting/build-wechat-game.md"
+  ],
+  "判断平台": [
+    "api-reference/sys.md",
+    "concepts/runtime-environments.md"
+  ],
+  "平台是Android还是iOS": [
+    "api-reference/sys.md",
+    "concepts/runtime-environments.md"
+  ]
+}

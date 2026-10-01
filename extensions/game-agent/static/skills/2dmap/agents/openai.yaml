@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cocos 2D 地图资产"
+  short_description: "生成 Cocos 3.8 TileMap 或分层地图 handoff。"
+  default_prompt: "使用 $2dmap 生成 Cocos Creator 3.8.x 可导入的 tile_mode 或 layered_mode 地图包；通过真实图片 Agent、Game Asset authority 复验、PythonRuntime、格式回读、像素 QC 与视觉批准交付。可复用角色、道具、动作和 FX 必须调用 builtin:2dsprite。"
+
+policy:
+  allow_implicit_invocation: true

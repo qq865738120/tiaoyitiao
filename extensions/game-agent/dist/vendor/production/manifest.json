@@ -1,0 +1,138 @@
+{
+  "name": "game-agent-rollup-vendor-cache",
+  "mode": "production",
+  "version": 1,
+  "cacheKey": "8a8ed3b4d62cc9e9c7beb177444238542138fd6cc9fb7ce8fddd6a157e61cd38",
+  "generatedAt": "2026-09-29T12:48:13.841Z",
+  "entries": [
+    {
+      "id": "react",
+      "file": "react.js"
+    },
+    {
+      "id": "react/jsx-runtime",
+      "file": "react-jsx-runtime.js"
+    },
+    {
+      "id": "react/jsx-dev-runtime",
+      "file": "react-jsx-dev-runtime.js"
+    },
+    {
+      "id": "react-dom/client",
+      "file": "react-dom-client.js"
+    },
+    {
+      "id": "use-stick-to-bottom",
+      "file": "use-stick-to-bottom.js"
+    },
+    {
+      "id": "ai",
+      "file": "ai.js"
+    },
+    {
+      "id": "js-tiktoken/lite",
+      "file": "js-tiktoken__lite.js"
+    },
+    {
+      "id": "js-tiktoken/ranks/o200k_base",
+      "file": "js-tiktoken__ranks__o200k_base.js"
+    },
+    {
+      "id": "@ai-sdk/react",
+      "file": "at-ai-sdk__react.js"
+    },
+    {
+      "id": "@ai-sdk/devtools",
+      "file": "at-ai-sdk__devtools.js"
+    },
+    {
+      "id": "@ai-sdk/alibaba",
+      "file": "at-ai-sdk__alibaba.js"
+    },
+    {
+      "id": "@ai-sdk/anthropic",
+      "file": "at-ai-sdk__anthropic.js"
+    },
+    {
+      "id": "@ai-sdk/deepseek",
+      "file": "at-ai-sdk__deepseek.js"
+    },
+    {
+      "id": "@ai-sdk/google",
+      "file": "at-ai-sdk__google.js"
+    },
+    {
+      "id": "@ai-sdk/mistral",
+      "file": "at-ai-sdk__mistral.js"
+    },
+    {
+      "id": "@ai-sdk/moonshotai",
+      "file": "at-ai-sdk__moonshotai.js"
+    },
+    {
+      "id": "@ai-sdk/openai",
+      "file": "at-ai-sdk__openai.js"
+    },
+    {
+      "id": "@ai-sdk/openai-compatible",
+      "file": "at-ai-sdk__openai-compatible.js"
+    },
+    {
+      "id": "@ai-sdk/xai",
+      "file": "at-ai-sdk__xai.js"
+    },
+    {
+      "id": "streamdown",
+      "file": "streamdown.js"
+    },
+    {
+      "id": "@streamdown/cjk",
+      "file": "at-streamdown__cjk.js"
+    },
+    {
+      "id": "@streamdown/code",
+      "file": "at-streamdown__code.js"
+    },
+    {
+      "id": "@streamdown/math",
+      "file": "at-streamdown__math.js"
+    },
+    {
+      "id": "@streamdown/mermaid",
+      "file": "at-streamdown__mermaid.js"
+    },
+    {
+      "id": "shiki",
+      "file": "shiki.js"
+    },
+    {
+      "id": "jimp",
+      "file": "jimp.js"
+    },
+    {
+      "id": "motion/react",
+      "file": "motion__react.js"
+    },
+    {
+      "id": "@tabler/icons-react",
+      "file": "at-tabler__icons-react.js"
+    },
+    {
+      "id": "lucide-react",
+      "file": "lucide-react.js"
+    },
+    {
+      "id": "@uiw/react-codemirror",
+      "file": "at-uiw__react-codemirror.js"
+    },
+    {
+      "id": "@codemirror/lang-json",
+      "file": "at-codemirror__lang-json.js"
+    },
+    {
+      "id": "@codemirror/view",
+      "file": "at-codemirror__view.js"
+    }
+  ],
+  "rollupConfig": "file:///Users/zhengwenjun/DevelopProject-2D-3.8.4/extensions/game_agent/rollup.config.mjs"
+}

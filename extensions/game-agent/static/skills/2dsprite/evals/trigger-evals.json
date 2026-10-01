@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "skill_name": "2dsprite",
+  "evals": [
+    { "input": "给 Cocos 3.8 做一套可导入的像素角色待机帧", "should_trigger": true },
+    { "input": "生成透明背景的 Cocos 道具和脚底 anchor", "should_trigger": true },
+    { "input": "做一个可复用的爆炸 FX loose frames 包", "should_trigger": true },
+    { "input": "生成一张可导入 Cocos 的竖屏游戏启动页完整背景图，不需要抠图", "should_trigger": true },
+    { "input": "为地图生成 TMX、碰撞和出生点", "should_trigger": false },
+    { "input": "画一张与游戏开发无关的普通风景插画", "should_trigger": false },
+    { "input": "修改当前 Scene 节点", "should_trigger": false },
+    { "input": "解释 Cocos Sprite API", "should_trigger": false }
+  ]
+}

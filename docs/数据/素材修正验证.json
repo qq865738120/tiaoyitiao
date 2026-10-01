@@ -1,0 +1,397 @@
+{
+  "date": "2026-09-30",
+  "asset_count": 250,
+  "creator_version": "3.8.8",
+  "all_root_and_subasset_uuids_preserved": true,
+  "all_186_original_media_and_icon_unchanged": true,
+  "models": [
+    {
+      "model": "block_00.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_01.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_02.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_03.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_04.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_05.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_06.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_07.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_08.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_09.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_10.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_11.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_12.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_13.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_14.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_15.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_16.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_17.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_18.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_19.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_20.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_21.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_22.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_23.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_24.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_25.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_26.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_27.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_28.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_29.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_30.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_31.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_32.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_33.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_34.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "block_35.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "numbered_block_0.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "numbered_block_1.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "numbered_block_2.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "numbered_block_3.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "numbered_block_4.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "numbered_block_5.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    },
+    {
+      "model": "numbered_block_6.glb",
+      "binary_geometry_uv_images_unchanged": true,
+      "unrelated_materials_unchanged": true,
+      "repair_idempotent": true
+    }
+  ],
+  "gltf_validation": {
+    "models": 46,
+    "errors": 0,
+    "warnings": 0,
+    "issues": []
+  },
+  "shadow_semantics_before_errors": 43,
+  "shadow_semantics_after_errors": 0,
+  "creator_imports": [
+    {
+      "project": "tiaoyitiao",
+      "shadow_materials": 43,
+      "all_blend": true,
+      "source": "Creator生成的Library材质，由gltfIndex精确关联GLB材质"
+    },
+    {
+      "project": "tiaoyitiao2",
+      "shadow_materials": 43,
+      "all_blend": true,
+      "source": "Creator生成的Library材质，由gltfIndex精确关联GLB材质"
+    }
+  ],
+  "command_parser": [
+    {
+      "project": "tiaoyitiao",
+      "file": "jump-phase-01.md",
+      "id": "jump-phase-01",
+      "name": "跳一跳 · 01 基础结构与3D场景",
+      "diagnostics": []
+    },
+    {
+      "project": "tiaoyitiao",
+      "file": "jump-phase-02.md",
+      "id": "jump-phase-02",
+      "name": "跳一跳 · 02 蓄力跳跃与计分",
+      "diagnostics": []
+    },
+    {
+      "project": "tiaoyitiao",
+      "file": "jump-phase-03.md",
+      "id": "jump-phase-03",
+      "name": "跳一跳 · 03 单人界面闭环",
+      "diagnostics": []
+    },
+    {
+      "project": "tiaoyitiao",
+      "file": "jump-phase-04.md",
+      "id": "jump-phase-04",
+      "name": "跳一跳 · 04 音效与画面反馈",
+      "diagnostics": []
+    },
+    {
+      "project": "tiaoyitiao2",
+      "file": "jump-phase-01.md",
+      "id": "jump-phase-01",
+      "name": "跳一跳 · 01 基础结构与3D场景",
+      "diagnostics": []
+    },
+    {
+      "project": "tiaoyitiao2",
+      "file": "jump-phase-02.md",
+      "id": "jump-phase-02",
+      "name": "跳一跳 · 02 蓄力跳跃与计分",
+      "diagnostics": []
+    },
+    {
+      "project": "tiaoyitiao2",
+      "file": "jump-phase-03.md",
+      "id": "jump-phase-03",
+      "name": "跳一跳 · 03 单人界面闭环",
+      "diagnostics": []
+    },
+    {
+      "project": "tiaoyitiao2",
+      "file": "jump-phase-04.md",
+      "id": "jump-phase-04",
+      "name": "跳一跳 · 04 音效与画面反馈",
+      "diagnostics": []
+    }
+  ],
+  "gui_menu_observations": [
+    {
+      "project": "tiaoyitiao",
+      "creator_version": "3.8.8",
+      "phase_ids": [
+        "jump-phase-01",
+        "jump-phase-02",
+        "jump-phase-03",
+        "jump-phase-04"
+      ],
+      "titles": [
+        "基础结构与3D场景",
+        "蓄力跳跃与计分",
+        "单人界面闭环",
+        "音效与画面反馈"
+      ],
+      "removed_phase_05_to_08": true,
+      "implementation_message_sent": false,
+      "evidence": "本轮在Creator窗口打开命令菜单并逐项观察；历史8阶段截图不作本轮证据"
+    },
+    {
+      "project": "tiaoyitiao2",
+      "creator_version": "3.8.8",
+      "phase_ids": [
+        "jump-phase-01",
+        "jump-phase-02",
+        "jump-phase-03",
+        "jump-phase-04"
+      ],
+      "titles": [
+        "基础结构与3D场景",
+        "蓄力跳跃与计分",
+        "单人界面闭环",
+        "音效与画面反馈"
+      ],
+      "removed_phase_05_to_08": true,
+      "implementation_message_sent": false,
+      "evidence": "本轮在Creator窗口打开命令菜单并逐项观察；历史8阶段截图不作本轮证据"
+    }
+  ],
+  "not_run": [
+    "全模型在游戏场景中的视觉调校",
+    "游戏实施及玩法验收"
+  ],
+  "excluded": [
+    "打包构建",
+    "包体优化",
+    "平台发布",
+    "真机验收"
+  ]
+}

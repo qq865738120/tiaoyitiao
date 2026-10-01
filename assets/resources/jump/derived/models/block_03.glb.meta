@@ -1,0 +1,213 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab",
+  "files": [],
+  "subMetas": {
+    "31e6c": {
+      "importer": "gltf-mesh",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@31e6c",
+      "displayName": "",
+      "id": "31e6c",
+      "name": "PlaneGeometry.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "823c7": {
+      "importer": "gltf-mesh",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@823c7",
+      "displayName": "",
+      "id": "823c7",
+      "name": "hitObj.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f867c": {
+      "importer": "gltf-embeded-image",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@f867c",
+      "displayName": "",
+      "id": "f867c",
+      "name": "res/cylinder_shadow.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3a2f4ece-0823-4319-9248-618dd7243aab@f867c"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "80a7d": {
+      "importer": "gltf-material",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@80a7d",
+      "displayName": "",
+      "id": "80a7d",
+      "name": "MeshBasicMaterial-0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fdb1e": {
+      "importer": "gltf-material",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@fdb1e",
+      "displayName": "",
+      "id": "fdb1e",
+      "name": "MeshLambertMaterial-1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "39e74": {
+      "importer": "gltf-material",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@39e74",
+      "displayName": "",
+      "id": "39e74",
+      "name": "MeshLambertMaterial-2.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0063d": {
+      "importer": "gltf-material",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@0063d",
+      "displayName": "",
+      "id": "0063d",
+      "name": "MeshLambertMaterial-3.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7bc4b": {
+      "importer": "gltf-scene",
+      "uuid": "3a2f4ece-0823-4319-9248-618dd7243aab@7bc4b",
+      "displayName": "",
+      "id": "7bc4b",
+      "name": "block_03.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "res/cylinder_shadow.png",
+        "uri": "3a2f4ece-0823-4319-9248-618dd7243aab@f867c"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3a2f4ece-0823-4319-9248-618dd7243aab@31e6c",
+        "3a2f4ece-0823-4319-9248-618dd7243aab@823c7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "3a2f4ece-0823-4319-9248-618dd7243aab@e39f7"
+      ],
+      "materials": [
+        "3a2f4ece-0823-4319-9248-618dd7243aab@80a7d",
+        "3a2f4ece-0823-4319-9248-618dd7243aab@fdb1e",
+        "3a2f4ece-0823-4319-9248-618dd7243aab@39e74",
+        "3a2f4ece-0823-4319-9248-618dd7243aab@0063d"
+      ],
+      "scenes": [
+        "3a2f4ece-0823-4319-9248-618dd7243aab@7bc4b"
+      ]
+    }
+  }
+}

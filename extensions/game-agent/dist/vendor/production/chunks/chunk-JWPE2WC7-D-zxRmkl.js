@@ -1,0 +1,1 @@
+"use strict";function c(c,e){var l,t,i;c.accDescr&&(null===(l=e.setAccDescription)||void 0===l||l.call(e,c.accDescr));c.accTitle&&(null===(t=e.setAccTitle)||void 0===t||t.call(e,c.accTitle));c.title&&(null===(i=e.setDiagramTitle)||void 0===i||i.call(e,c.title))}require("./mermaid-CH7n74AI.js").__name(c,"populateCommonDb"),exports.populateCommonDb=c;

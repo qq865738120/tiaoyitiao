@@ -1,0 +1,499 @@
+{
+  "animation-event-not-fired": {
+    "doc": "troubleshooting/animation-event-not-fired.md",
+    "aliases": [
+      "animation event not fired",
+      "动画事件不触发",
+      "事件帧回调没调用",
+      "Animation Event 不回调",
+      "事件帧没触发",
+      "动画事件回调没有执行"
+    ]
+  },
+  "animation-not-playing": {
+    "doc": "troubleshooting/animation-not-playing.md",
+    "aliases": [
+      "animation not playing",
+      "动画不播放",
+      "Animation 没效果",
+      "动画状态没有切换"
+    ]
+  },
+  "audio-format-compat": {
+    "doc": "troubleshooting/audio-format-compat.md",
+    "aliases": [
+      "音频格式不兼容",
+      "iOS 音量不生效",
+      "音频格式不支持",
+      "Web Audio 不播放",
+      "DOM Audio 问题",
+      "自动播放被阻止"
+    ]
+  },
+  "audio-not-playing": {
+    "doc": "troubleshooting/audio-not-playing.md",
+    "aliases": [
+      "audio not playing",
+      "音频不播放",
+      "AudioSource 没声音",
+      "音效没有声音"
+    ]
+  },
+  "cache-not-updated": {
+    "doc": "assets/cache-manager.md",
+    "aliases": [
+      "cache not updated",
+      "缓存不更新",
+      "远程资源缓存不更新",
+      "远程资源还是旧版本",
+      "资源缓存不更新",
+      "Bundle 缓存不更新"
+    ]
+  },
+  "prefab-instantiate-failed": {
+    "doc": "troubleshooting/prefab-instantiate-failed.md",
+    "aliases": [
+      "prefab instantiate failed",
+      "预制体实例化失败",
+      "Prefab 生成失败",
+      "instantiate 报错"
+    ]
+  },
+  "resource-load-failed": {
+    "doc": "troubleshooting/resource-load-failed.md",
+    "aliases": [
+      "resource load failed",
+      "resources.load 失败",
+      "资源加载失败",
+      "找不到资源路径"
+    ]
+  },
+  "subpackage-resource-not-found": {
+    "doc": "assets/subpackage.md",
+    "aliases": [
+      "subpackage resource not found",
+      "分包资源找不到",
+      "分包加载失败",
+      "分包资源加载不到",
+      "分包资源无法加载"
+    ]
+  },
+  "texture-display-abnormal": {
+    "doc": "assets/texture-compression.md",
+    "aliases": [
+      "纹理显示异常",
+      "图片黑块",
+      "图片花屏",
+      "纹理格式不支持",
+      "透明通道丢失",
+      "压缩纹理显示异常"
+    ]
+  },
+  "android-build-failed": {
+    "doc": "troubleshooting/build-android.md",
+    "aliases": [
+      "Android 构建失败",
+      "Android 打包失败",
+      "Gradle 构建失败",
+      "Android Studio 编译报错",
+      "NDK 配置错误",
+      "Android targetSdk 报错",
+      "APK 构建失败",
+      "Android 签名失败",
+      "Android targetSdk 35",
+      "targetSdkVersion 35",
+      "Android 工程升级",
+      "compileSdk 报错"
+    ]
+  },
+  "android-build-gradle-ndk": {
+    "doc": "troubleshooting/build-android-gradle-ndk.md",
+    "aliases": [
+      "Gradle 构建失败 NDK",
+      "Android NDK 配置错误",
+      "Android compileSdk 编译错误",
+      "Android Gradle 依赖冲突",
+      "Android Studio 版本不兼容",
+      "Gradle 构建 OOM",
+      "Android 签名配置错误",
+      "AGP 版本不兼容"
+    ]
+  },
+  "android-build-targetsdk": {
+    "doc": "troubleshooting/build-android-targetsdk.md",
+    "aliases": [
+      "Android targetSdk 版本兼容",
+      "Android compileSdk 版本",
+      "Android 工程升级 targetSdk",
+      "Android targetSdk 编译错误",
+      "EditBox 输入框弹不出 Android"
+    ]
+  },
+  "build-errors": {
+    "doc": "troubleshooting/build-errors.md",
+    "aliases": [
+      "build errors",
+      "构建报错",
+      "发布失败",
+      "打包失败"
+    ]
+  },
+  "editbox-android-keyboard": {
+    "doc": "troubleshooting/build-android.md",
+    "aliases": [
+      "EditBox 键盘弹出异常",
+      "Android EditBox 不弹键盘",
+      "EditBox targetSdk 兼容性",
+      "EditBox targetSdk",
+      "EditBox 在 Android 上无法输入",
+      "EditBox Android 输入法异常",
+      "Android 输入框键盘不弹出",
+      "EditBox 输入框弹不出",
+      "targetSdk 35 EditBox",
+      "Android EditBox 输入法不弹",
+      "EditBox 聚焦不弹键盘"
+    ]
+  },
+  "ios-build-failed": {
+    "doc": "troubleshooting/build-ios.md",
+    "aliases": [
+      "Xcode 构建报错",
+      "Xcode 26 构建报错",
+      "Xcode 26.5 构建报错",
+      "iOS 编译失败",
+      "iOS 构建失败",
+      "Xcode 编译报错",
+      "CocoaPods 安装失败",
+      "iOS archive 失败",
+      "iOS 签名错误",
+      "iOS Provisioning Profile 错误",
+      "iOS 黑屏",
+      "iOS 运行黑屏",
+      "iOS deployment target",
+      "enoki half.h",
+      "enoki/half.h",
+      "Xcode 26 黑屏",
+      "Xcode 26 编译报错",
+      "building for iOS but linking in dylib built for iOS Simulator"
+    ]
+  },
+  "ios-build-xcode": {
+    "doc": "troubleshooting/build-ios-xcode.md",
+    "aliases": [
+      "Xcode 版本兼容性",
+      "enoki/half.h 编译错误",
+      "iOS 运行黑屏 Xcode",
+      "iOS deployment target 设置",
+      "iOS 模拟器黑屏",
+      "Xcode 编译错误 iOS",
+      "building for iOS but linking iOS Simulator",
+      "Xcode 新版本兼容",
+      "Xcode 16 签名变化",
+      "iOS 真机黑屏排查",
+      "iOS Deployment Target 配置"
+    ]
+  },
+  "package-too-large": {
+    "doc": "troubleshooting/package-too-large.md",
+    "aliases": [
+      "package too large",
+      "包体太大",
+      "包体过大",
+      "首包过大",
+      "包体超出限制",
+      "主包超过 4MB",
+      "分包大小超限",
+      "构建产物太大",
+      "微信小游戏主包超过 4M"
+    ]
+  },
+  "web-build-failed": {
+    "doc": "troubleshooting/build-web.md",
+    "aliases": [
+      "Web 构建失败",
+      "Web 打包失败",
+      "Web 发布报错",
+      "Web Mobile 构建失败",
+      "Web Desktop 构建失败",
+      "浏览器白屏",
+      "Web 资源加载 404"
+    ]
+  },
+  "wechat-game-build-failed": {
+    "doc": "troubleshooting/build-wechat-game.md",
+    "aliases": [
+      "微信小游戏构建失败",
+      "微信小游戏打包失败",
+      "微信开发者工具报错",
+      "微信小游戏白屏",
+      "微信小游戏 AppID 错误",
+      "微信小游戏包体超限",
+      "微信小游戏分包失败"
+    ]
+  },
+  "coordinate-conversion-wrong": {
+    "doc": "troubleshooting/coordinate-conversion-wrong.md",
+    "aliases": [
+      "coordinate wrong",
+      "坐标不对",
+      "坐标转换错误",
+      "位置错误",
+      "节点位置不对",
+      "世界坐标不对",
+      "屏幕坐标不对"
+    ]
+  },
+  "input-not-triggered": {
+    "doc": "troubleshooting/input-not-triggered.md",
+    "aliases": [
+      "input not triggered",
+      "输入不触发",
+      "触摸事件不触发",
+      "键盘不响应",
+      "input.on 不回调",
+      "事件不触发",
+      "按键没反应"
+    ]
+  },
+  "hot-update-failed": {
+    "doc": "troubleshooting/hot-update-failed.md",
+    "aliases": [
+      "hot update failed",
+      "热更新失败",
+      "热更不生效",
+      "资源更新失败",
+      "热更报错",
+      "热更新下载失败",
+      "升级包不生效",
+      "热更下载报错",
+      "UPDATE_FAILED",
+      "AssetsManager 断点续传"
+    ]
+  },
+  "hot-update-manifest": {
+    "doc": "troubleshooting/hot-update-manifest.md",
+    "aliases": [
+      "热更新 manifest 配置错误",
+      "热更版本号不对",
+      "manifest version 比较",
+      "热更 packageUrl 错误",
+      "热更 remoteManifestUrl 错误",
+      "热更版本比较函数",
+      "热更 MD5 Cache 冲突"
+    ]
+  },
+  "hot-update-search-paths": {
+    "doc": "troubleshooting/hot-update-search-paths.md",
+    "aliases": [
+      "热更新搜索路径设置",
+      "热更 searchPaths 配置",
+      "热更不生效重启",
+      "热更 fileUtils 搜索路径",
+      "热更新网络权限",
+      "热更新完整性校验"
+    ]
+  },
+  "jsb-bridge-failed": {
+    "doc": "troubleshooting/jsb-bridge-failed.md",
+    "aliases": [
+      "JSB bridge failed",
+      "JSB 通信失败",
+      "JSB 原生通信失败",
+      "原生通信失败",
+      "sendToNative 没反应",
+      "sendToJS 没收到",
+      "JsbBridge 不工作",
+      "JsbBridge 不生效",
+      "原生调用 JS 没反应",
+      "JS 调原生没反应"
+    ]
+  },
+  "character-controller-not-working": {
+    "doc": "api-reference/character-controller.md",
+    "aliases": [
+      "角色控制器不生效",
+      "CharacterController 不工作",
+      "角色控制器 Cannon",
+      "角色控制器 Builtin",
+      "CharacterController not working"
+    ]
+  },
+  "collision-not-triggered": {
+    "doc": "troubleshooting/collision-not-triggered.md",
+    "aliases": [
+      "collision not triggered",
+      "碰撞不触发",
+      "onBeginContact 不回调",
+      "Collider2D 没反应"
+    ]
+  },
+  "physics-3d-not-triggered": {
+    "doc": "troubleshooting/physics-3d-not-triggered.md",
+    "aliases": [
+      "3D physics not triggered",
+      "3D 物理不触发",
+      "onCollisionEnter 不回调",
+      "onTriggerEnter 不触发",
+      "Collider 没反应",
+      "3D 碰撞不回调",
+      "物理系统不工作"
+    ]
+  },
+  "3d-object-not-visible": {
+    "doc": "troubleshooting/3d-object-not-visible.md",
+    "aliases": [
+      "3D object not visible",
+      "3D 对象不可见",
+      "模型不显示",
+      "模型看不到",
+      "模型全黑",
+      "模型没有渲染",
+      "物体看不见",
+      "3D 节点不渲染"
+    ]
+  },
+  "frame-rate-low": {
+    "doc": "troubleshooting/frame-rate-low.md",
+    "aliases": [
+      "frame rate low",
+      "帧率低",
+      "掉帧",
+      "FPS 低",
+      "游戏卡顿",
+      "卡顿掉帧",
+      "不流畅",
+      "帧率不达标"
+    ]
+  },
+  "getComponent-returns-null": {
+    "doc": "troubleshooting/null-component.md",
+    "aliases": [
+      "getComponent returns null",
+      "getComponent 返回 null",
+      "组件获取为空",
+      "拿不到组件"
+    ]
+  },
+  "material-breaks-batching": {
+    "doc": "troubleshooting/material-breaks-batching.md",
+    "aliases": [
+      "material breaks batching",
+      "材质打断合批",
+      "自定义材质 DrawCall 高",
+      "材质实例合批失败",
+      "setMaterial 合批异常",
+      "customMaterial 合批打断"
+    ]
+  },
+  "material-not-updated": {
+    "doc": "troubleshooting/material-not-updated.md",
+    "aliases": [
+      "material not updated",
+      "材质不更新",
+      "材质属性不生效",
+      "setProperty 不生效",
+      "材质修改无效",
+      "换色不生效",
+      "贴图不生效",
+      "材质没反应",
+      "材质属性设置无效"
+    ]
+  },
+  "memory-leak": {
+    "doc": "troubleshooting/memory-leak.md",
+    "aliases": [
+      "memory leak",
+      "内存泄漏",
+      "内存上涨",
+      "内存不释放",
+      "内存溢出",
+      "OOM",
+      "闪退内存",
+      "内存一直涨"
+    ]
+  },
+  "performance-issues": {
+    "doc": "troubleshooting/performance-issues.md",
+    "aliases": [
+      "performance issues",
+      "性能问题",
+      "性能瓶颈",
+      "游戏运行卡"
+    ]
+  },
+  "render-texture-blend-state": {
+    "doc": "troubleshooting/render-texture-blend-state.md",
+    "aliases": [
+      "RenderTexture blendState",
+      "RenderTexture 安卓报错",
+      "RenderTexture Android 报错",
+      "_onPassesUpdated",
+      "blendState 报错",
+      "RenderTexture 场景切换报错",
+      "RenderTexture Android 崩溃",
+      "targetTexture 报错",
+      "SpriteFrame 纹理加载报错",
+      "RenderTexture 不显示 Android"
+    ]
+  },
+  "shader-compile-failed": {
+    "doc": "troubleshooting/shader-compile-failed.md",
+    "aliases": [
+      "shader compile failed",
+      "着色器编译失败",
+      "effect 编译报错",
+      "YAML 解析错误",
+      "YAMLException",
+      "着色器语法错误",
+      ".effect 文件报错"
+    ]
+  },
+  "button-not-clickable": {
+    "doc": "troubleshooting/button-not-clickable.md",
+    "aliases": [
+      "Button not clickable",
+      "按钮点不了",
+      "按钮点击没反应",
+      "Button 回调不触发"
+    ]
+  },
+  "click-through": {
+    "doc": "troubleshooting/click-through.md",
+    "aliases": [
+      "click through",
+      "点击穿透",
+      "弹窗挡不住点击",
+      "按钮点到下面了",
+      "事件穿透到下层",
+      "Mask 不生效",
+      "3.8.8 点击穿透",
+      "点击穿透 3.8.8",
+      "BlockInputEvents 失效",
+      "触摸穿透",
+      "事件穿透 Android",
+      "事件穿透原生"
+    ]
+  },
+  "ui-not-visible": {
+    "doc": "troubleshooting/ui-not-visible.md",
+    "aliases": [
+      "UI not visible",
+      "UI 看不见",
+      "节点显示不出来",
+      "界面没有显示"
+    ]
+  },
+  "video-webview-not-working": {
+    "doc": "troubleshooting/video-webview-not-working.md",
+    "aliases": [
+      "video not working",
+      "视频不播放",
+      "视频黑屏",
+      "VideoPlayer 不工作",
+      "网页打不开",
+      "WebView 空白",
+      "WebView 不加载",
+      "嵌入内容失败"
+    ]
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "安全区": [
+    "api-reference/safe-area.md"
+  ],
+  "保存游戏": [
+    "recipes/local-data-storage.md"
+  ],
+  "背景音乐": [
+    "recipes/audio-manager-pattern.md",
+    "recipes/play-audio.md"
+  ],
+  "本地存储": [
+    "recipes/local-data-storage.md"
+  ],
+  "本地坐标": [
+    "troubleshooting/coordinate-conversion-wrong.md"
+  ],
+  "裁剪": [
+    "api-reference/mask.md"
+  ],
+  "触摸事件": [
+    "api-reference/input.md",
+    "recipes/handle-touch-and-keyboard.md"
+  ],
+  "触摸坐标转换": [
+    "concepts/coordinate-input-event-model.md",
+    "scripting/input-events.md"
+  ],
+  "存储设置": [
+    "recipes/local-data-storage.md"
+  ],
+  "存档": [
+    "recipes/local-data-storage.md"
+  ],
+  "存档保存": [
+    "recipes/local-data-storage.md"
+  ],
+  "单选": [
+    "api-reference/toggle.md"
+  ],
+  "弹窗点击穿透": [
+    "troubleshooting/click-through.md",
+    "ui-2d/block-input-events.md"
+  ],
+  "点击穿透": [
+    "troubleshooting/click-through.md",
+    "ui-2d/block-input-events.md",
+    "troubleshooting/button-not-clickable.md"
+  ],
+  "点击穿透 3.8.8": [
+    "troubleshooting/click-through.md",
+    "ui-2d/block-input-events.md"
+  ],
+  "点击事件穿透": [
+    "troubleshooting/click-through.md",
+    "ui-2d/block-input-events.md"
+  ],
+  "点击坐标": [
+    "api-reference/input.md",
+    "scripting/input-events.md"
+  ],
+  "读档": [
+    "recipes/local-data-storage.md"
+  ],
+  "多语言": [
+    "recipes/i18n-multi-language.md"
+  ],
+  "翻页": [
+    "api-reference/page-view.md"
+  ],
+  "分页": [
+    "api-reference/page-view.md"
+  ],
+  "复选框": [
+    "api-reference/toggle.md"
+  ],
+  "富文本标签": [
+    "ui-2d/rich-text.md"
+  ],
+  "改文字": [
+    "recipes/change-label-text.md",
+    "api-reference/label.md"
+  ],
+  "滚动列表": [
+    "ui-2d/scroll-view.md",
+    "troubleshooting/performance-issues.md"
+  ],
+  "国际化": [
+    "recipes/i18n-multi-language.md"
+  ],
+  "滑动条": [
+    "api-reference/slider.md"
+  ],
+  "画图形": [
+    "api-reference/graphics.md"
+  ],
+  "画线": [
+    "api-reference/graphics.md"
+  ],
+  "画圆": [
+    "api-reference/graphics.md"
+  ],
+  "恢复游戏": [
+    "api-reference/game.md"
+  ],
+  "键盘输入": [
+    "api-reference/input.md",
+    "recipes/handle-touch-and-keyboard.md"
+  ],
+  "角色动作切换": [
+    "recipes/switch-animation-state.md",
+    "concepts/animation-graph.md"
+  ],
+  "节点位置不对": [
+    "troubleshooting/coordinate-conversion-wrong.md"
+  ],
+  "节点组件模型": [
+    "concepts/scene-node-component-model.md"
+  ],
+  "进度条": [
+    "api-reference/progress-bar.md"
+  ],
+  "开关": [
+    "api-reference/toggle.md"
+  ],
+  "克隆节点": [
+    "api-reference/instantiate.md"
+  ],
+  "刘海屏": [
+    "api-reference/safe-area.md"
+  ],
+  "刘海屏适配": [
+    "api-reference/safe-area.md",
+    "recipes/screen-adaptation.md"
+  ],
+  "轮播": [
+    "api-reference/page-view.md"
+  ],
+  "平台判断": [
+    "api-reference/sys.md",
+    "concepts/runtime-environments.md"
+  ],
+  "屏幕适配": [
+    "ui-2d/screen-adaptation.md",
+    "recipes/screen-adaptation.md"
+  ],
+  "屏幕坐标": [
+    "troubleshooting/coordinate-conversion-wrong.md",
+    "api-reference/camera.md"
+  ],
+  "屏幕坐标 UI 坐标": [
+    "concepts/coordinate-input-event-model.md",
+    "troubleshooting/coordinate-conversion-wrong.md"
+  ],
+  "屏幕坐标转射线": [
+    "recipes/raycast-3d.md",
+    "api-reference/camera.md"
+  ],
+  "屏幕坐标转世界": [
+    "api-reference/camera.md",
+    "troubleshooting/coordinate-conversion-wrong.md"
+  ],
+  "切换场景": [
+    "recipes/load-scene.md",
+    "api-reference/director.md"
+  ],
+  "生成对象": [
+    "recipes/instantiate-prefab.md",
+    "api-reference/node.md"
+  ],
+  "实例化不显示": [
+    "troubleshooting/prefab-instantiate-failed.md",
+    "api-reference/instantiate.md"
+  ],
+  "世界坐标": [
+    "troubleshooting/coordinate-conversion-wrong.md",
+    "api-reference/vec3.md"
+  ],
+  "事件不触发": [
+    "troubleshooting/input-not-triggered.md",
+    "api-reference/input.md"
+  ],
+  "事件帧没回调": [
+    "troubleshooting/animation-event-not-fired.md"
+  ],
+  "首包过大": [
+    "troubleshooting/package-too-large.md"
+  ],
+  "输入不触发": [
+    "troubleshooting/input-not-triggered.md"
+  ],
+  "输入结束": [
+    "api-reference/edit-box.md"
+  ],
+  "输入框": [
+    "api-reference/edit-box.md",
+    "recipes/change-label-text.md"
+  ],
+  "输入阻断": [
+    "ui-2d/block-input-events.md"
+  ],
+  "鼠标点击": [
+    "api-reference/input.md",
+    "recipes/handle-touch-and-keyboard.md"
+  ],
+  "数据持久化": [
+    "recipes/local-data-storage.md"
+  ],
+  "透明度": [
+    "api-reference/color.md"
+  ],
+  "网络超时": [
+    "recipes/http-websocket-request.md"
+  ],
+  "网络请求": [
+    "recipes/http-websocket-request.md"
+  ],
+  "网络重试": [
+    "recipes/http-websocket-request.md"
+  ],
+  "文本输入": [
+    "api-reference/edit-box.md"
+  ],
+  "向量": [
+    "api-reference/vec3.md"
+  ],
+  "项目结构": [
+    "concepts/project-structure.md"
+  ],
+  "项目目录结构": [
+    "concepts/project-structure.md"
+  ],
+  "assets 目录": [
+    "concepts/project-structure.md"
+  ],
+  "extensions 目录": [
+    "concepts/project-structure.md"
+  ],
+  "db://assets": [
+    "concepts/project-structure.md"
+  ],
+  "db://internal": [
+    "concepts/project-structure.md"
+  ],
+  "插件资源库": [
+    "concepts/project-structure.md"
+  ],
+  "可选目录缺失": [
+    "concepts/project-structure.md"
+  ],
+  "性能优化": [
+    "troubleshooting/performance-issues.md"
+  ],
+  "修改文案": [
+    "recipes/change-label-text.md",
+    "ui-2d/label.md"
+  ],
+  "虚拟列表": [
+    "ui-2d/list-virtualization.md"
+  ],
+  "血条": [
+    "api-reference/progress-bar.md"
+  ],
+  "血条跟随": [
+    "ui-2d/ui-utility-components.md",
+    "gameplay-systems/health-and-damage.md"
+  ],
+  "颜色": [
+    "api-reference/color.md"
+  ],
+  "音量调节": [
+    "api-reference/slider.md"
+  ],
+  "音量控制": [
+    "recipes/audio-manager-pattern.md",
+    "api-reference/audio-source.md"
+  ],
+  "引导页": [
+    "api-reference/page-view.md"
+  ],
+  "引擎架构": [
+    "concepts/engine-overview.md"
+  ],
+  "语言切换": [
+    "recipes/i18n-multi-language.md"
+  ],
+  "运行环境": [
+    "concepts/runtime-environments.md"
+  ],
+  "暂停游戏": [
+    "api-reference/game.md"
+  ],
+  "长连接": [
+    "recipes/websocket-reconnect-heartbeat.md",
+    "recipes/http-websocket-request.md"
+  ],
+  "遮罩": [
+    "api-reference/mask.md"
+  ],
+  "阻止点击": [
+    "ui-2d/block-input-events.md",
+    "troubleshooting/click-through.md"
+  ],
+  "坐标不对": [
+    "troubleshooting/coordinate-conversion-wrong.md"
+  ],
+  "坐标输入事件模型": [
+    "concepts/coordinate-input-event-model.md"
+  ],
+  "坐标转换": [
+    "troubleshooting/coordinate-conversion-wrong.md",
+    "scripting/input-events.md"
+  ],
+  "AssetsManager 断点续传": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "DOM Audio": [
+    "troubleshooting/audio-format-compat.md"
+  ],
+  "fetch": [
+    "recipes/http-websocket-request.md"
+  ],
+  "game": [
+    "api-reference/game.md"
+  ],
+  "game.pause": [
+    "api-reference/game.md"
+  ],
+  "HTTP": [
+    "recipes/http-websocket-request.md"
+  ],
+  "HTTP 请求": [
+    "recipes/http-websocket-request.md"
+  ],
+  "HTTPS": [
+    "recipes/http-websocket-request.md"
+  ],
+  "i18n": [
+    "recipes/i18n-multi-language.md"
+  ],
+  "instantiate": [
+    "api-reference/instantiate.md",
+    "recipes/instantiate-prefab.md"
+  ],
+  "instantiate 不生效": [
+    "troubleshooting/prefab-instantiate-failed.md",
+    "api-reference/instantiate.md"
+  ],
+  "localStorage": [
+    "recipes/local-data-storage.md",
+    "api-reference/sys.md"
+  ],
+  "remoteUrl": [
+    "troubleshooting/hot-update-failed.md"
+  ],
+  "sys": [
+    "api-reference/sys.md"
+  ],
+  "sys.localStorage": [
+    "recipes/local-data-storage.md"
+  ],
+  "Vec3": [
+    "api-reference/vec3.md"
+  ],
+  "WASD": [
+    "recipes/handle-touch-and-keyboard.md"
+  ],
+  "Web Audio": [
+    "troubleshooting/audio-format-compat.md"
+  ],
+  "WebSocket": [
+    "recipes/http-websocket-request.md"
+  ],
+  "WebSocket 断线": [
+    "recipes/websocket-reconnect-heartbeat.md",
+    "recipes/http-websocket-request.md"
+  ],
+  "WebSocket 心跳": [
+    "recipes/websocket-reconnect-heartbeat.md",
+    "recipes/http-websocket-request.md"
+  ],
+  "WebSocket 重连": [
+    "recipes/websocket-reconnect-heartbeat.md"
+  ],
+  "ws 连接": [
+    "recipes/http-websocket-request.md"
+  ],
+  "wss": [
+    "recipes/http-websocket-request.md"
+  ],
+  "XMLHttpRequest": [
+    "recipes/http-websocket-request.md"
+  ],
+  "游戏暂停": [
+    "api-reference/game.md",
+    "api-reference/director.md"
+  ],
+  "游戏存档": [
+    "recipes/local-data-storage.md",
+    "architecture/game-data-and-save-architecture.md"
+  ],
+  "存储数据": [
+    "recipes/local-data-storage.md"
+  ],
+  "获取屏幕宽高": [
+    "ui-2d/screen-adaptation.md",
+    "api-reference/ui-transform.md"
+  ],
+  "延时执行": [
+    "scripting/scheduler-timer.md",
+    "api-reference/component.md"
+  ],
+  "倒计时": [
+    "scripting/scheduler-timer.md"
+  ],
+  "随机数": [
+    "scripting/typescript-basics.md"
+  ],
+  "抛物线": [
+    "api-reference/vec3.md",
+    "api-reference/tween.md"
+  ],
+  "跟随鼠标": [
+    "concepts/coordinate-input-event-model.md",
+    "recipes/handle-touch-and-keyboard.md"
+  ],
+  "拖拽": [
+    "concepts/coordinate-input-event-model.md",
+    "scripting/input-events.md"
+  ],
+  "目录结构": [
+    "concepts/project-structure.md"
+  ],
+  "引擎启动": [
+    "concepts/engine-overview.md",
+    "concepts/lifecycle-overview.md"
+  ],
+  "事件系统原理": [
+    "scripting/event-system.md"
+  ],
+  "节点旋转": [
+    "api-reference/tween.md",
+    "api-reference/node.md"
+  ],
+  "屏幕尺寸变化": [
+    "ui-2d/screen-adaptation.md",
+    "api-reference/ui-transform.md"
+  ]
+}

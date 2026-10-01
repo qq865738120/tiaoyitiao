@@ -1,0 +1,42 @@
+[
+  {
+    "id": "jump-phase-01",
+    "name": "跳一跳 · 01 基础结构与3D场景",
+    "description": "阶段01：建立配置、纯规则接口、可测试骨架和可保存重开的3D场景，校准角色、平台和阴影。 在当前工程执行，完成必要测试与Creator预览；不打包构建。",
+    "file": ".gameagent/commands/jump-phase-01.md",
+    "phase_doc": "docs/实施阶段/阶段01-基础结构与3D场景.md",
+    "prompt_doc": "docs/阶段提示词/阶段01.md",
+    "prompt_sha256": "a3ce44dda1f4dde5cddb7deb00f9199492d286612065e9698bec7de2d7424212",
+    "status": "not-run"
+  },
+  {
+    "id": "jump-phase-02",
+    "name": "跳一跳 · 02 蓄力跳跃与计分",
+    "description": "阶段02：一次完成输入、蓄力、弹道、平台生成、落点、计分和失败，形成可连续游玩的核心。 在当前工程执行，完成必要测试与Creator预览；不打包构建。",
+    "file": ".gameagent/commands/jump-phase-02.md",
+    "phase_doc": "docs/实施阶段/阶段02-蓄力跳跃与计分.md",
+    "prompt_doc": "docs/阶段提示词/阶段02.md",
+    "prompt_sha256": "58fdc91052ad920d457da8c4f1a72bbf526cedeed97bd59495fbd1109a46db4a",
+    "status": "not-run"
+  },
+  {
+    "id": "jump-phase-03",
+    "name": "跳一跳 · 03 单人界面闭环",
+    "description": "阶段03：完成开始、游戏HUD、暂停、结算、重开和独立本地最高分。 在当前工程执行，完成必要测试与Creator预览；不打包构建。",
+    "file": ".gameagent/commands/jump-phase-03.md",
+    "phase_doc": "docs/实施阶段/阶段03-单人界面闭环.md",
+    "prompt_doc": "docs/阶段提示词/阶段03.md",
+    "prompt_sha256": "457ebe3a0acf889e95c8b9439c09b3a9d658ab86f70ec729cbbe0e69ac0bb34f",
+    "status": "not-run"
+  },
+  {
+    "id": "jump-phase-04",
+    "name": "跳一跳 · 04 音效与画面反馈",
+    "description": "阶段04：加入有限的核心声画反馈，校准原图风格及资源清理。 在当前工程执行，完成必要测试与Creator预览；不打包构建。",
+    "file": ".gameagent/commands/jump-phase-04.md",
+    "phase_doc": "docs/实施阶段/阶段04-音效与画面反馈.md",
+    "prompt_doc": "docs/阶段提示词/阶段04.md",
+    "prompt_sha256": "640ddb42be48e349f9d3d5041603c4e43e37bc7919dde123c74fc3d173705a6d",
+    "status": "not-run"
+  }
+]

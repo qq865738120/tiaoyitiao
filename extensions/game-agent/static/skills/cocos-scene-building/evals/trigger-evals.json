@@ -1,0 +1,98 @@
+[
+  {
+    "query": "请帮我搭一个商城弹窗，项目里应该已经有商品卡片 prefab。先看当前场景和 assets，不要直接复制十份节点；列表要适配不同分辨率。",
+    "should_trigger": true
+  },
+  {
+    "query": "Cocos Creator 3.8.4 里把这个战斗场景整理一下：敌人、掉落物和伤害数字很多，想复用现有预制体并减少运行时创建开销。",
+    "should_trigger": true
+  },
+  {
+    "query": "我需要在当前 scene 加一个带滚动条的背包，item 是动态数量。请用编辑器工具直接搭好并检查 ScrollView 的 content 和 scrollbar 引用。",
+    "should_trigger": true
+  },
+  {
+    "query": "这个 2D 节点树在编辑器里都 active，但 Sprite 看不到。帮我审查 RenderRoot2D、UITransform、Layer、Camera Visibility 和排序。",
+    "should_trigger": true
+  },
+  {
+    "query": "给 3D 大厅规划场景树，要有静态环境、动态 NPC、反射探针、LOD、世界空间名字牌和两台相机，最后再按规划搭建。",
+    "should_trigger": true
+  },
+  {
+    "query": "不要手搓 Button 和 Toggle。请先查 Creator 允许的 node_templates，再搭一个设置面板，并验证模板默认绑定没有丢。",
+    "should_trigger": true
+  },
+  {
+    "query": "场景里要加 Bloom 和一次全屏材质处理，我不确定项目走 3.8.4 BuiltinPipelineSettings 还是旧 PostProcess/BlitScreen，先判断依赖再改。",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我把规则关卡列表从绝对坐标改成合理的 Layout/Widget 结构，但保留每张关卡卡片内部的自由动画。",
+    "should_trigger": true
+  },
+  {
+    "query": "做一个可复用的物理木箱 prefab：视觉、碰撞、交互 trigger、特效挂点都要规划清楚；先确认 3D Collider 与 RigidBody 组合。",
+    "should_trigger": true
+  },
+  {
+    "query": "审查 Main.scene 有没有节点树膨胀、重复 prefab、错误的场景拆分和 Asset Bundle 生命周期问题，给出可执行的重构顺序。",
+    "should_trigger": true
+  },
+  {
+    "query": "我给了一张大厅效果图和一组候选 PNG，请先逐一看素材像素、规划真实父子树，再用 Creator 搭建并通过 Preview 截图反复修正。",
+    "should_trigger": true
+  },
+  {
+    "query": "参考这张战斗 HUD 截图重做当前 UI；不要按文件名猜图标用途，先核对 assets/ui-battle 下候选素材并明确 Layout、局部坐标和尺寸所有者。",
+    "should_trigger": true
+  },
+  {
+    "query": "Cocos Creator 3.8 的 Node.on 和 once 有什么区别？给一个 TypeScript 事件监听示例就行，不需要改场景。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我查一下 cc.Layout.Type.GRID 这个枚举的 API 定义和每个值，纯文档答疑。",
+    "should_trigger": false
+  },
+  {
+    "query": "写一个 A* 寻路算法，输入二维数组输出路径。项目是 Cocos，但这次只要算法模块和单测。",
+    "should_trigger": false
+  },
+  {
+    "query": "为什么我的 TypeScript 装饰器 @property 报 TS1240？请定位编译配置，不要打开 Creator 场景。",
+    "should_trigger": false
+  },
+  {
+    "query": "请解释 Prefab 资产序列化 JSON 里的 __type__ 和 fileId 字段含义，不需要创建、修改或审查任何 prefab。",
+    "should_trigger": false
+  },
+  {
+    "query": "把 PlayerController.ts 的移动逻辑从 update 改成 fixedUpdate，并补 Jest 单测；现有场景结构不要动。",
+    "should_trigger": false
+  },
+  {
+    "query": "Cocos 商店上架时包体提示隐私政策缺失，帮我改发布说明和隐私文档。",
+    "should_trigger": false
+  },
+  {
+    "query": "请生成一张 1024x1024 的像素风游戏图标，透明背景，之后我自己导入 Cocos。",
+    "should_trigger": false
+  },
+  {
+    "query": "只分析这两张概念图的美术风格、配色和构图差异，给我一份美术反馈，不需要创建、修改或审查任何 Cocos 场景。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我把这张 PNG 去掉白色背景并导出透明图，暂时不要导入 Creator，也不要调整任何 Scene 或 Prefab。",
+    "should_trigger": false
+  },
+  {
+    "query": "我只想知道 BlitScreen 类有哪些公开属性和 TypeScript 类型，不要给场景搭建方案。",
+    "should_trigger": false
+  },
+  {
+    "query": "分析构建后的 Web 包为什么首屏 JS 太大，重点看 rollup chunk 和依赖树；不要调整 Scene 或 Asset Bundle。",
+    "should_trigger": false
+  }
+]

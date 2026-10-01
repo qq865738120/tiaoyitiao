@@ -1,0 +1,6 @@
+The following is a diff from the previous accessibility tree for Window: "Untitled - tiaoyitiao - Cocos Creator 3.8.8" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 173-174
+~						135 文本输入区 (settable) Description: 结构化提示词输入框, Value: /跳一跳 · 01 基础结构与规则, Placeholder: 提问或输入“/”快捷命令
+~							172 按钮 跳一跳 · 01 基础结构与规则，来源 项目
+~						147 按钮 (disabled) 优化提示词
+The focused UI element is 135 文本输入区 (settable) Description: 结构化提示词输入框, Value: /跳一跳 · 01 基础结构与规则, Placeholder: 提问或输入“/”快捷命令

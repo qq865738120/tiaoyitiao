@@ -1,0 +1,16 @@
+[
+  {
+    "path": "res/store.mp3",
+    "used_by": [
+      "js/config.js"
+    ],
+    "status": "本地游戏包未包含；未生成占位文件"
+  },
+  {
+    "path": "res/water.mp3",
+    "used_by": [
+      "js/config.js"
+    ],
+    "status": "本地游戏包未包含；未生成占位文件"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "algorithm": "ui-rgb-ssim-v1",
+  "source": "https://scikit-image.org/docs/0.25.x/api/skimage.metrics.html#skimage.metrics.structural_similarity",
+  "generator": {
+    "scikit_image": "0.25.2",
+    "scipy": "1.18.1",
+    "numpy": "2.4.1"
+  },
+  "parameters": {
+    "gaussian_weights": true,
+    "sigma": 1.5,
+    "win_size": 11,
+    "use_sample_covariance": false,
+    "data_range": 255,
+    "K1": 0.01,
+    "K2": 0.03,
+    "channel_axis": 2
+  },
+  "score_absolute_tolerance": 1e-08,
+  "license": "Synthetic fixtures created for Game Agent; no project or third-party artwork.",
+  "cases": [
+    {
+      "reference": "reference.png",
+      "actual": "reference.png",
+      "reference_sha256": "a9879e46fd7c884d6ffa8fa65d3024c0fdcfe6194fd6b1d9342953af8b542c37",
+      "actual_sha256": "a9879e46fd7c884d6ffa8fa65d3024c0fdcfe6194fd6b1d9342953af8b542c37",
+      "raw_ssim": 1.0,
+      "score": 100.0
+    },
+    {
+      "reference": "reference.png",
+      "actual": "shifted.png",
+      "reference_sha256": "a9879e46fd7c884d6ffa8fa65d3024c0fdcfe6194fd6b1d9342953af8b542c37",
+      "actual_sha256": "caf1ea1c556453db17f8c55463e06f3a10c5410ed2c0ba934f73bb02ba2ca1d7",
+      "raw_ssim": 0.6230005041500565,
+      "score": 62.30005041500565
+    },
+    {
+      "reference": "reference.png",
+      "actual": "contrast.png",
+      "reference_sha256": "a9879e46fd7c884d6ffa8fa65d3024c0fdcfe6194fd6b1d9342953af8b542c37",
+      "actual_sha256": "355dfb24f69e649da57a86cca183ca4e720bae4c192f44d4048c0806e8f728d3",
+      "raw_ssim": 0.9847062827500812,
+      "score": 98.47062827500812
+    },
+    {
+      "reference": "reference.png",
+      "actual": "inverted.png",
+      "reference_sha256": "a9879e46fd7c884d6ffa8fa65d3024c0fdcfe6194fd6b1d9342953af8b542c37",
+      "actual_sha256": "7615700888bb41695e40d79e4259735775762628addd0c8cc1b506988447b7a8",
+      "raw_ssim": -0.5699453544339282,
+      "score": 0.0
+    },
+    {
+      "reference": "panel.png",
+      "actual": "missing-button.png",
+      "reference_sha256": "31ee1619168126ae61f7a6ebfbbf669e8c3dcaae9d90014b1025104abe2b9a31",
+      "actual_sha256": "2ad3c750c019094aad1054caa033450f3ae4105ba5eac9ecd68fc6f3e89e62e9",
+      "raw_ssim": 0.9605062843948652,
+      "score": 96.05062843948652
+    }
+  ]
+}

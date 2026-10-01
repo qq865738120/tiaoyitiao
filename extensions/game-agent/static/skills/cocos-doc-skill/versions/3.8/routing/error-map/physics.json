@@ -1,0 +1,33 @@
+{
+  "collision-not-triggered": {
+    "doc": "troubleshooting/collision-not-triggered.md",
+    "aliases": [
+      "collision not triggered",
+      "碰撞不触发",
+      "onBeginContact 不回调",
+      "Collider2D 没反应"
+    ]
+  },
+  "physics-3d-not-triggered": {
+    "doc": "troubleshooting/physics-3d-not-triggered.md",
+    "aliases": [
+      "3D physics not triggered",
+      "3D 物理不触发",
+      "onCollisionEnter 不回调",
+      "onTriggerEnter 不触发",
+      "Collider 没反应",
+      "3D 碰撞不回调",
+      "物理系统不工作"
+    ]
+  },
+  "character-controller-not-working": {
+    "doc": "api-reference/character-controller.md",
+    "aliases": [
+      "角色控制器不生效",
+      "CharacterController 不工作",
+      "角色控制器 Cannon",
+      "角色控制器 Builtin",
+      "CharacterController not working"
+    ]
+  }
+}

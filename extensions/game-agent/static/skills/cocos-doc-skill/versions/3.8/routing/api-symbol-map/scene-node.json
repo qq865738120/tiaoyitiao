@@ -1,0 +1,48 @@
+{
+  "Node": {
+    "doc": "api-reference/node.md",
+    "related": [
+      "scene-node-component/node.md",
+      "recipes/create-node-and-component.md"
+    ]
+  },
+  "Component": {
+    "doc": "api-reference/component.md",
+    "related": [
+      "scene-node-component/component.md",
+      "recipes/create-node-and-component.md",
+      "troubleshooting/null-component.md"
+    ]
+  },
+  "Prefab": {
+    "doc": "api-reference/prefab.md",
+    "related": [
+      "assets/prefab.md",
+      "recipes/instantiate-prefab.md",
+      "troubleshooting/prefab-instantiate-failed.md"
+    ]
+  },
+  "NodePool": {
+    "doc": "api-reference/node-pool.md",
+    "related": [
+      "api-reference/instantiate.md",
+      "api-reference/prefab.md",
+      "recipes/use-node-pool.md"
+    ]
+  },
+  "instantiate": {
+    "doc": "api-reference/instantiate.md",
+    "related": [
+      "api-reference/prefab.md",
+      "api-reference/node-pool.md",
+      "recipes/instantiate-prefab.md",
+      "recipes/use-node-pool.md"
+    ]
+  },
+  "find": {
+    "doc": "api-reference/node.md",
+    "related": [
+      "scene-node-component/node.md"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "ver": "2.3.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013",
+  "files": [],
+  "subMetas": {
+    "31e6c": {
+      "importer": "gltf-mesh",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@31e6c",
+      "displayName": "",
+      "id": "31e6c",
+      "name": "PlaneGeometry.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "00125": {
+      "importer": "gltf-mesh",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@00125",
+      "displayName": "",
+      "id": "00125",
+      "name": "CylinderGeometry.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "823c7": {
+      "importer": "gltf-mesh",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@823c7",
+      "displayName": "",
+      "id": "823c7",
+      "name": "hitObj.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 0
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bbd4a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@bbd4a",
+      "displayName": "",
+      "id": "bbd4a",
+      "name": "res/desk_shadow.png.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c4ea5839-2a0e-4ae7-8392-2354443a2013@bbd4a"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "80a7d": {
+      "importer": "gltf-material",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@80a7d",
+      "displayName": "",
+      "id": "80a7d",
+      "name": "MeshBasicMaterial-0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fdb1e": {
+      "importer": "gltf-material",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@fdb1e",
+      "displayName": "",
+      "id": "fdb1e",
+      "name": "MeshLambertMaterial-1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "39e74": {
+      "importer": "gltf-material",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@39e74",
+      "displayName": "",
+      "id": "39e74",
+      "name": "MeshLambertMaterial-2.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e7869": {
+      "importer": "gltf-scene",
+      "uuid": "c4ea5839-2a0e-4ae7-8392-2354443a2013@e7869",
+      "displayName": "",
+      "id": "e7869",
+      "name": "block_07.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "res/desk_shadow.png",
+        "uri": "c4ea5839-2a0e-4ae7-8392-2354443a2013@bbd4a"
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@31e6c",
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@00125",
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@823c7"
+      ],
+      "skeletons": [],
+      "textures": [
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@e39f7"
+      ],
+      "materials": [
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@80a7d",
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@fdb1e",
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@39e74"
+      ],
+      "scenes": [
+        "c4ea5839-2a0e-4ae7-8392-2354443a2013@e7869"
+      ]
+    }
+  }
+}

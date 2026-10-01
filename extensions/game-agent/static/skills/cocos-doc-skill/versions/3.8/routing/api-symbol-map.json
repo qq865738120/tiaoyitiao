@@ -1,0 +1,524 @@
+{
+  "Animation": {
+    "doc": "api-reference/animation.md",
+    "related": [
+      "api-reference/animation-controller.md",
+      "concepts/animation-graph.md",
+      "recipes/play-animation.md",
+      "recipes/switch-animation-state.md",
+      "troubleshooting/animation-not-playing.md",
+      "troubleshooting/animation-event-not-fired.md"
+    ]
+  },
+  "AnimationController": {
+    "doc": "api-reference/animation-controller.md",
+    "related": [
+      "concepts/animation-graph.md",
+      "recipes/switch-animation-state.md",
+      "troubleshooting/animation-event-not-fired.md"
+    ]
+  },
+  "dragonBones.ArmatureDisplay": {
+    "doc": "assets/spine-dragonbones.md",
+    "related": [
+      "api-reference/skeletal-animation.md",
+      "api-reference/animation.md"
+    ]
+  },
+  "SkeletalAnimation": {
+    "doc": "api-reference/skeletal-animation.md",
+    "related": [
+      "api-reference/animation.md",
+      "recipes/play-animation.md",
+      "troubleshooting/animation-not-playing.md"
+    ]
+  },
+  "SkeletalAnimationComponent": {
+    "doc": "api-reference/skeletal-animation.md",
+    "related": [
+      "api-reference/animation.md"
+    ]
+  },
+  "Socket": {
+    "doc": "api-reference/skeletal-animation.md",
+    "related": [
+      "api-reference/animation.md"
+    ]
+  },
+  "sp.Skeleton": {
+    "doc": "assets/spine-dragonbones.md",
+    "related": [
+      "api-reference/skeletal-animation.md",
+      "api-reference/animation.md"
+    ]
+  },
+  "StateMachineComponent": {
+    "doc": "api-reference/animation-controller.md",
+    "related": [
+      "concepts/animation-graph.md",
+      "troubleshooting/animation-event-not-fired.md"
+    ]
+  },
+  "tween": {
+    "doc": "api-reference/tween.md",
+    "related": [
+      "recipes/play-animation.md"
+    ]
+  },
+  "assetManager": {
+    "doc": "api-reference/asset-manager.md",
+    "related": [
+      "assets/asset-bundle.md",
+      "assets/release.md",
+      "recipes/release-resource.md",
+      "troubleshooting/performance-issues.md"
+    ]
+  },
+  "AudioSource": {
+    "doc": "api-reference/audio-source.md",
+    "related": [
+      "assets/audio-asset.md",
+      "recipes/play-audio.md",
+      "troubleshooting/audio-not-playing.md"
+    ]
+  },
+  "resources": {
+    "doc": "api-reference/resources.md",
+    "related": [
+      "assets/resources-folder.md",
+      "recipes/load-resource-dynamically.md",
+      "troubleshooting/resource-load-failed.md"
+    ]
+  },
+  "EventKeyboard": {
+    "doc": "api-reference/input.md",
+    "related": []
+  },
+  "EventMouse": {
+    "doc": "api-reference/input.md",
+    "related": []
+  },
+  "EventTouch": {
+    "doc": "api-reference/input.md",
+    "related": [
+      "scripting/input-events.md",
+      "recipes/handle-touch-and-keyboard.md"
+    ]
+  },
+  "input": {
+    "doc": "api-reference/input.md",
+    "related": [
+      "scripting/input-system.md",
+      "scripting/input-events.md",
+      "recipes/handle-touch-and-keyboard.md",
+      "troubleshooting/input-not-triggered.md"
+    ]
+  },
+  "Input": {
+    "doc": "api-reference/input.md",
+    "related": [
+      "scripting/input-system.md"
+    ]
+  },
+  "Collider2D": {
+    "doc": "api-reference/collider-2d.md",
+    "related": [
+      "recipes/detect-collision-2d.md",
+      "troubleshooting/collision-not-triggered.md"
+    ]
+  },
+  "RigidBody2D": {
+    "doc": "api-reference/rigid-body-2d.md",
+    "related": [
+      "recipes/detect-collision-2d.md",
+      "troubleshooting/collision-not-triggered.md"
+    ]
+  },
+  "BoxCharacterController": {
+    "doc": "api-reference/character-controller.md",
+    "inheritsFrom": "CharacterController"
+  },
+  "BoxCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "CapsuleCharacterController": {
+    "doc": "api-reference/character-controller.md",
+    "inheritsFrom": "CharacterController"
+  },
+  "CapsuleCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "CharacterController": {
+    "doc": "api-reference/character-controller.md",
+    "related": [
+      "recipes/use-physics-constraint.md",
+      "api-reference/collider.md"
+    ]
+  },
+  "Collider": {
+    "doc": "api-reference/collider.md",
+    "related": [
+      "troubleshooting/physics-3d-not-triggered.md"
+    ]
+  },
+  "HingeConstraint": {
+    "doc": "recipes/use-physics-constraint.md",
+    "api": "api-reference/character-controller.md",
+    "related": [
+      "api-reference/physics-system.md"
+    ]
+  },
+  "MeshCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "PhysicsRayResult": {
+    "doc": "api-reference/physics-system.md",
+    "related": [
+      "recipes/raycast-3d.md"
+    ]
+  },
+  "PhysicsSystem": {
+    "doc": "api-reference/physics-system.md",
+    "related": [
+      "api-reference/rigid-body.md",
+      "api-reference/collider.md",
+      "recipes/raycast-3d.md",
+      "troubleshooting/physics-3d-not-triggered.md"
+    ]
+  },
+  "PointToPointConstraint": {
+    "doc": "recipes/use-physics-constraint.md",
+    "related": [
+      "api-reference/physics-system.md"
+    ]
+  },
+  "RigidBody": {
+    "doc": "api-reference/rigid-body.md",
+    "related": [
+      "api-reference/collider.md",
+      "troubleshooting/physics-3d-not-triggered.md"
+    ]
+  },
+  "SphereCollider": {
+    "doc": "api-reference/collider.md",
+    "related": []
+  },
+  "Camera": {
+    "doc": "api-reference/camera.md",
+    "related": [
+      "recipes/camera-follow-target.md",
+      "troubleshooting/coordinate-conversion-wrong.md"
+    ]
+  },
+  "DirectionalLight": {
+    "doc": "api-reference/directional-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "DirectionalLightComponent": {
+    "doc": "api-reference/directional-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "EffectAsset": {
+    "doc": "api-reference/effect-asset.md",
+    "related": [
+      "api-reference/material.md",
+      "api-reference/mesh-renderer.md",
+      "recipes/change-material-property.md",
+      "recipes/create-simple-effect.md",
+      "troubleshooting/material-not-updated.md",
+      "troubleshooting/shader-compile-failed.md"
+    ]
+  },
+  "Material": {
+    "doc": "api-reference/material.md",
+    "related": [
+      "api-reference/effect-asset.md",
+      "api-reference/mesh-renderer.md",
+      "recipes/change-material-property.md",
+      "troubleshooting/material-not-updated.md"
+    ]
+  },
+  "MeshRenderer": {
+    "doc": "api-reference/mesh-renderer.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "api-reference/material.md",
+      "api-reference/effect-asset.md",
+      "recipes/change-material-property.md",
+      "troubleshooting/material-not-updated.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "ModelComponent": {
+    "doc": "api-reference/mesh-renderer.md",
+    "related": [
+      "api-reference/material.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "ParticleSystem": {
+    "doc": "api-reference/particle-system.md",
+    "related": [
+      "api-reference/particle-system-2d.md"
+    ]
+  },
+  "ParticleSystem2D": {
+    "doc": "api-reference/particle-system-2d.md",
+    "related": [
+      "api-reference/particle-system.md",
+      "api-reference/sprite.md"
+    ]
+  },
+  "ParticleSystemComponent": {
+    "doc": "api-reference/particle-system.md",
+    "related": []
+  },
+  "SphereLight": {
+    "doc": "api-reference/sphere-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "SphereLightComponent": {
+    "doc": "api-reference/sphere-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "SpotLight": {
+    "doc": "api-reference/spot-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "SpotLightComponent": {
+    "doc": "api-reference/spot-light.md",
+    "related": [
+      "concepts/3d-scene-rendering.md",
+      "troubleshooting/3d-object-not-visible.md"
+    ]
+  },
+  "director": {
+    "doc": "api-reference/director.md",
+    "related": [
+      "scene-node-component/scene-loading.md",
+      "recipes/load-scene.md",
+      "troubleshooting/build-errors.md"
+    ]
+  },
+  "game": {
+    "doc": "api-reference/game.md",
+    "related": [
+      "concepts/lifecycle-overview.md",
+      "api-reference/director.md"
+    ]
+  },
+  "isValid": {
+    "doc": "scripting/coding-pitfalls.md",
+    "related": [
+      "scene-node-component/destroy-lifecycle.md"
+    ]
+  },
+  "sys": {
+    "doc": "api-reference/sys.md",
+    "related": [
+      "concepts/runtime-environments.md"
+    ]
+  },
+  "Component": {
+    "doc": "api-reference/component.md",
+    "related": [
+      "scene-node-component/component.md",
+      "recipes/create-node-and-component.md",
+      "troubleshooting/null-component.md"
+    ]
+  },
+  "find": {
+    "doc": "api-reference/node.md",
+    "related": [
+      "scene-node-component/node.md"
+    ]
+  },
+  "instantiate": {
+    "doc": "api-reference/instantiate.md",
+    "related": [
+      "api-reference/prefab.md",
+      "api-reference/node-pool.md",
+      "recipes/instantiate-prefab.md",
+      "recipes/use-node-pool.md"
+    ]
+  },
+  "Node": {
+    "doc": "api-reference/node.md",
+    "related": [
+      "scene-node-component/node.md",
+      "recipes/create-node-and-component.md"
+    ]
+  },
+  "NodePool": {
+    "doc": "api-reference/node-pool.md",
+    "related": [
+      "api-reference/instantiate.md",
+      "api-reference/prefab.md",
+      "recipes/use-node-pool.md"
+    ]
+  },
+  "Prefab": {
+    "doc": "api-reference/prefab.md",
+    "related": [
+      "assets/prefab.md",
+      "recipes/instantiate-prefab.md",
+      "troubleshooting/prefab-instantiate-failed.md"
+    ]
+  },
+  "Button": {
+    "doc": "api-reference/button.md",
+    "related": [
+      "ui-2d/button.md",
+      "recipes/button-click.md",
+      "troubleshooting/button-not-clickable.md"
+    ]
+  },
+  "EditBox": {
+    "doc": "api-reference/edit-box.md",
+    "related": [
+      "api-reference/button.md",
+      "api-reference/label.md",
+      "troubleshooting/input-not-triggered.md"
+    ]
+  },
+  "Graphics": {
+    "doc": "api-reference/graphics.md",
+    "related": [
+      "api-reference/ui-transform.md",
+      "ui-2d/draw-call-batching.md"
+    ]
+  },
+  "Label": {
+    "doc": "api-reference/label.md",
+    "related": [
+      "ui-2d/label.md",
+      "recipes/change-label-text.md",
+      "troubleshooting/ui-not-visible.md"
+    ]
+  },
+  "Mask": {
+    "doc": "api-reference/mask.md",
+    "related": [
+      "api-reference/ui-transform.md",
+      "api-reference/sprite.md",
+      "troubleshooting/click-through.md"
+    ]
+  },
+  "PageView": {
+    "doc": "api-reference/page-view.md",
+    "related": [
+      "ui-2d/scroll-view.md"
+    ]
+  },
+  "PageViewIndicator": {
+    "doc": "api-reference/page-view.md",
+    "related": []
+  },
+  "ProgressBar": {
+    "doc": "api-reference/progress-bar.md",
+    "related": [
+      "api-reference/slider.md"
+    ]
+  },
+  "SafeArea": {
+    "doc": "api-reference/safe-area.md",
+    "related": [
+      "ui-2d/widget.md",
+      "recipes/screen-adaptation.md"
+    ]
+  },
+  "Slider": {
+    "doc": "api-reference/slider.md",
+    "related": [
+      "api-reference/progress-bar.md"
+    ]
+  },
+  "Sprite": {
+    "doc": "api-reference/sprite.md",
+    "related": [
+      "ui-2d/sprite.md",
+      "troubleshooting/ui-not-visible.md"
+    ]
+  },
+  "TiledLayer": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  },
+  "TiledMap": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  },
+  "TiledObjectGroup": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  },
+  "TMXObject": {
+    "doc": "api-reference/tiled-map.md",
+    "related": []
+  },
+  "Toggle": {
+    "doc": "api-reference/toggle.md",
+    "related": [
+      "api-reference/button.md",
+      "troubleshooting/button-not-clickable.md"
+    ]
+  },
+  "ToggleContainer": {
+    "doc": "api-reference/toggle.md",
+    "related": []
+  },
+  "UITransform": {
+    "doc": "api-reference/ui-transform.md",
+    "related": [
+      "ui-2d/ui-transform.md",
+      "recipes/screen-adaptation.md",
+      "troubleshooting/ui-not-visible.md"
+    ]
+  },
+  "VideoPlayer": {
+    "doc": "api-reference/video-player.md",
+    "related": [
+      "recipes/play-video.md",
+      "troubleshooting/video-webview-not-working.md"
+    ]
+  },
+  "WebView": {
+    "doc": "api-reference/web-view.md",
+    "related": [
+      "recipes/play-video.md",
+      "troubleshooting/video-webview-not-working.md"
+    ]
+  },
+  "Color": {
+    "doc": "api-reference/color.md",
+    "related": [
+      "api-reference/sprite.md",
+      "api-reference/label.md"
+    ]
+  },
+  "Vec3": {
+    "doc": "api-reference/vec3.md",
+    "related": [
+      "recipes/camera-follow-target.md",
+      "troubleshooting/coordinate-conversion-wrong.md"
+    ]
+  }
+}

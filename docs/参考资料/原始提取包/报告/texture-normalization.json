@@ -1,0 +1,18 @@
+[
+  {
+    "source": "游戏资源/res/box_middle.png",
+    "output": "派生模型/纹理兼容副本/box_middle.png",
+    "pixel_identical": true,
+    "change": "保留 RGBA 像素，去除旧 PNG 的自定义色彩或非方形像素元数据",
+    "source_sha256": "bf40e304ee7b9ee9a91c705b138bf8a8ca98c2ed3b4fe16d431a832e8f964cc4",
+    "output_sha256": "ad0b912ec0b77907a38e10d61453895e73f9be02cebc89321c4827a4a4728a36"
+  },
+  {
+    "source": "游戏资源/res/well.png",
+    "output": "派生模型/纹理兼容副本/well.png",
+    "pixel_identical": true,
+    "change": "保留 RGBA 像素，去除旧 PNG 的自定义色彩或非方形像素元数据",
+    "source_sha256": "08b3f019e6fa051facf8a38700c63cc7099f73d91173c49255378b2ee1bc21b0",
+    "output_sha256": "ab94a0f0134042ae29d3093d3df2322daa19a645c7b336d3c8711a047323b3a4"
+  }
+]

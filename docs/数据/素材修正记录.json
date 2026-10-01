@@ -1,0 +1,688 @@
+{
+  "date": "2026-09-30",
+  "scope": "只修正派生材质及说明；原始游戏包/媒体不变",
+  "shadow_models": [
+    {
+      "file": "block_00.glb",
+      "before_sha256": "6d23fa4ee0ecc35b3dac412243c18f574c00c7dd57b05f6dac86a9d94caca16d",
+      "after_sha256": "3ed746a838ea3b6a8dca04493dcde44c1319a6c0b7e4fcc98d8cbdf1b30ace50",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_01.glb",
+      "before_sha256": "7e3e0d928b0a490b5d50ee1b09ff0b507ebb2e77ca4017551e7d0026c07761b7",
+      "after_sha256": "bbd48205456c9d0611a0dba3ce80147b5eb191cdbbc9006380893d10ee2d6663",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_02.glb",
+      "before_sha256": "d778f59998044267df444339bb2a44d396e9d00cf4a9bfd0623f050bfcabbb5d",
+      "after_sha256": "5eb1f9e1ced6adfe82f2994e7f2b2958599dbf26b690496eb89358e6656133f6",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "desk_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_03.glb",
+      "before_sha256": "3df7e649e3fd77c5ee15033b905b7215d0f1768d99814fa377f28880b00f8d60",
+      "after_sha256": "a60b9e985687806dee49a3cebda625be3245abb53fb0f7fc63dd6cb35a840a40",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "cylinder_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_04.glb",
+      "before_sha256": "b9c78cb64c62bb4887d0a21fa0e93db570910510cdc7172951fd5ee0036ece95",
+      "after_sha256": "6b864fd98d3bc9ffb2f40bf5f45d49d388e65f371b134475e69eed6d135e6fac",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_05.glb",
+      "before_sha256": "1efedb5d45d8cdaee54bd44eafd6f12299d8e6a7718eb443f7a759db60f16a27",
+      "after_sha256": "f61e686b427d6e1598157c69fbee525299d412327b9d6c1aa8175f8e05090c34",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_06.glb",
+      "before_sha256": "db83068b3567f84da0e84697ffcd9ae3f8b221a957bc1f3554749fd592bdbaa9",
+      "after_sha256": "0a42bc65d7b1def7733b3fe55e65d881f3184352e34d4e200667e44ce46f58ca",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_07.glb",
+      "before_sha256": "7d9816e4b3634b6cb16629ea3584a53d045555a81b5b3ad7a8e9c069159555f0",
+      "after_sha256": "fde1f81f766f97d67c810b0e14e0273d997c4232339b7da8c8e7535b12964946",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "desk_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_08.glb",
+      "before_sha256": "e9ed975d8ad953afbeefbd97b441896b211624db7c2b7bc8ed803e596f31f1be",
+      "after_sha256": "e91a61b250f25421326224e60aa304088813e04d17e9287a65d3ce669b9a45de",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_09.glb",
+      "before_sha256": "d4c041d0cc6837df53e781ca8400bf012cd0f7dd61bb15727a9e287022847dd3",
+      "after_sha256": "071e549fa82d96ba3b9b3fce4153dd321392b1b90a55fd80c32b48c7b867adaa",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_10.glb",
+      "before_sha256": "656fe3c1edcebd5126bd7de6488af397528edde9a05e5a527a3757f65b204ea9",
+      "after_sha256": "13b27c4dad13a5c93acf3b3ca23cc6ef8406afa5788fba6ceb7012c7eed3957a",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_11.glb",
+      "before_sha256": "375d99fe110a6a797866ddf4f97ae24adb00a9c476a7fca040137e9f02fdc834",
+      "after_sha256": "a058e1784774750ce2a412ef5e8f44ac5e0c614fe7143bff53f66e62f1d8b6de",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_12.glb",
+      "before_sha256": "e858edb2887760831ed66c086de8c162e7681098101151c7387c160b4e6d0d44",
+      "after_sha256": "97bbad79d14cc769adb9c67f326d032fded9cd5976d256ddd1f24b5ad3c51f1d",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_13.glb",
+      "before_sha256": "f1595525bf6e2cb7b3e6fa7985daa1bda9c11abaeec9fc61c929c5a47bcdd9e1",
+      "after_sha256": "4e37a085afcd5e4f9dcf2a1d98a8fe3fbcdbec9ad5d49e97fe22b5dc3cba2c00",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_14.glb",
+      "before_sha256": "ad82bb3a822ca0696024c8d3e199aaf339ed65ed82819a3af937dc45dd153a99",
+      "after_sha256": "f30c091aa42258dc2055857399aeabd67d5276b89df2f66eba5668377d1e5b78",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_15.glb",
+      "before_sha256": "50de4fb63fe0f8b501570a5ec4abc5a6a4bd1b5e59613c30cace1f01c049bee1",
+      "after_sha256": "b98812e6d82ef495846b49dd4c7f6af4b33d771d358149288ac74baa91594414",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_16.glb",
+      "before_sha256": "9299527d859d4abd824dca1f1cca583cec29b05cef242e6d9e7e6c5535976255",
+      "after_sha256": "193d53b8c725f2cf6c5b8dd16c857ee2cccb792b2e04b38789f43855c3af7900",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_17.glb",
+      "before_sha256": "2aa1b7afce90f2f33c47e0a747f3d31bf5e56de7552ef65b363cc731fd1b5e4c",
+      "after_sha256": "80414d409b30dd2b49bb771ffaeec20d958db4785a16637bdd5e336e45038e78",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_18.glb",
+      "before_sha256": "401359ae14ab03cc70501f496242e12e8f40fe00c382b80cd600d019f27e1457",
+      "after_sha256": "67d1f367d0452b087c7cc2bbacbf4a53a8ffae90df4df3426e4da6eeeb519919",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_19.glb",
+      "before_sha256": "06bcd5cb7a512e894d3957206e06b969a4292dee0838d2b6f7b2597fca25a31b",
+      "after_sha256": "490592ebdd026ff1863c5c5a919a1f9a4f141a73504a34e02fb00b95c9eeb6a4",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_20.glb",
+      "before_sha256": "539ad2e26b476bf11578c9f7683438806ad83d8984be808965a7bd3315b636e4",
+      "after_sha256": "c3c6634c262ca4e5ac2fd5d507c4e553dda41104a1dec41ab0e4b24026035ac1",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_21.glb",
+      "before_sha256": "5f98f7e11631d5635e331f825e3068e729caf6264b47e2a45b09b5d839550922",
+      "after_sha256": "8ddb866d264acc34404cf8dd17b404e02e504c5d5875d7c75133c069cdd2a1ad",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "cylinder_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_22.glb",
+      "before_sha256": "8c5b98c66600c0053694c3fbc8ec01049991242bca2c0034e25101c60bf0a226",
+      "after_sha256": "908af1d9dc98aff4381d58df0dcebe0074d3088f80d9574ec38f171413deb7b5",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_23.glb",
+      "before_sha256": "2b3beb790c22b6573c3d3067827ea8028e243b90889b980898d6ac4ce8196231",
+      "after_sha256": "229545a63712ac5a8fd4f1aec6e9ffef4d57495205c6f15323c34955f55c1e3d",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "stool_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_24.glb",
+      "before_sha256": "b0b79c868c9855413a05b67c302036e46e854646d3c4ff9e60d236fdbbb1545e",
+      "after_sha256": "0dfe84ff1d7a6a2f8764e1a337d14d4b9530de82adad792c0c1c0ca34a7b88a3",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_25.glb",
+      "before_sha256": "a8202c53bc91f8264c318192ef96b0d81a88d1b3d6a5967f2129eb2dfc7e7c8c",
+      "after_sha256": "fefad2daf68b9a93b237ebc7e1a0e656a750da4bf1013389f575c3d67954d778",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_26.glb",
+      "before_sha256": "e7a49ad2560fb790a40782ef6a5c769a4363ac158deaefb66d9591f9f6433c12",
+      "after_sha256": "c50ff256bedee213ca9bf4ba630ef00949136ac3f2c3cc675286689eeaa3bfcb",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_27.glb",
+      "before_sha256": "a0d4652c23084943f1bda27b50e3b23c56920e42fa61d471ba23d082689e5775",
+      "after_sha256": "05d9ddc1100cf91319983215d721c24b0f78da528e6ac9cee128563ca03ad510",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 1,
+          "texture": "cylinder_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_28.glb",
+      "before_sha256": "5f61be3ac4105325806e5e6a4a7b7d4100904a78b8c7613d275698c697d7e574",
+      "after_sha256": "99e73b5ad06314d8c69f24383bd3fccc65c4c1057d523deb3c08e6477292cf40",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "cylinder_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_29.glb",
+      "before_sha256": "33dc8e58ecb968c7e653c8437dc299de84785211b14b51a9206869b50f916f73",
+      "after_sha256": "8ccac25c15c8c34b28b6843cae55e35d878bb6e56dc78813b3a87576da6afac8",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "cylinder_shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_30.glb",
+      "before_sha256": "b1fbe4e7bee6fb30657aee08e21e363b2f0c50a0484d96720347853aa260e80e",
+      "after_sha256": "4315e9fbd9b67a8a6a4e28a794e85999cb83b29c9f5c479e83c9b8be8c1718ea",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_31.glb",
+      "before_sha256": "61d1f2d86f465d5331f257301ae2e554568d56d6651bf8e8e521e53a7fd7750a",
+      "after_sha256": "b08ecaa0a5f33ca01789273dd597eed29f10f66a6fa7ea3c1c1a0b02cc0fd6b8",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_32.glb",
+      "before_sha256": "5c177b88e1f960afd074d98acd19c9d69505396d0eb3ad1930e0fb0fddeec488",
+      "after_sha256": "824b46b04ba27c72b92f7c395e2db3e214bede77d67c212f9c7ba1dcbeef16af",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 4,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_33.glb",
+      "before_sha256": "fab36c125a89d4003b288e157b545d3be33733700d80056c07ad1018a535ba37",
+      "after_sha256": "ac157a6bb27087840ef8f791f3ba54f47931b18cfa1d4c6d5247352d8763e340",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_34.glb",
+      "before_sha256": "5e8c7b52b8a219db5031a1d2339be72dd5fdc83a497eb80c580822e41e4e1ec6",
+      "after_sha256": "30934867a04fde2dd5a22ab3e5dd84e2402a67d683cac1c739a6073ebeebbb7e",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "block_35.glb",
+      "before_sha256": "a581fb4c409601bffa1667dbf4427f917032d62400fc87434a77455d0878472a",
+      "after_sha256": "cd072e312573a3300b07c82ec2ff1e3b5140d695b2da2aea2e88081f1828d5fc",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "numbered_block_0.glb",
+      "before_sha256": "536d7232199061cee372c74d1a9c89ad9dbdaf76da8205186341f9e0bb622e7c",
+      "after_sha256": "9ffbcef05729b15735dd902846e6c915608e60d32b251ee2057a463b57d5d58c",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "numbered_block_1.glb",
+      "before_sha256": "7126799adb5d22b3516bbf517bd9d3ee7b3855e5eb3c836ccbc2ef1efd091ad1",
+      "after_sha256": "25a0f5bcf405a5b11ff6302e0863548729b3837996572e6f33a9ee27b60b835a",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "numbered_block_2.glb",
+      "before_sha256": "81a98814ce211bd5cb44042d66d51f6bb71c498090c7dc8b95a66d423b8de69a",
+      "after_sha256": "6465afd728fcff653dda5f1138a1e28c21d23fa0d876cd8b36ac5865456cd914",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "numbered_block_3.glb",
+      "before_sha256": "5e7c8bfed024cae965fd1547dca069d448ab690eeaae2dc1123be8b89bb5f971",
+      "after_sha256": "a2e5bf724a80fb14c4b943c8984344524bc335d7c00b72f82d43a0fbfe1afd2e",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "numbered_block_4.glb",
+      "before_sha256": "07d2de98d48d7ba13daa25fcbcfa5d7c4daa53c8496f361828b85e5643d01570",
+      "after_sha256": "730f46faed12c9a052bb71a3389b8b9049415667e1a3fecacc21c9c91174e776",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "numbered_block_5.glb",
+      "before_sha256": "695442bc5fc550810e7a35af64637acf555f30228ed7237b6f1c4cd8b900bbc5",
+      "after_sha256": "bcd94305f7b2621f1fe0a8b1001effb546ad8e039ea3c49a9f4964274c189465",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    },
+    {
+      "file": "numbered_block_6.glb",
+      "before_sha256": "1ef23e6293e42ea079057cf8e2760c28f57e689d54f49047df979a04ae8f1b43",
+      "after_sha256": "ff12e1cbc9300a0095fc37cf00f74a42466237f5120c2d588cba77ae8f0ee194",
+      "binary_unchanged": true,
+      "materials": [
+        {
+          "material": 0,
+          "texture": "shadow.png",
+          "original_alpha_test": 0.01
+        }
+      ]
+    }
+  ],
+  "atlas": [
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_0.png",
+      "rect": [
+        0,
+        0,
+        64,
+        128
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 0,
+      "visible_digit": 5,
+      "source_h_index": 4,
+      "asset_name": "digit_5.png"
+    },
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_1.png",
+      "rect": [
+        64,
+        0,
+        128,
+        128
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 1,
+      "visible_digit": 6,
+      "source_h_index": 5,
+      "asset_name": "digit_6.png"
+    },
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_2.png",
+      "rect": [
+        128,
+        0,
+        192,
+        128
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 2,
+      "visible_digit": 7,
+      "source_h_index": 6,
+      "asset_name": "digit_7.png"
+    },
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_3.png",
+      "rect": [
+        192,
+        0,
+        256,
+        128
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 3,
+      "visible_digit": null,
+      "source_h_index": null,
+      "asset_name": "unused_blank.png"
+    },
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_4.png",
+      "rect": [
+        0,
+        128,
+        64,
+        256
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 4,
+      "visible_digit": 1,
+      "source_h_index": 0,
+      "asset_name": "digit_1.png"
+    },
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_5.png",
+      "rect": [
+        64,
+        128,
+        128,
+        256
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 5,
+      "visible_digit": 2,
+      "source_h_index": 1,
+      "asset_name": "digit_2.png"
+    },
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_6.png",
+      "rect": [
+        128,
+        128,
+        192,
+        256
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 6,
+      "visible_digit": 3,
+      "source_h_index": 2,
+      "asset_name": "digit_3.png"
+    },
+    {
+      "source": "游戏资源/res/number.png",
+      "path": "图集拆分/number/region_7.png",
+      "rect": [
+        192,
+        128,
+        256,
+        256
+      ],
+      "basis": "裁片按左上图片坐标排列；原平台 h=0..6 按底部UV排列，显示1..7，对应源区域4/5/6/7/0/1/2；源区域3为空白未使用",
+      "raster_region": 7,
+      "visible_digit": 4,
+      "source_h_index": 3,
+      "asset_name": "digit_4.png"
+    }
+  ],
+  "alpha_note": "BLEND保留连续透明度。原alphaTest=0.01保存在材质extras，标准glTF不同时表达blend和alpha裁切；如需完全复现该极低阈值，在Creator材质副本设置alpha test与混合。编号文字的MASK与0.6阈值保留。"
+}
