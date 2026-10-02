@@ -1,8 +1,0 @@
-{
-  "schema": "game-agent.cocos-2dmap-spec/v1",
-  "mode": "tile_mode",
-  "name": "forest-crossing",
-  "tileSize": [16, 16],
-  "mapSize": [4, 3],
-  "objectGroups": ["collision", "spawns", "zones"]
-}

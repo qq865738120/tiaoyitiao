@@ -1,1 +1,0 @@
-"use strict";var e=require("../../chunks/customModelSettingsPanel-DmzdF26x.js");module.exports=Editor.Panel.define(e.createCustomModelSettingsPanelDefinition(1)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);

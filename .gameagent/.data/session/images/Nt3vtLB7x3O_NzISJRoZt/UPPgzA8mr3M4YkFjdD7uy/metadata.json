@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "previewId": "UPPgzA8mr3M4YkFjdD7uy",
+  "original": {
+    "fileName": "original.png",
+    "mediaType": "image/png",
+    "width": 414,
+    "height": 784,
+    "sizeBytes": 69995,
+    "sha256": "6ddfcd49dc708e9f1f9080adafcd2414fb4491394e40c60d97ce5866792bd876"
+  },
+  "thumbnail": {
+    "fileName": "thumbnail.png",
+    "mediaType": "image/png",
+    "width": 51,
+    "height": 96,
+    "sizeBytes": 5216,
+    "sha256": "c52c5498d7d003e9a6080e19bbf7fc4f15d9425ab164b3d88a04e4f31fed8a32"
+  },
+  "display": {
+    "fileName": "display.png",
+    "mediaType": "image/png",
+    "width": 414,
+    "height": 784,
+    "sizeBytes": 96913,
+    "sha256": "c21833c8979463491dac55b039dee6f68196318ce1750fdd62494916a81d911f"
+  }
+}

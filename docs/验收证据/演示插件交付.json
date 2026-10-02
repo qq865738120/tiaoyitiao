@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-02",
+  "artifact": {
+    "path": "docs/演示插件/game-agent-demo-0.4.0.zip",
+    "bytes": 5042291,
+    "sha256": "ea24f77b57062541c17579604ec33dd6725966d2aeb8ad61f555f52b9a402691"
+  },
+  "pluginName": "game-agent-demo",
+  "pluginVersion": "0.4.0",
+  "checks": {
+    "demoBuildAndTypes": {
+      "status": "passed",
+      "command": "npm run public:demo -- --out <独立发布目录>"
+    },
+    "unitTests": {
+      "status": "passed",
+      "suites": 6,
+      "tests": 39,
+      "command": "npm test -- --runInBand test/unit/demo"
+    },
+    "zipAndInstalledIntegrity": {
+      "status": "passed",
+      "pluginFiles": 612
+    },
+    "isolatedFixturePanelSmoke": {
+      "status": "passed",
+      "environment": "Node.js + jsdom; packaged production React components",
+      "emptyShell": true,
+      "multiSession": true,
+      "localHighlight": true,
+      "mediaPlaceholders": true,
+      "dataUnchanged": true,
+      "requests": [
+        "open-purchase"
+      ]
+    },
+    "isolatedRealHistoryPanelSmoke": {
+      "status": "passed",
+      "environment": "Node.js + jsdom; isolated ZIP with only allowlisted archived project data",
+      "sessions": [
+        "945p3wFNIcRllC4dAoWUW",
+        "wz2XaTcKd2kd_E-0TjZj5",
+        "Nt3vtLB7x3O_NzISJRoZt",
+        "IouiHjFKmpV5i-4qQBB4T"
+      ],
+      "archiveFiles": 287,
+      "dataUnchanged": true,
+      "requests": [
+        "open-purchase"
+      ]
+    },
+    "isolatedRealHistoryReader": {
+      "status": "passed",
+      "sessions": 4,
+      "allMessagePartsPreserved": true,
+      "providerRequests": 0
+    },
+    "archiveAndGitBoundary": {
+      "status": "passed",
+      "command": "python3 docs/工具/检查演示交付.py",
+      "historyFiles": 287,
+      "previewImages": 66
+    },
+    "documentationLinks": {
+      "status": "passed"
+    }
+  },
+  "notRun": [
+    "Creator 3.8.0 GUI cold start of this 0.4.0 demo package",
+    "Creator 3.8.8 GUI cold start of this 0.4.0 demo package",
+    "Repeat game Preview or device validation"
+  ],
+  "phase04Status": "主要实现与验证完成；透明材质及角色脚影随高度透明度校准按用户选择保留未完成状态",
+  "buildRepairs": [
+    "Allow precise shared SessionTabs.tsx and ui/dropdown-menu.tsx dependencies; workspace hooks and share business remain forbidden",
+    "Align isolated smoke with exact local decorative header Logo data URL"
+  ],
+  "gitPublication": "Local changes only; no commit or push performed"
+}

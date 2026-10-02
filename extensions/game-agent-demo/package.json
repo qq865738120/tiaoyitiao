@@ -1,0 +1,44 @@
+{
+  "package_version": 2,
+  "name": "game-agent-demo",
+  "version": "0.4.0",
+  "description": "Game Agent 演示版：只读浏览游戏开发会话",
+  "author": "code_xia",
+  "license": "ISC",
+  "editor": ">=3.8.0",
+  "main": "./dist/main/index.js",
+  "panels": {
+    "default": {
+      "title": "Game Agent 演示版",
+      "type": "dockable",
+      "main": "dist/view/panels/default/index",
+      "size": {
+        "min-width": 280,
+        "min-height": 420,
+        "width": 420,
+        "height": 860
+      }
+    }
+  },
+  "contributions": {
+    "menu": [
+      {
+        "path": "i18n:menu.extension",
+        "label": "Game Agent 演示版",
+        "message": "open-panel"
+      }
+    ],
+    "messages": {
+      "open-panel": {
+        "methods": [
+          "openPanel"
+        ]
+      },
+      "open-purchase": {
+        "methods": [
+          "openPurchase"
+        ]
+      }
+    }
+  }
+}

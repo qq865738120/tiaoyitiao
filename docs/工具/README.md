@@ -7,3 +7,5 @@
 - `修正GLB阴影.py`：对指定 GLB 将阴影材质从 MASK 改为 BLEND，保存原 alphaTest 为来源记录。默认只报告，只有显式 `--write` 才写入。保留 BIN、几何、节点、名称和 UV，不操作 Creator 元数据。仅在用户授权修正共享素材时使用；修正后经 Creator 重新导入并更新来源/哈希清单。
 
 在当前工程目录运行 `python3 docs/工具/检查交付.py` 和 `python3 docs/工具/检查素材语义.py`。文件校验与材质参数校验不能代替 Creator 场景中的视觉验证。
+
+- `检查演示交付.py`：只读核对四阶段归档清单/哈希、Session v3与index v2、66组图片、ZIP与已安装演示插件的一致性，以及Git放行/忽略边界。使用Python标准库和Git，不依赖插件源码或Creator缓存。详见 [演示插件说明](../演示插件/README.md)。

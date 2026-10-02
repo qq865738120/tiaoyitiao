@@ -1,9 +1,0 @@
-{
-  "schema": "game-agent.cocos-2dmap-spec/v1",
-  "mode": "layered_mode",
-  "name": "village-square",
-  "canvas": [512, 288],
-  "origin": "top-left",
-  "yAxis": "down",
-  "layers": ["foundation", "terrain", "props_back", "actors", "props_front", "foreground"]
-}

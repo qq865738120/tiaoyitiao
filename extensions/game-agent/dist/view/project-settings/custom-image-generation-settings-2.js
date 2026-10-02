@@ -1,1 +1,0 @@
-"use strict";var e=require("../../chunks/imageGenerationSettingsPanel-CtrTymRv.js");module.exports=Editor.Panel.define(e.createImageGenerationSettingsPanelDefinition({},2)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);
