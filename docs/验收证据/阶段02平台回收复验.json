@@ -1,0 +1,101 @@
+{
+  "project": {
+    "path": "/Users/zhengwenjun/tiaoyitiao",
+    "name": "tiaoyitiao",
+    "uuid": "4856b445-bfe4-49c2-8933-59e229f06792",
+    "creator": {
+      "version": "3.8.8"
+    }
+  },
+  "executedAt": "2026-10-02T06:33:48.048Z",
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "darwin",
+    "tsc": "Version 4.9.5"
+  },
+  "method": "Existing Creator tsc compiles real selected TS implementation; Node executes it using test-only cc/DOM event/node/renderer mocks. InputAdapter/PlatformPool rules are not copied into mocks.",
+  "commands": {
+    "compile": "node '/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc' --strict --target ES2018 --module commonjs --moduleResolution node --lib ES2019,DOM --skipLibCheck --experimentalDecorators --rootDir . --outDir '/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/adapter-test' tests/jump/adapter-mocks/cc.d.ts tests/jump/adapter-tests.ts",
+    "execute": "NODE_PATH='/Users/zhengwenjun/tiaoyitiao/tests/jump/adapter-mocks' JUMP_ADAPTER_OUT='/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/adapter-test' node '/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/adapter-test/tests/jump/adapter-tests.js' --evidence"
+  },
+  "sourceHashes": {
+    "package.json": "01e67f98bca82fd34a4c6fdb34d1af984801f67fcec2c20f94ce4fd2a63bb226",
+    "assets/scripts/jump/adapters/InputAdapter.ts": "b56dddd60893b06a6e149d57c95902616ae20b6b1ca0e22334dc7f806403dbc0",
+    "assets/scripts/jump/view/PlatformPool.ts": "49b40854af4a1713a17e9f7d159e4e389405b94db409dfe121d458626f6706db",
+    "assets/scripts/jump/view/PlatformView.ts": "e1df81ca23417df7e4a631f0d3ea2506d22c5cc25c2bf46eb4cb8951ec7acac8",
+    "assets/scripts/jump/core/config.ts": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178",
+    "assets/scripts/jump/core/types.ts": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364",
+    "tests/jump/adapter-tests.ts": "e76be2afc2020638be934f099c27f2a1be754503906ae04393d0f08ae6d504e3",
+    "tests/jump/adapter-mocks/cc.d.ts": "386e228084cf214e334df6d89f7d538375fac0c30abe2383223400b422c6353d",
+    "tests/jump/adapter-mocks/cc.js": "5b4f15451cee1b492ad2f40e621ff209d95823996eb5dabb5c980ff750705be6",
+    "tests/jump/adapter-mocks/run.sh": "e35295f045aab7235467334ea47391a6ae47ee861bb3dadaa5645ca6a3057ca9"
+  },
+  "preCompileHashes": {
+    "assets/scripts/jump/adapters/InputAdapter.ts": "b56dddd60893b06a6e149d57c95902616ae20b6b1ca0e22334dc7f806403dbc0",
+    "assets/scripts/jump/view/PlatformPool.ts": "49b40854af4a1713a17e9f7d159e4e389405b94db409dfe121d458626f6706db",
+    "assets/scripts/jump/view/PlatformView.ts": "e1df81ca23417df7e4a631f0d3ea2506d22c5cc25c2bf46eb4cb8951ec7acac8",
+    "assets/scripts/jump/core/config.ts": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178",
+    "assets/scripts/jump/core/types.ts": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364"
+  },
+  "sourceStableDuringCompile": true,
+  "compiledHashes": {
+    "assets/scripts/jump/adapters/InputAdapter.ts": "57cc4bcf92ffcc592bc061e77f82644be55820d014f16326c30ae527e110589b",
+    "assets/scripts/jump/view/PlatformPool.ts": "b30cb3e9e59cef45d26760d2b0d025edd8b3fbf5778e3527138e37f6b3f75688",
+    "assets/scripts/jump/view/PlatformView.ts": "94bf06641ef07e00fa758cd2357c612859ada24a38e71737952a47a6e4f3de54",
+    "assets/scripts/jump/core/config.ts": "f997a6952bca283d91bffc6856c5c5de395468a8824e0f5e23fea8b62b6af04b",
+    "assets/scripts/jump/core/types.ts": "d43aa81f5bc89faa359e0f97c814ba25155591ff078fbb9bfd40f8c7c9683230",
+    "tests/jump/adapter-tests.ts": "4af59467fb3f2c26f75064f20a6ba04dfc84b95a976b9a2da7003e4c1885cc37"
+  },
+  "results": [
+    {
+      "id": "P01-pool-limit-8-and-1000-reuse",
+      "status": "pass",
+      "assertions": 2006
+    },
+    {
+      "id": "P02-rect-circle-apply-metadata-and-transform",
+      "status": "pass",
+      "assertions": 6
+    },
+    {
+      "id": "P03-recycle-clears-metadata-root-and-visual-position-scale",
+      "status": "pass",
+      "assertions": 7
+    },
+    {
+      "id": "P04-recycle-restores-shared-material-stops-descendant-tweens",
+      "status": "pass",
+      "assertions": 4
+    },
+    {
+      "id": "P05-model-replacement-and-idempotent-same-id",
+      "status": "pass",
+      "assertions": 5
+    },
+    {
+      "id": "P06-recycle-resets-visual-local-rotation",
+      "status": "pass",
+      "assertions": 1
+    },
+    {
+      "id": "P07-invalid-scale-and-array-length-mismatch-fail-explicitly",
+      "status": "pass",
+      "assertions": 2
+    }
+  ],
+  "summary": {
+    "cases": 7,
+    "passed": 7,
+    "failed": 0,
+    "assertions": 2031
+  },
+  "firstFailure": null,
+  "suggestions": [],
+  "limitations": [
+    "Compilation uses minimal mock cc declarations; not a Creator host engine API typecheck.",
+    "No Creator Preview, actual device touch, real UI camera-coordinate hitTest, imported GLB appearance, GPU material-instance disposal or engine Tween execution tested.",
+    "Mock sink acceptance is controlled to simulate airborne rejection; gameplay phase correctness belongs to separate core tests.",
+    "Only PlatformView unschedule invocation is verified; arbitrary callbacks/components on descendants are not covered.",
+    "Static README/phase documents say phase02 not implemented while selected implementations exist; parent must reconcile final stage status."
+  ]
+}

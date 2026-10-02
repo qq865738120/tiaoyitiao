@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "stage": "02",
+  "scope": "pure TypeScript rules and deterministic replay only",
+  "projectPath": "/Users/zhengwenjun/tiaoyitiao",
+  "projectUuid": "4856b445-bfe4-49c2-8933-59e229f06792",
+  "creatorVersion": "3.8.8",
+  "configVersion": "jump-learning-1.0",
+  "seed": 20260930,
+  "configSha256": "6bdf0dcaf6dfeb153ed81518ed85bec53633deaa5bfa96b6dcf64cf0c4dcdb91",
+  "executedAt": "2026-10-02T06:16:39.645Z",
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "darwin",
+    "arch": "arm64",
+    "osRelease": "25.6.0",
+    "typescript": "Version 4.9.5"
+  },
+  "commands": [
+    "node \"/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc\" --strict --target ES2015 --module commonjs --moduleResolution node --skipLibCheck --noEmit assets/scripts/jump/core/index.ts",
+    "node \"/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc\" --strict --target ES2018 --module commonjs --moduleResolution node --skipLibCheck --rootDir . --outDir \"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/core-test\" tests/jump/run-tests.ts tests/jump/stage02-tests.ts",
+    "JUMP_TEST_OUT=\"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/core-test\" node \"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/core-test/tests/jump/run-tests.js\"",
+    "JUMP_TEST_OUT=\"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/core-test\" node \"/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/core-test/tests/jump/stage02-tests.js\" --evidence"
+  ],
+  "sourceSha256": {
+    "assets/scripts/jump/core/clock.ts": "8356eceee1b24a142d50f5ebdf585288d70a7897f45ddf21f802471e6c29f130",
+    "assets/scripts/jump/core/config.ts": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178",
+    "assets/scripts/jump/core/gameplay.ts": "31efb5555f9baa83641681c145809346ca628add873301176290d7c8de3ebbda",
+    "assets/scripts/jump/core/geometry.ts": "459e83d089bb88ac6630b49db93b608c1b19ef7e437a14d1da82f40c51806207",
+    "assets/scripts/jump/core/index.ts": "618f07e7c6e78bff2162463cb11991995c898f51636892664d5736fb44898430",
+    "assets/scripts/jump/core/motion.ts": "b3fa7b8fb82f98993460eabb4baf536af6a5f63953d0b6069b7f522e92d20b3a",
+    "assets/scripts/jump/core/platforms.ts": "617a17473873d78076cc9cd0869e0783c041e0004a2604ae4d7ed089fb498a5e",
+    "assets/scripts/jump/core/random.ts": "edb5d031623fe3061bb0daa094effe5f8580b4c5e3961e57c0a73b104a2ff49d",
+    "assets/scripts/jump/core/state-machine.ts": "c01da700dbbf9612cffc7c1543f52c542793b688322887b2eb172e9d6a39697e",
+    "assets/scripts/jump/core/types.ts": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364",
+    "docs/数据/验收基准.json": "7be0c4317178709aca6dcb5710e1397dd91b80176c1a11a4857b38360cf71995",
+    "tests/jump/run-tests.ts": "03c946159426d85c6d060207d399421432176d81bbb5b6f91232208be7e9fdd0",
+    "tests/jump/stage02-tests.ts": "438e914e23b630cb82308b7cf554d194bad0e68bbd8bf4830a511391cbc4ca53"
+  },
+  "firstWriteTransaction": "tmtQyObYkT5OwR762Fv5D (assets/scripts/jump/core/README.md)",
+  "summary": {
+    "cases": 16,
+    "pass": 16,
+    "fail": 0,
+    "assertions": 47244
+  },
+  "cases": [
+    {
+      "caseId": "R01-charge-and-cap",
+      "expected": "baseline distances; >=5tick launch; 120tick hold never auto-releases, distance22",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 134
+    },
+    {
+      "caseId": "R02-single-owner-short-and-cancel",
+      "expected": "4ticks cancel; repeated, nonowner, multi-source releases never launch",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 20
+    },
+    {
+      "caseId": "R03-busy-input-and-phase-ticks",
+      "expected": "36 flight + 1 landing + 15recenter; busy presses ignored and not cached",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 114
+    },
+    {
+      "caseId": "R04-pause-cancel-and-flight-freeze",
+      "expected": "blur/background/pause cancel charging; paused flight does not move/tick",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 387
+    },
+    {
+      "caseId": "R05-analytic-baseline-and-lock",
+      "expected": "independent ballistic samples 0/.3/.6, exact descending crossing; offset direction frozen",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 301
+    },
+    {
+      "caseId": "R06-safe-boundaries-and-tolerance",
+      "expected": "rect/circle equal + inward.001 success, outward.001 fail; epsilon admitted",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 40
+    },
+    {
+      "caseId": "R07-corners-and-shadow",
+      "expected": "rect four inset corners success; circle circumscribed corners and visual shadow fail",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 10
+    },
+    {
+      "caseId": "R08-center-boundaries",
+      "expected": "center .5 equal/inside yes; outside .001 ordinary",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 6
+    },
+    {
+      "caseId": "R09-nine-center-normal-reset",
+      "expected": "actual Gameplay yields independent rewards2..16/16 then ordinary1 and center2",
+      "actual": {
+        "rewards": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          16
+        ],
+        "finalScore": 91
+      },
+      "status": "pass",
+      "assertions": 548
+    },
+    {
+      "caseId": "R10-current-foot-streak-and-miss-terminal",
+      "expected": "current keeps foot/streak/score; old platform cannot land; miss36ticks then Failed once",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 224
+    },
+    {
+      "caseId": "R11-baseline-first10",
+      "expected": "actual generator first0/1+10 match independent precomputed parameters",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 101
+    },
+    {
+      "caseId": "R11-1000-offset-foot-ray-reachable",
+      "expected": "same-seed1000 identical, corners/circle perimeter actual feet all ray-safe reachable",
+      "actual": {
+        "platforms": 1000,
+        "offsetRays": 6284,
+        "sequenceSha256": "b2feb20384382a1c6b27c203d288cec709833231f77ef5a4955c0e332e606b74"
+      },
+      "status": "pass",
+      "assertions": 28139
+    },
+    {
+      "caseId": "R12-atomic-score-old-run-jump-home",
+      "expected": "score is atomic/once; old callbacks/score/failure cannot affect new run",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 36
+    },
+    {
+      "caseId": "R15-paired-clock-background-backlog",
+      "expected": "background first delta skipped; lag freezes without advancing charge, recovers at<=5ticks",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 22
+    },
+    {
+      "caseId": "R14-24jump-30-60-120-replay",
+      "expected": "same integer tick inputs produce all four classes, identical platforms/id/score and feet<=1e-5",
+      "actual": {
+        "jumps": 24,
+        "inputs": 48,
+        "classes": [
+          "current",
+          "target-center",
+          "target-normal",
+          "miss"
+        ],
+        "fps": [
+          30,
+          60,
+          120
+        ],
+        "finalScore": 166,
+        "maxFootDifference": 0,
+        "platformSha256": "4e68d49d5222112173b67187a8554abd0a70de4da9371297e94c991015b5cc4d"
+      },
+      "status": "pass",
+      "assertions": 17158
+    },
+    {
+      "caseId": "REG-stage01-preserved-contracts",
+      "expected": "existing phase01 suite27pass without overwriting its evidence",
+      "actual": {
+        "cases": 27,
+        "pass": 27,
+        "fail": 0,
+        "assertions": 1357
+      },
+      "status": "pass",
+      "assertions": 3
+    }
+  ],
+  "notRun": [
+    "Creator preview/visual/20 manual jumps (parent-owned)",
+    "real touch/mouse/keyboard adapters/UI blocking",
+    "view/audio/material pool cleanup"
+  ],
+  "legacyRegression": {
+    "summary": {
+      "cases": 27,
+      "pass": 27,
+      "fail": 0,
+      "assertions": 1357
+    },
+    "execution": "existing run-tests.ts executed separately and also by this entry via child_process without --evidence; stage01 report remains unchanged"
+  },
+  "integration": [
+    "pair Gameplay+FixedTickClock pause/resume and reset clock for start",
+    "use actual foot and immutable jumpPlan; consume events once",
+    "R13 storage belongs to stage03 and is not claimed"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "project": {
+    "path": "/Users/zhengwenjun/tiaoyitiao",
+    "name": "tiaoyitiao",
+    "uuid": "4856b445-bfe4-49c2-8933-59e229f06792",
+    "creator": {
+      "version": "3.8.8"
+    }
+  },
+  "executedAt": "2026-10-02T06:25:43.400Z",
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "darwin",
+    "tsc": "Version 4.9.5"
+  },
+  "method": "Existing Creator tsc compiles real selected TS implementation; Node executes it using test-only cc/DOM event/node/renderer mocks. InputAdapter/PlatformPool rules are not copied into mocks.",
+  "commands": {
+    "compile": "node '/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc' --strict --target ES2018 --module commonjs --moduleResolution node --lib ES2019,DOM --skipLibCheck --experimentalDecorators --rootDir . --outDir '/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/adapter-test' tests/jump/adapter-mocks/cc.d.ts tests/jump/adapter-tests.ts",
+    "execute": "NODE_PATH='/Users/zhengwenjun/tiaoyitiao/tests/jump/adapter-mocks' JUMP_ADAPTER_OUT='/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/adapter-test' node '/private/var/folders/_c/_sp8vtf55zv4ps39gyzrmmmm0000gn/T/game-agent-467e3d08b78b67b5358850d71a5e781a/session-df59b8b31703537fb7e4c3892d450355/adapter-test/tests/jump/adapter-tests.js' --evidence"
+  },
+  "sourceHashes": {
+    "package.json": "01e67f98bca82fd34a4c6fdb34d1af984801f67fcec2c20f94ce4fd2a63bb226",
+    "assets/scripts/jump/adapters/InputAdapter.ts": "b56dddd60893b06a6e149d57c95902616ae20b6b1ca0e22334dc7f806403dbc0",
+    "assets/scripts/jump/view/PlatformPool.ts": "49b40854af4a1713a17e9f7d159e4e389405b94db409dfe121d458626f6706db",
+    "assets/scripts/jump/view/PlatformView.ts": "c764a109b272d05e68c3b55670a82cef62551361020d6927b56bd99b0f93b7a7",
+    "assets/scripts/jump/core/config.ts": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178",
+    "assets/scripts/jump/core/types.ts": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364",
+    "tests/jump/adapter-tests.ts": "d0110a513f36bdd08185eed5d2d60f979a3cbd56fc930dd19f84729efe6c3ad0",
+    "tests/jump/adapter-mocks/cc.d.ts": "386e228084cf214e334df6d89f7d538375fac0c30abe2383223400b422c6353d",
+    "tests/jump/adapter-mocks/cc.js": "5b4f15451cee1b492ad2f40e621ff209d95823996eb5dabb5c980ff750705be6",
+    "tests/jump/adapter-mocks/run.sh": "e35295f045aab7235467334ea47391a6ae47ee861bb3dadaa5645ca6a3057ca9"
+  },
+  "preCompileHashes": {
+    "assets/scripts/jump/adapters/InputAdapter.ts": "b56dddd60893b06a6e149d57c95902616ae20b6b1ca0e22334dc7f806403dbc0",
+    "assets/scripts/jump/view/PlatformPool.ts": "49b40854af4a1713a17e9f7d159e4e389405b94db409dfe121d458626f6706db",
+    "assets/scripts/jump/view/PlatformView.ts": "c764a109b272d05e68c3b55670a82cef62551361020d6927b56bd99b0f93b7a7",
+    "assets/scripts/jump/core/config.ts": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178",
+    "assets/scripts/jump/core/types.ts": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364"
+  },
+  "sourceStableDuringCompile": true,
+  "compiledHashes": {
+    "assets/scripts/jump/adapters/InputAdapter.ts": "57cc4bcf92ffcc592bc061e77f82644be55820d014f16326c30ae527e110589b",
+    "assets/scripts/jump/view/PlatformPool.ts": "b30cb3e9e59cef45d26760d2b0d025edd8b3fbf5778e3527138e37f6b3f75688",
+    "assets/scripts/jump/view/PlatformView.ts": "999fb5ca0aa72f0d06a275089bd2a969edcaffccd67e878af5c317074ae76ee7",
+    "assets/scripts/jump/core/config.ts": "f997a6952bca283d91bffc6856c5c5de395468a8824e0f5e23fea8b62b6af04b",
+    "assets/scripts/jump/core/types.ts": "d43aa81f5bc89faa359e0f97c814ba25155591ff078fbb9bfd40f8c7c9683230",
+    "tests/jump/adapter-tests.ts": "a806d0454d0acfc32ac31d39ebe48c32b97e626be893aa15d50523d803a9f373"
+  },
+  "results": [
+    {
+      "id": "I01-space-repeat-keydown-single-release",
+      "status": "pass",
+      "assertions": 2
+    },
+    {
+      "id": "I02-mouse-owner-touch-and-key-nonowner-release",
+      "status": "pass",
+      "assertions": 3
+    },
+    {
+      "id": "I03-touch-owner-multitouch-and-mouse-competition",
+      "status": "pass",
+      "assertions": 4
+    },
+    {
+      "id": "I04-rejected-flight-input-is-not-buffered",
+      "status": "pass",
+      "assertions": 5
+    },
+    {
+      "id": "I05-pause-reset-held-key-requires-release",
+      "status": "pass",
+      "assertions": 5
+    },
+    {
+      "id": "I06-reset-held-pointer-and-touch-requires-release",
+      "status": "pass",
+      "assertions": 6
+    },
+    {
+      "id": "I07-UI-Button-EditBox-BlockInputEvents-hit-blocks",
+      "status": "pass",
+      "assertions": 6
+    },
+    {
+      "id": "I08-disabled-inactive-UI-and-modal-block",
+      "status": "pass",
+      "assertions": 2
+    },
+    {
+      "id": "I09-form-focus-input-textarea-contentEditable",
+      "status": "pass",
+      "assertions": 15
+    },
+    {
+      "id": "I10-touch-cancel-no-release-and-fresh-touch",
+      "status": "pass",
+      "assertions": 3
+    },
+    {
+      "id": "I11-bind-unbind-counts-idempotence-20-cycles",
+      "status": "pass",
+      "assertions": 23
+    },
+    {
+      "id": "I12-game-hide-window-blur-document-hidden",
+      "status": "pass",
+      "assertions": 13
+    },
+    {
+      "id": "I13-unbind-clears-physical-down-for-rebind",
+      "status": "pass",
+      "assertions": 2
+    },
+    {
+      "id": "I14-right-mouse-button-ignored",
+      "status": "pass",
+      "assertions": 2
+    },
+    {
+      "id": "P01-pool-limit-8-and-1000-reuse",
+      "status": "pass",
+      "assertions": 2006
+    },
+    {
+      "id": "P02-rect-circle-apply-metadata-and-transform",
+      "status": "pass",
+      "assertions": 6
+    },
+    {
+      "id": "P03-recycle-clears-metadata-root-and-visual-position-scale",
+      "status": "pass",
+      "assertions": 7
+    },
+    {
+      "id": "P04-recycle-restores-shared-material-stops-descendant-tweens",
+      "status": "pass",
+      "assertions": 4
+    },
+    {
+      "id": "P05-model-replacement-and-idempotent-same-id",
+      "status": "pass",
+      "assertions": 5
+    },
+    {
+      "id": "P06-recycle-resets-visual-local-rotation",
+      "status": "fail",
+      "firstReason": "Error: all Visual local transforms must return to wrapper baseline; expected=[0,0,0] actual=[0,45,0]",
+      "assertions": 1
+    },
+    {
+      "id": "P07-invalid-scale-and-array-length-mismatch-fail-explicitly",
+      "status": "pass",
+      "assertions": 2
+    }
+  ],
+  "summary": {
+    "cases": 21,
+    "passed": 20,
+    "failed": 1,
+    "assertions": 2122
+  },
+  "firstFailure": {
+    "id": "P06-recycle-resets-visual-local-rotation",
+    "status": "fail",
+    "firstReason": "Error: all Visual local transforms must return to wrapper baseline; expected=[0,0,0] actual=[0,45,0]",
+    "assertions": 1
+  },
+  "suggestions": [
+    "PlatformView.resetForPool clears root rotation but omits Visual rotation; restore Visual baseline rotation (or captured prefab transform), then rerun P06. Implementation remains untouched by this validator."
+  ],
+  "limitations": [
+    "Compilation uses minimal mock cc declarations; not a Creator host engine API typecheck.",
+    "No Creator Preview, actual device touch, real UI camera-coordinate hitTest, imported GLB appearance, GPU material-instance disposal or engine Tween execution tested.",
+    "Mock sink acceptance is controlled to simulate airborne rejection; gameplay phase correctness belongs to separate core tests.",
+    "Only PlatformView unschedule invocation is verified; arbitrary callbacks/components on descendants are not covered.",
+    "Static README/phase documents say phase02 not implemented while selected implementations exist; parent must reconcile final stage status."
+  ]
+}

@@ -39,6 +39,7 @@ export type RunCommand =
     { readonly type: 'pause'; readonly runId: number; readonly reason?: string; } |
     { readonly type: 'resume'; readonly runId: number; } |
     ({ readonly type: 'land'; readonly outcome: LandingOutcome; } & JumpToken) |
+    ({ readonly type: 'score'; readonly center: boolean; } & JumpToken) |
     ({ readonly type: 'beginRecenter'; } & JumpToken) |
     ({ readonly type: 'finishRecenter'; readonly currentId: number; readonly targetId: number; } & JumpToken) |
     ({ readonly type: 'finishLanding'; } & JumpToken) |
@@ -97,7 +98,7 @@ export class RunStateMachine {
             return this.result(true, null, events);
         }
         if (!this.isCurrent(command)) return reject('stale-token');
-        if (['land', 'beginRecenter', 'finishRecenter', 'finishLanding', 'fall', 'finishFall'].indexOf(command.type) !== -1) {
+        if (['land', 'score', 'beginRecenter', 'finishRecenter', 'finishLanding', 'fall', 'finishFall'].indexOf(command.type) !== -1) {
             const jumpId = (command as JumpToken).jumpId;
             if (!Number.isSafeInteger(jumpId) || jumpId <= 0 || jumpId !== this.value.jumpId) return reject('stale-jump');
         }
@@ -161,6 +162,18 @@ export class RunStateMachine {
                 this.patch({ phase: 'landing', landingOutcome: command.outcome });
                 emit({ ...base(), type: 'Landed', jumpId: command.jumpId, outcome: command.outcome });
                 break;
+            case 'score': {
+                if (this.value.phase !== 'landing' || this.value.landingOutcome !== 'target') return reject('illegal-phase');
+                if (typeof command.center !== 'boolean') return reject('invalid-score');
+                const streak = command.center ? this.value.streak + 1 : 0;
+                const delta = command.center ? this.config.centerScoreMultiplier * Math.min(streak, this.config.maxRewardStreak) : this.config.normalScore;
+                const score = this.value.score + delta;
+                if (!Number.isSafeInteger(score) || !Number.isSafeInteger(streak)) return reject('score-overflow');
+                if (!this.boundary.claim(command, 'Scored')) return reject('duplicate-event');
+                this.patch({ score, streak });
+                emit({ ...base(), type: 'Scored', jumpId: command.jumpId, delta, score, streak });
+                break;
+            }
             case 'beginRecenter':
                 if (this.value.phase !== 'landing' || this.value.landingOutcome !== 'target') return reject('illegal-phase');
                 this.patch({ phase: 'recentering' });

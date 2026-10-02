@@ -1,0 +1,5943 @@
+{
+  "schemaVersion": 1,
+  "scope": "pure FixedTickClock + JumpGameplay; no Creator/render verification",
+  "configVersion": "jump-learning-1.0",
+  "seed": 20260930,
+  "inputTickConvention": "inputs at simulation tick N are applied before tick N+1; terminal padding has no gameplay effect",
+  "inputs": [
+    {
+      "tick": 0,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 5,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 42,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 69,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 121,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 162,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 214,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 253,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 305,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 358,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 410,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 468,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 520,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 554,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 606,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 649,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 701,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 752,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 804,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 845,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 897,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 937,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 989,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1034,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1086,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1127,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1179,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1216,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1268,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1306,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1358,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1404,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1456,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1502,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1554,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1589,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1641,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1691,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1743,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1785,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1837,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1869,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 1921,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 1967,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 2019,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 2070,
+      "type": "release",
+      "source": "space"
+    },
+    {
+      "tick": 2122,
+      "type": "press",
+      "source": "space"
+    },
+    {
+      "tick": 2143,
+      "type": "release",
+      "source": "space"
+    }
+  ],
+  "expectedClasses": [
+    "current",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-normal",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-normal",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "target-center",
+    "miss"
+  ],
+  "results": [
+    {
+      "tick": 41,
+      "jumpId": 1,
+      "classification": "current",
+      "foot": {
+        "x": 4.053571428571429,
+        "z": 0,
+        "y": 5.5
+      },
+      "score": 0,
+      "streak": 0
+    },
+    {
+      "tick": 105,
+      "jumpId": 2,
+      "classification": "target-center",
+      "foot": {
+        "x": 14.000000000000002,
+        "z": 0,
+        "y": 5.5
+      },
+      "score": 2,
+      "streak": 1
+    },
+    {
+      "tick": 198,
+      "jumpId": 3,
+      "classification": "target-center",
+      "foot": {
+        "x": 27.696428571428577,
+        "z": 0,
+        "y": 5.5
+      },
+      "score": 6,
+      "streak": 2
+    },
+    {
+      "tick": 289,
+      "jumpId": 4,
+      "classification": "target-center",
+      "foot": {
+        "x": 40.85714285714286,
+        "z": 0,
+        "y": 5.5
+      },
+      "score": 12,
+      "streak": 3
+    },
+    {
+      "tick": 394,
+      "jumpId": 5,
+      "classification": "target-center",
+      "foot": {
+        "x": 40.75551414262191,
+        "z": 16.91040890272752,
+        "y": 5.5
+      },
+      "score": 20,
+      "streak": 4
+    },
+    {
+      "tick": 504,
+      "jumpId": 6,
+      "classification": "target-normal",
+      "foot": {
+        "x": 59.00546218152466,
+        "z": 16.953958613975676,
+        "y": 5.5
+      },
+      "score": 21,
+      "streak": 0
+    },
+    {
+      "tick": 590,
+      "jumpId": 7,
+      "classification": "target-center",
+      "foot": {
+        "x": 57.42354964882213,
+        "z": 28.66906536586942,
+        "y": 5.5
+      },
+      "score": 23,
+      "streak": 1
+    },
+    {
+      "tick": 685,
+      "jumpId": 8,
+      "classification": "target-center",
+      "foot": {
+        "x": 57.414769264524764,
+        "z": 42.901205514525,
+        "y": 5.5
+      },
+      "score": 27,
+      "streak": 2
+    },
+    {
+      "tick": 788,
+      "jumpId": 9,
+      "classification": "target-center",
+      "foot": {
+        "x": 57.41472909997076,
+        "z": 59.27620551447575,
+        "y": 5.5
+      },
+      "score": 33,
+      "streak": 3
+    },
+    {
+      "tick": 881,
+      "jumpId": 10,
+      "classification": "target-center",
+      "foot": {
+        "x": 71.11115383020527,
+        "z": 59.2659477727445,
+        "y": 5.5
+      },
+      "score": 41,
+      "streak": 4
+    },
+    {
+      "tick": 973,
+      "jumpId": 11,
+      "classification": "target-center",
+      "foot": {
+        "x": 84.53972525877042,
+        "z": 59.26596075431067,
+        "y": 5.5
+      },
+      "score": 51,
+      "streak": 5
+    },
+    {
+      "tick": 1070,
+      "jumpId": 12,
+      "classification": "target-center",
+      "foot": {
+        "x": 84.46278069062004,
+        "z": 74.03361744470232,
+        "y": 5.5
+      },
+      "score": 63,
+      "streak": 6
+    },
+    {
+      "tick": 1163,
+      "jumpId": 13,
+      "classification": "target-center",
+      "foot": {
+        "x": 84.46342975066136,
+        "z": 87.73004600075174,
+        "y": 5.5
+      },
+      "score": 77,
+      "streak": 7
+    },
+    {
+      "tick": 1252,
+      "jumpId": 14,
+      "classification": "target-center",
+      "foot": {
+        "x": 84.46342853034525,
+        "z": 100.35504600075168,
+        "y": 5.5
+      },
+      "score": 93,
+      "streak": 8
+    },
+    {
+      "tick": 1342,
+      "jumpId": 15,
+      "classification": "target-normal",
+      "foot": {
+        "x": 84.4634285409022,
+        "z": 113.24790314360882,
+        "y": 5.5
+      },
+      "score": 94,
+      "streak": 0
+    },
+    {
+      "tick": 1440,
+      "jumpId": 16,
+      "classification": "target-center",
+      "foot": {
+        "x": 99.42619244067694,
+        "z": 111.76857878389909,
+        "y": 5.5
+      },
+      "score": 96,
+      "streak": 1
+    },
+    {
+      "tick": 1538,
+      "jumpId": 17,
+      "classification": "target-center",
+      "foot": {
+        "x": 114.46190664638445,
+        "z": 111.76702768172588,
+        "y": 5.5
+      },
+      "score": 100,
+      "streak": 2
+    },
+    {
+      "tick": 1625,
+      "jumpId": 18,
+      "classification": "target-center",
+      "foot": {
+        "x": 126.55119236066997,
+        "z": 111.76702553196822,
+        "y": 5.5
+      },
+      "score": 106,
+      "streak": 3
+    },
+    {
+      "tick": 1727,
+      "jumpId": 19,
+      "classification": "target-center",
+      "foot": {
+        "x": 126.43257475243968,
+        "z": 127.87373161618748,
+        "y": 5.5
+      },
+      "score": 114,
+      "streak": 4
+    },
+    {
+      "tick": 1821,
+      "jumpId": 20,
+      "classification": "target-center",
+      "foot": {
+        "x": 140.3964554049304,
+        "z": 127.76737075308948,
+        "y": 5.5
+      },
+      "score": 124,
+      "streak": 5
+    },
+    {
+      "tick": 1905,
+      "jumpId": 21,
+      "classification": "target-center",
+      "foot": {
+        "x": 140.30122161445533,
+        "z": 139.0526832194737,
+        "y": 5.5
+      },
+      "score": 136,
+      "streak": 6
+    },
+    {
+      "tick": 2003,
+      "jumpId": 22,
+      "classification": "target-center",
+      "foot": {
+        "x": 140.30192458711736,
+        "z": 154.08839748875477,
+        "y": 5.5
+      },
+      "score": 150,
+      "streak": 7
+    },
+    {
+      "tick": 2106,
+      "jumpId": 23,
+      "classification": "target-center",
+      "foot": {
+        "x": 140.30192346365428,
+        "z": 170.46339748875474,
+        "y": 5.5
+      },
+      "score": 166,
+      "streak": 8
+    },
+    {
+      "tick": 2179,
+      "jumpId": 24,
+      "classification": "miss",
+      "foot": {
+        "x": 140.3019234662056,
+        "z": 178.80268320304046,
+        "y": 5.5
+      },
+      "score": 166,
+      "streak": 8
+    }
+  ],
+  "endTick": 2216,
+  "executions": [
+    {
+      "fps": 30,
+      "endClockTick": 2216,
+      "finalState": {
+        "runId": 1,
+        "phase": "gameover",
+        "seed": 20260930,
+        "tick": 2215,
+        "score": 166,
+        "streak": 8,
+        "currentId": 22,
+        "targetId": 23,
+        "jumpId": 24,
+        "chargeStartTick": null,
+        "inputOwner": null,
+        "jumpPlan": {
+          "startFoot": {
+            "x": 140.30192346365428,
+            "z": 170.46339748875474,
+            "y": 5.5
+          },
+          "directionXZ": {
+            "x": 3.059424260208672e-10,
+            "z": 1
+          },
+          "distance": 8.339285714285715,
+          "flightTime": 0.6,
+          "targetId": 23,
+          "runId": 1,
+          "jumpId": 24,
+          "startTick": 2143
+        },
+        "resumePhase": null,
+        "landingOutcome": null
+      },
+      "platforms": [
+        {
+          "id": 0,
+          "modelKey": "block_00",
+          "horizontalScale": 1,
+          "centerXZ": {
+            "x": 0,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 5,
+            "z": 5
+          }
+        },
+        {
+          "id": 1,
+          "modelKey": "block_01",
+          "horizontalScale": 1,
+          "centerXZ": {
+            "x": 14,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 5,
+            "z": 5
+          }
+        },
+        {
+          "id": 2,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9699986284598708,
+          "centerXZ": {
+            "x": 27.826421110890806,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.849993142299354,
+            "z": 4.849993142299354
+          }
+        },
+        {
+          "id": 3,
+          "modelKey": "block_01",
+          "horizontalScale": 0.8867890671361238,
+          "centerXZ": {
+            "x": 40.755275229224935,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.433945335680619,
+            "z": 4.433945335680619
+          }
+        },
+        {
+          "id": 4,
+          "modelKey": "block_04",
+          "horizontalScale": 0.985836325539276,
+          "centerXZ": {
+            "x": 40.755275229224935,
+            "z": 16.950162659864873
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.92918162769638,
+            "z": 4.92918162769638
+          }
+        },
+        {
+          "id": 5,
+          "modelKey": "block_03",
+          "horizontalScale": 0.9744185167830437,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 16.950162659864873
+          },
+          "topY": 5.5,
+          "shape": "circle",
+          "radius": 4.872092583915219
+        },
+        {
+          "id": 6,
+          "modelKey": "block_08",
+          "horizontalScale": 0.8463554239366204,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 28.734387167729437
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.231777119683102,
+            "z": 4.231777119683102
+          }
+        },
+        {
+          "id": 7,
+          "modelKey": "block_04",
+          "horizontalScale": 0.9701383428648114,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 42.966267579002306
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.850691714324057,
+            "z": 4.850691714324057
+          }
+        },
+        {
+          "id": 8,
+          "modelKey": "block_33",
+          "horizontalScale": 0.879826242197305,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.399131210986525,
+            "z": 4.399131210986525
+          }
+        },
+        {
+          "id": 9,
+          "modelKey": "block_35",
+          "horizontalScale": 0.8122496042866261,
+          "centerXZ": {
+            "x": 71.09391896100715,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.06124802143313,
+            "z": 4.06124802143313
+          }
+        },
+        {
+          "id": 10,
+          "modelKey": "block_00",
+          "horizontalScale": 0.8524204430636019,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.262102215318009,
+            "z": 4.262102215318009
+          }
+        },
+        {
+          "id": 11,
+          "modelKey": "block_34",
+          "horizontalScale": 0.965220075007528,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 73.90927841886878
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.82610037503764,
+            "z": 4.82610037503764
+          }
+        },
+        {
+          "id": 12,
+          "modelKey": "block_01",
+          "horizontalScale": 0.9986258360557259,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 87.70449214335531
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.993129180278629,
+            "z": 4.993129180278629
+          }
+        },
+        {
+          "id": 13,
+          "modelKey": "block_11",
+          "horizontalScale": 0.898079457320273,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 100.25837213592604
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.490397286601365,
+            "z": 4.490397286601365
+          }
+        },
+        {
+          "id": 14,
+          "modelKey": "block_04",
+          "horizontalScale": 0.8341297568287701,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.17064878414385,
+            "z": 4.17064878414385
+          }
+        },
+        {
+          "id": 15,
+          "modelKey": "block_35",
+          "horizontalScale": 0.8418305451516063,
+          "centerXZ": {
+            "x": 99.44190273992717,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.209152725758031,
+            "z": 4.209152725758031
+          }
+        },
+        {
+          "id": 16,
+          "modelKey": "block_00",
+          "horizontalScale": 0.9700437346007675,
+          "centerXZ": {
+            "x": 114.48254234297201,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.8502186730038375,
+            "z": 4.8502186730038375
+          }
+        },
+        {
+          "id": 17,
+          "modelKey": "block_01",
+          "horizontalScale": 0.8170217103790492,
+          "centerXZ": {
+            "x": 126.4333527428098,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.085108551895246,
+            "z": 4.085108551895246
+          }
+        },
+        {
+          "id": 18,
+          "modelKey": "block_03",
+          "horizontalScale": 0.8596570174209774,
+          "centerXZ": {
+            "x": 126.4333527428098,
+            "z": 127.76809078920633
+          },
+          "topY": 5.5,
+          "shape": "circle",
+          "radius": 4.298285087104887
+        },
+        {
+          "id": 19,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9380534865427762,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 127.76809078920633
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.690267432713881,
+            "z": 4.690267432713881
+          }
+        },
+        {
+          "id": 20,
+          "modelKey": "block_12",
+          "horizontalScale": 0.8812784415204078,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 138.9695127750747
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.406392207602039,
+            "z": 4.406392207602039
+          }
+        },
+        {
+          "id": 21,
+          "modelKey": "block_12",
+          "horizontalScale": 0.9178556400351227,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 154.06446117977612
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.589278200175613,
+            "z": 4.589278200175613
+          }
+        },
+        {
+          "id": 22,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9403320791199803,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 170.39990361151285
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.701660395599902,
+            "z": 4.701660395599902
+          }
+        },
+        {
+          "id": 23,
+          "modelKey": "block_08",
+          "horizontalScale": 0.8373123840428889,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 184.70210208022036
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.186561920214444,
+            "z": 4.186561920214444
+          }
+        },
+        {
+          "id": 24,
+          "modelKey": "block_11",
+          "horizontalScale": 0.8251676353625954,
+          "centerXZ": {
+            "x": 152.16598491254263,
+            "z": 184.70210208022036
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.125838176812977,
+            "z": 4.125838176812977
+          }
+        }
+      ],
+      "results": [
+        {
+          "tick": 41,
+          "jumpId": 1,
+          "classification": "current",
+          "foot": {
+            "x": 4.053571428571429,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 0,
+          "streak": 0
+        },
+        {
+          "tick": 105,
+          "jumpId": 2,
+          "classification": "target-center",
+          "foot": {
+            "x": 14.000000000000002,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 2,
+          "streak": 1
+        },
+        {
+          "tick": 198,
+          "jumpId": 3,
+          "classification": "target-center",
+          "foot": {
+            "x": 27.696428571428577,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 6,
+          "streak": 2
+        },
+        {
+          "tick": 289,
+          "jumpId": 4,
+          "classification": "target-center",
+          "foot": {
+            "x": 40.85714285714286,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 12,
+          "streak": 3
+        },
+        {
+          "tick": 394,
+          "jumpId": 5,
+          "classification": "target-center",
+          "foot": {
+            "x": 40.75551414262191,
+            "z": 16.91040890272752,
+            "y": 5.5
+          },
+          "score": 20,
+          "streak": 4
+        },
+        {
+          "tick": 504,
+          "jumpId": 6,
+          "classification": "target-normal",
+          "foot": {
+            "x": 59.00546218152466,
+            "z": 16.953958613975676,
+            "y": 5.5
+          },
+          "score": 21,
+          "streak": 0
+        },
+        {
+          "tick": 590,
+          "jumpId": 7,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.42354964882213,
+            "z": 28.66906536586942,
+            "y": 5.5
+          },
+          "score": 23,
+          "streak": 1
+        },
+        {
+          "tick": 685,
+          "jumpId": 8,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.414769264524764,
+            "z": 42.901205514525,
+            "y": 5.5
+          },
+          "score": 27,
+          "streak": 2
+        },
+        {
+          "tick": 788,
+          "jumpId": 9,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.41472909997076,
+            "z": 59.27620551447575,
+            "y": 5.5
+          },
+          "score": 33,
+          "streak": 3
+        },
+        {
+          "tick": 881,
+          "jumpId": 10,
+          "classification": "target-center",
+          "foot": {
+            "x": 71.11115383020527,
+            "z": 59.2659477727445,
+            "y": 5.5
+          },
+          "score": 41,
+          "streak": 4
+        },
+        {
+          "tick": 973,
+          "jumpId": 11,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.53972525877042,
+            "z": 59.26596075431067,
+            "y": 5.5
+          },
+          "score": 51,
+          "streak": 5
+        },
+        {
+          "tick": 1070,
+          "jumpId": 12,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46278069062004,
+            "z": 74.03361744470232,
+            "y": 5.5
+          },
+          "score": 63,
+          "streak": 6
+        },
+        {
+          "tick": 1163,
+          "jumpId": 13,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46342975066136,
+            "z": 87.73004600075174,
+            "y": 5.5
+          },
+          "score": 77,
+          "streak": 7
+        },
+        {
+          "tick": 1252,
+          "jumpId": 14,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46342853034525,
+            "z": 100.35504600075168,
+            "y": 5.5
+          },
+          "score": 93,
+          "streak": 8
+        },
+        {
+          "tick": 1342,
+          "jumpId": 15,
+          "classification": "target-normal",
+          "foot": {
+            "x": 84.4634285409022,
+            "z": 113.24790314360882,
+            "y": 5.5
+          },
+          "score": 94,
+          "streak": 0
+        },
+        {
+          "tick": 1440,
+          "jumpId": 16,
+          "classification": "target-center",
+          "foot": {
+            "x": 99.42619244067694,
+            "z": 111.76857878389909,
+            "y": 5.5
+          },
+          "score": 96,
+          "streak": 1
+        },
+        {
+          "tick": 1538,
+          "jumpId": 17,
+          "classification": "target-center",
+          "foot": {
+            "x": 114.46190664638445,
+            "z": 111.76702768172588,
+            "y": 5.5
+          },
+          "score": 100,
+          "streak": 2
+        },
+        {
+          "tick": 1625,
+          "jumpId": 18,
+          "classification": "target-center",
+          "foot": {
+            "x": 126.55119236066997,
+            "z": 111.76702553196822,
+            "y": 5.5
+          },
+          "score": 106,
+          "streak": 3
+        },
+        {
+          "tick": 1727,
+          "jumpId": 19,
+          "classification": "target-center",
+          "foot": {
+            "x": 126.43257475243968,
+            "z": 127.87373161618748,
+            "y": 5.5
+          },
+          "score": 114,
+          "streak": 4
+        },
+        {
+          "tick": 1821,
+          "jumpId": 20,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.3964554049304,
+            "z": 127.76737075308948,
+            "y": 5.5
+          },
+          "score": 124,
+          "streak": 5
+        },
+        {
+          "tick": 1905,
+          "jumpId": 21,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30122161445533,
+            "z": 139.0526832194737,
+            "y": 5.5
+          },
+          "score": 136,
+          "streak": 6
+        },
+        {
+          "tick": 2003,
+          "jumpId": 22,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30192458711736,
+            "z": 154.08839748875477,
+            "y": 5.5
+          },
+          "score": 150,
+          "streak": 7
+        },
+        {
+          "tick": 2106,
+          "jumpId": 23,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30192346365428,
+            "z": 170.46339748875474,
+            "y": 5.5
+          },
+          "score": 166,
+          "streak": 8
+        },
+        {
+          "tick": 2179,
+          "jumpId": 24,
+          "classification": "miss",
+          "foot": {
+            "x": 140.3019234662056,
+            "z": 178.80268320304046,
+            "y": 5.5
+          },
+          "score": 166,
+          "streak": 8
+        }
+      ],
+      "events": [
+        {
+          "runId": 1,
+          "tick": 0,
+          "type": "Started",
+          "seed": 20260930
+        },
+        {
+          "runId": 1,
+          "tick": 0,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 5,
+          "type": "Jump",
+          "jumpId": 1,
+          "plan": {
+            "startFoot": {
+              "x": 0,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 4.053571428571429,
+            "flightTime": 0.6,
+            "targetId": 1,
+            "runId": 1,
+            "jumpId": 1,
+            "startTick": 5
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 41,
+          "type": "Landed",
+          "jumpId": 1,
+          "outcome": "current"
+        },
+        {
+          "runId": 1,
+          "tick": 42,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 69,
+          "type": "Jump",
+          "jumpId": 2,
+          "plan": {
+            "startFoot": {
+              "x": 4.053571428571429,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 9.946428571428573,
+            "flightTime": 0.6,
+            "targetId": 1,
+            "runId": 1,
+            "jumpId": 2,
+            "startTick": 69
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 105,
+          "type": "Landed",
+          "jumpId": 2,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 105,
+          "type": "Scored",
+          "jumpId": 2,
+          "delta": 2,
+          "score": 2,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 121,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 162,
+          "type": "Jump",
+          "jumpId": 3,
+          "plan": {
+            "startFoot": {
+              "x": 14.000000000000002,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 2,
+            "runId": 1,
+            "jumpId": 3,
+            "startTick": 162
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 198,
+          "type": "Landed",
+          "jumpId": 3,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 198,
+          "type": "Scored",
+          "jumpId": 3,
+          "delta": 4,
+          "score": 6,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 214,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 253,
+          "type": "Jump",
+          "jumpId": 4,
+          "plan": {
+            "startFoot": {
+              "x": 27.696428571428577,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 13.160714285714286,
+            "flightTime": 0.6,
+            "targetId": 3,
+            "runId": 1,
+            "jumpId": 4,
+            "startTick": 253
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 289,
+          "type": "Landed",
+          "jumpId": 4,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 289,
+          "type": "Scored",
+          "jumpId": 4,
+          "delta": 6,
+          "score": 12,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 305,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 358,
+          "type": "Jump",
+          "jumpId": 5,
+          "plan": {
+            "startFoot": {
+              "x": 40.85714285714286,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.006009723350763525,
+              "z": 0.9999819414495681
+            },
+            "distance": 16.91071428571429,
+            "flightTime": 0.6,
+            "targetId": 4,
+            "runId": 1,
+            "jumpId": 5,
+            "startTick": 358
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 394,
+          "type": "Landed",
+          "jumpId": 5,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 394,
+          "type": "Scored",
+          "jumpId": 5,
+          "delta": 8,
+          "score": 20,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 410,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 468,
+          "type": "Jump",
+          "jumpId": 6,
+          "plan": {
+            "startFoot": {
+              "x": 40.75551414262191,
+              "z": 16.91040890272752,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999971528165889,
+              "z": 0.002386285547844085
+            },
+            "distance": 18.25,
+            "flightTime": 0.6,
+            "targetId": 5,
+            "runId": 1,
+            "jumpId": 6,
+            "startTick": 468
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 504,
+          "type": "Landed",
+          "jumpId": 6,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 504,
+          "type": "Scored",
+          "jumpId": 6,
+          "delta": 1,
+          "score": 21,
+          "streak": 0
+        },
+        {
+          "runId": 1,
+          "tick": 520,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 554,
+          "type": "Jump",
+          "jumpId": 7,
+          "plan": {
+            "startFoot": {
+              "x": 59.00546218152466,
+              "z": 16.953958613975676,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.13381737436758592,
+              "z": 0.9910060092236401
+            },
+            "distance": 11.821428571428571,
+            "flightTime": 0.6,
+            "targetId": 6,
+            "runId": 1,
+            "jumpId": 7,
+            "startTick": 554
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 590,
+          "type": "Landed",
+          "jumpId": 7,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 590,
+          "type": "Scored",
+          "jumpId": 7,
+          "delta": 2,
+          "score": 23,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 606,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 649,
+          "type": "Jump",
+          "jumpId": 8,
+          "plan": {
+            "startFoot": {
+              "x": 57.42354964882213,
+              "z": 28.66906536586942,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.0006169404274186278,
+              "z": 0.9999998096922365
+            },
+            "distance": 14.23214285714286,
+            "flightTime": 0.6,
+            "targetId": 7,
+            "runId": 1,
+            "jumpId": 8,
+            "startTick": 649
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 685,
+          "type": "Landed",
+          "jumpId": 8,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 685,
+          "type": "Scored",
+          "jumpId": 8,
+          "delta": 4,
+          "score": 27,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 701,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 752,
+          "type": "Jump",
+          "jumpId": 9,
+          "plan": {
+            "startFoot": {
+              "x": 57.414769264524764,
+              "z": 42.901205514525,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.0000024527971913108587,
+              "z": 0.999999999996992
+            },
+            "distance": 16.375,
+            "flightTime": 0.6,
+            "targetId": 8,
+            "runId": 1,
+            "jumpId": 9,
+            "startTick": 752
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 788,
+          "type": "Landed",
+          "jumpId": 9,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 788,
+          "type": "Scored",
+          "jumpId": 9,
+          "delta": 6,
+          "score": 33,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 804,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 845,
+          "type": "Jump",
+          "jumpId": 10,
+          "plan": {
+            "startFoot": {
+              "x": 57.41472909997076,
+              "z": 59.27620551447575,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999997195477609,
+              "z": -0.0007489355110168679
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 9,
+            "runId": 1,
+            "jumpId": 10,
+            "startTick": 845
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 881,
+          "type": "Landed",
+          "jumpId": 10,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 881,
+          "type": "Scored",
+          "jumpId": 10,
+          "delta": 8,
+          "score": 41,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 897,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 937,
+          "type": "Jump",
+          "jumpId": 11,
+          "plan": {
+            "startFoot": {
+              "x": 71.11115383020527,
+              "z": 59.2659477727445,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999999995328,
+              "z": 9.667123747744392e-7
+            },
+            "distance": 13.428571428571429,
+            "flightTime": 0.6,
+            "targetId": 10,
+            "runId": 1,
+            "jumpId": 11,
+            "startTick": 937
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 973,
+          "type": "Landed",
+          "jumpId": 11,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 973,
+          "type": "Scored",
+          "jumpId": 11,
+          "delta": 10,
+          "score": 51,
+          "streak": 5
+        },
+        {
+          "runId": 1,
+          "tick": 989,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1034,
+          "type": "Jump",
+          "jumpId": 12,
+          "plan": {
+            "startFoot": {
+              "x": 84.53972525877042,
+              "z": 59.26596075431067,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.005210273054923235,
+              "z": 0.9999864264352258
+            },
+            "distance": 14.767857142857144,
+            "flightTime": 0.6,
+            "targetId": 11,
+            "runId": 1,
+            "jumpId": 12,
+            "startTick": 1034
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1070,
+          "type": "Landed",
+          "jumpId": 12,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1070,
+          "type": "Scored",
+          "jumpId": 12,
+          "delta": 12,
+          "score": 63,
+          "streak": 6
+        },
+        {
+          "runId": 1,
+          "tick": 1086,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1127,
+          "type": "Jump",
+          "jumpId": 13,
+          "plan": {
+            "startFoot": {
+              "x": 84.46278069062004,
+              "z": 74.03361744470232,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.00004738899910555258,
+              "z": 0.9999999988771415
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 12,
+            "runId": 1,
+            "jumpId": 13,
+            "startTick": 1127
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1163,
+          "type": "Landed",
+          "jumpId": 13,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1163,
+          "type": "Scored",
+          "jumpId": 13,
+          "delta": 14,
+          "score": 77,
+          "streak": 7
+        },
+        {
+          "runId": 1,
+          "tick": 1179,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1216,
+          "type": "Jump",
+          "jumpId": 14,
+          "plan": {
+            "startFoot": {
+              "x": 84.46342975066136,
+              "z": 87.73004600075174,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -9.665870114763029e-8,
+              "z": 0.9999999999999953
+            },
+            "distance": 12.625000000000002,
+            "flightTime": 0.6,
+            "targetId": 13,
+            "runId": 1,
+            "jumpId": 14,
+            "startTick": 1216
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1252,
+          "type": "Landed",
+          "jumpId": 14,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1252,
+          "type": "Scored",
+          "jumpId": 14,
+          "delta": 16,
+          "score": 93,
+          "streak": 8
+        },
+        {
+          "runId": 1,
+          "tick": 1268,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1306,
+          "type": "Jump",
+          "jumpId": 15,
+          "plan": {
+            "startFoot": {
+              "x": 84.46342853034525,
+              "z": 100.35504600075168,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 8.188216511405072e-10,
+              "z": 1
+            },
+            "distance": 12.892857142857144,
+            "flightTime": 0.6,
+            "targetId": 14,
+            "runId": 1,
+            "jumpId": 15,
+            "startTick": 1306
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1342,
+          "type": "Landed",
+          "jumpId": 15,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1342,
+          "type": "Scored",
+          "jumpId": 15,
+          "delta": 1,
+          "score": 94,
+          "streak": 0
+        },
+        {
+          "runId": 1,
+          "tick": 1358,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1404,
+          "type": "Jump",
+          "jumpId": 16,
+          "plan": {
+            "startFoot": {
+              "x": 84.4634285409022,
+              "z": 113.24790314360882,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9951481928591274,
+              "z": -0.09838736834173975
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 15,
+            "runId": 1,
+            "jumpId": 16,
+            "startTick": 1404
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1440,
+          "type": "Landed",
+          "jumpId": 16,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1440,
+          "type": "Scored",
+          "jumpId": 16,
+          "delta": 2,
+          "score": 96,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 1456,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1502,
+          "type": "Jump",
+          "jumpId": 17,
+          "plan": {
+            "startFoot": {
+              "x": 99.42619244067694,
+              "z": 111.76857878389909,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999946788845,
+              "z": -0.00010316118966696927
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 16,
+            "runId": 1,
+            "jumpId": 17,
+            "startTick": 1502
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1538,
+          "type": "Landed",
+          "jumpId": 17,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1538,
+          "type": "Scored",
+          "jumpId": 17,
+          "delta": 4,
+          "score": 100,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 1554,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1589,
+          "type": "Jump",
+          "jumpId": 18,
+          "plan": {
+            "startFoot": {
+              "x": 114.46190664638445,
+              "z": 111.76702768172588,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999999999842,
+              "z": -1.77823380831516e-7
+            },
+            "distance": 12.089285714285717,
+            "flightTime": 0.6,
+            "targetId": 17,
+            "runId": 1,
+            "jumpId": 18,
+            "startTick": 1589
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1625,
+          "type": "Landed",
+          "jumpId": 18,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1625,
+          "type": "Scored",
+          "jumpId": 18,
+          "delta": 6,
+          "score": 106,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 1641,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1691,
+          "type": "Jump",
+          "jumpId": 19,
+          "plan": {
+            "startFoot": {
+              "x": 126.55119236066997,
+              "z": 111.76702553196822,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.007364286098554982,
+              "z": 0.9999728832774709
+            },
+            "distance": 16.10714285714286,
+            "flightTime": 0.6,
+            "targetId": 18,
+            "runId": 1,
+            "jumpId": 19,
+            "startTick": 1691
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1727,
+          "type": "Landed",
+          "jumpId": 19,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1727,
+          "type": "Scored",
+          "jumpId": 19,
+          "delta": 8,
+          "score": 114,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 1743,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1785,
+          "type": "Jump",
+          "jumpId": 20,
+          "plan": {
+            "startFoot": {
+              "x": 126.43257475243968,
+              "z": 127.87373161618748,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999709930172395,
+              "z": -0.007616634697555342
+            },
+            "distance": 13.964285714285715,
+            "flightTime": 0.6,
+            "targetId": 19,
+            "runId": 1,
+            "jumpId": 20,
+            "startTick": 1785
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1821,
+          "type": "Landed",
+          "jumpId": 20,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1821,
+          "type": "Scored",
+          "jumpId": 20,
+          "delta": 10,
+          "score": 124,
+          "streak": 5
+        },
+        {
+          "runId": 1,
+          "tick": 1837,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1869,
+          "type": "Jump",
+          "jumpId": 21,
+          "plan": {
+            "startFoot": {
+              "x": 140.3964554049304,
+              "z": 127.76737075308948,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.00843843713070206,
+              "z": 0.9999643957555645
+            },
+            "distance": 11.285714285714285,
+            "flightTime": 0.6,
+            "targetId": 20,
+            "runId": 1,
+            "jumpId": 21,
+            "startTick": 1869
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1905,
+          "type": "Landed",
+          "jumpId": 21,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1905,
+          "type": "Scored",
+          "jumpId": 21,
+          "delta": 12,
+          "score": 136,
+          "streak": 6
+        },
+        {
+          "runId": 1,
+          "tick": 1921,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1967,
+          "type": "Jump",
+          "jumpId": 22,
+          "plan": {
+            "startFoot": {
+              "x": 140.30122161445533,
+              "z": 139.0526832194737,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.00004675352621519862,
+              "z": 0.999999998907054
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 21,
+            "runId": 1,
+            "jumpId": 22,
+            "startTick": 1967
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2003,
+          "type": "Landed",
+          "jumpId": 22,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 2003,
+          "type": "Scored",
+          "jumpId": 22,
+          "delta": 14,
+          "score": 150,
+          "streak": 7
+        },
+        {
+          "runId": 1,
+          "tick": 2019,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 2070,
+          "type": "Jump",
+          "jumpId": 23,
+          "plan": {
+            "startFoot": {
+              "x": 140.30192458711736,
+              "z": 154.08839748875477,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -6.860843178814968e-8,
+              "z": 0.9999999999999978
+            },
+            "distance": 16.375,
+            "flightTime": 0.6,
+            "targetId": 22,
+            "runId": 1,
+            "jumpId": 23,
+            "startTick": 2070
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2106,
+          "type": "Landed",
+          "jumpId": 23,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 2106,
+          "type": "Scored",
+          "jumpId": 23,
+          "delta": 16,
+          "score": 166,
+          "streak": 8
+        },
+        {
+          "runId": 1,
+          "tick": 2122,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 2143,
+          "type": "Jump",
+          "jumpId": 24,
+          "plan": {
+            "startFoot": {
+              "x": 140.30192346365428,
+              "z": 170.46339748875474,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 3.059424260208672e-10,
+              "z": 1
+            },
+            "distance": 8.339285714285715,
+            "flightTime": 0.6,
+            "targetId": 23,
+            "runId": 1,
+            "jumpId": 24,
+            "startTick": 2143
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2215,
+          "type": "Failed",
+          "jumpId": 24,
+          "reason": "miss"
+        }
+      ]
+    },
+    {
+      "fps": 60,
+      "endClockTick": 2216,
+      "finalState": {
+        "runId": 1,
+        "phase": "gameover",
+        "seed": 20260930,
+        "tick": 2215,
+        "score": 166,
+        "streak": 8,
+        "currentId": 22,
+        "targetId": 23,
+        "jumpId": 24,
+        "chargeStartTick": null,
+        "inputOwner": null,
+        "jumpPlan": {
+          "startFoot": {
+            "x": 140.30192346365428,
+            "z": 170.46339748875474,
+            "y": 5.5
+          },
+          "directionXZ": {
+            "x": 3.059424260208672e-10,
+            "z": 1
+          },
+          "distance": 8.339285714285715,
+          "flightTime": 0.6,
+          "targetId": 23,
+          "runId": 1,
+          "jumpId": 24,
+          "startTick": 2143
+        },
+        "resumePhase": null,
+        "landingOutcome": null
+      },
+      "platforms": [
+        {
+          "id": 0,
+          "modelKey": "block_00",
+          "horizontalScale": 1,
+          "centerXZ": {
+            "x": 0,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 5,
+            "z": 5
+          }
+        },
+        {
+          "id": 1,
+          "modelKey": "block_01",
+          "horizontalScale": 1,
+          "centerXZ": {
+            "x": 14,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 5,
+            "z": 5
+          }
+        },
+        {
+          "id": 2,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9699986284598708,
+          "centerXZ": {
+            "x": 27.826421110890806,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.849993142299354,
+            "z": 4.849993142299354
+          }
+        },
+        {
+          "id": 3,
+          "modelKey": "block_01",
+          "horizontalScale": 0.8867890671361238,
+          "centerXZ": {
+            "x": 40.755275229224935,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.433945335680619,
+            "z": 4.433945335680619
+          }
+        },
+        {
+          "id": 4,
+          "modelKey": "block_04",
+          "horizontalScale": 0.985836325539276,
+          "centerXZ": {
+            "x": 40.755275229224935,
+            "z": 16.950162659864873
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.92918162769638,
+            "z": 4.92918162769638
+          }
+        },
+        {
+          "id": 5,
+          "modelKey": "block_03",
+          "horizontalScale": 0.9744185167830437,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 16.950162659864873
+          },
+          "topY": 5.5,
+          "shape": "circle",
+          "radius": 4.872092583915219
+        },
+        {
+          "id": 6,
+          "modelKey": "block_08",
+          "horizontalScale": 0.8463554239366204,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 28.734387167729437
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.231777119683102,
+            "z": 4.231777119683102
+          }
+        },
+        {
+          "id": 7,
+          "modelKey": "block_04",
+          "horizontalScale": 0.9701383428648114,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 42.966267579002306
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.850691714324057,
+            "z": 4.850691714324057
+          }
+        },
+        {
+          "id": 8,
+          "modelKey": "block_33",
+          "horizontalScale": 0.879826242197305,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.399131210986525,
+            "z": 4.399131210986525
+          }
+        },
+        {
+          "id": 9,
+          "modelKey": "block_35",
+          "horizontalScale": 0.8122496042866261,
+          "centerXZ": {
+            "x": 71.09391896100715,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.06124802143313,
+            "z": 4.06124802143313
+          }
+        },
+        {
+          "id": 10,
+          "modelKey": "block_00",
+          "horizontalScale": 0.8524204430636019,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.262102215318009,
+            "z": 4.262102215318009
+          }
+        },
+        {
+          "id": 11,
+          "modelKey": "block_34",
+          "horizontalScale": 0.965220075007528,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 73.90927841886878
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.82610037503764,
+            "z": 4.82610037503764
+          }
+        },
+        {
+          "id": 12,
+          "modelKey": "block_01",
+          "horizontalScale": 0.9986258360557259,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 87.70449214335531
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.993129180278629,
+            "z": 4.993129180278629
+          }
+        },
+        {
+          "id": 13,
+          "modelKey": "block_11",
+          "horizontalScale": 0.898079457320273,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 100.25837213592604
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.490397286601365,
+            "z": 4.490397286601365
+          }
+        },
+        {
+          "id": 14,
+          "modelKey": "block_04",
+          "horizontalScale": 0.8341297568287701,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.17064878414385,
+            "z": 4.17064878414385
+          }
+        },
+        {
+          "id": 15,
+          "modelKey": "block_35",
+          "horizontalScale": 0.8418305451516063,
+          "centerXZ": {
+            "x": 99.44190273992717,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.209152725758031,
+            "z": 4.209152725758031
+          }
+        },
+        {
+          "id": 16,
+          "modelKey": "block_00",
+          "horizontalScale": 0.9700437346007675,
+          "centerXZ": {
+            "x": 114.48254234297201,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.8502186730038375,
+            "z": 4.8502186730038375
+          }
+        },
+        {
+          "id": 17,
+          "modelKey": "block_01",
+          "horizontalScale": 0.8170217103790492,
+          "centerXZ": {
+            "x": 126.4333527428098,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.085108551895246,
+            "z": 4.085108551895246
+          }
+        },
+        {
+          "id": 18,
+          "modelKey": "block_03",
+          "horizontalScale": 0.8596570174209774,
+          "centerXZ": {
+            "x": 126.4333527428098,
+            "z": 127.76809078920633
+          },
+          "topY": 5.5,
+          "shape": "circle",
+          "radius": 4.298285087104887
+        },
+        {
+          "id": 19,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9380534865427762,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 127.76809078920633
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.690267432713881,
+            "z": 4.690267432713881
+          }
+        },
+        {
+          "id": 20,
+          "modelKey": "block_12",
+          "horizontalScale": 0.8812784415204078,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 138.9695127750747
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.406392207602039,
+            "z": 4.406392207602039
+          }
+        },
+        {
+          "id": 21,
+          "modelKey": "block_12",
+          "horizontalScale": 0.9178556400351227,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 154.06446117977612
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.589278200175613,
+            "z": 4.589278200175613
+          }
+        },
+        {
+          "id": 22,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9403320791199803,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 170.39990361151285
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.701660395599902,
+            "z": 4.701660395599902
+          }
+        },
+        {
+          "id": 23,
+          "modelKey": "block_08",
+          "horizontalScale": 0.8373123840428889,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 184.70210208022036
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.186561920214444,
+            "z": 4.186561920214444
+          }
+        },
+        {
+          "id": 24,
+          "modelKey": "block_11",
+          "horizontalScale": 0.8251676353625954,
+          "centerXZ": {
+            "x": 152.16598491254263,
+            "z": 184.70210208022036
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.125838176812977,
+            "z": 4.125838176812977
+          }
+        }
+      ],
+      "results": [
+        {
+          "tick": 41,
+          "jumpId": 1,
+          "classification": "current",
+          "foot": {
+            "x": 4.053571428571429,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 0,
+          "streak": 0
+        },
+        {
+          "tick": 105,
+          "jumpId": 2,
+          "classification": "target-center",
+          "foot": {
+            "x": 14.000000000000002,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 2,
+          "streak": 1
+        },
+        {
+          "tick": 198,
+          "jumpId": 3,
+          "classification": "target-center",
+          "foot": {
+            "x": 27.696428571428577,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 6,
+          "streak": 2
+        },
+        {
+          "tick": 289,
+          "jumpId": 4,
+          "classification": "target-center",
+          "foot": {
+            "x": 40.85714285714286,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 12,
+          "streak": 3
+        },
+        {
+          "tick": 394,
+          "jumpId": 5,
+          "classification": "target-center",
+          "foot": {
+            "x": 40.75551414262191,
+            "z": 16.91040890272752,
+            "y": 5.5
+          },
+          "score": 20,
+          "streak": 4
+        },
+        {
+          "tick": 504,
+          "jumpId": 6,
+          "classification": "target-normal",
+          "foot": {
+            "x": 59.00546218152466,
+            "z": 16.953958613975676,
+            "y": 5.5
+          },
+          "score": 21,
+          "streak": 0
+        },
+        {
+          "tick": 590,
+          "jumpId": 7,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.42354964882213,
+            "z": 28.66906536586942,
+            "y": 5.5
+          },
+          "score": 23,
+          "streak": 1
+        },
+        {
+          "tick": 685,
+          "jumpId": 8,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.414769264524764,
+            "z": 42.901205514525,
+            "y": 5.5
+          },
+          "score": 27,
+          "streak": 2
+        },
+        {
+          "tick": 788,
+          "jumpId": 9,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.41472909997076,
+            "z": 59.27620551447575,
+            "y": 5.5
+          },
+          "score": 33,
+          "streak": 3
+        },
+        {
+          "tick": 881,
+          "jumpId": 10,
+          "classification": "target-center",
+          "foot": {
+            "x": 71.11115383020527,
+            "z": 59.2659477727445,
+            "y": 5.5
+          },
+          "score": 41,
+          "streak": 4
+        },
+        {
+          "tick": 973,
+          "jumpId": 11,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.53972525877042,
+            "z": 59.26596075431067,
+            "y": 5.5
+          },
+          "score": 51,
+          "streak": 5
+        },
+        {
+          "tick": 1070,
+          "jumpId": 12,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46278069062004,
+            "z": 74.03361744470232,
+            "y": 5.5
+          },
+          "score": 63,
+          "streak": 6
+        },
+        {
+          "tick": 1163,
+          "jumpId": 13,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46342975066136,
+            "z": 87.73004600075174,
+            "y": 5.5
+          },
+          "score": 77,
+          "streak": 7
+        },
+        {
+          "tick": 1252,
+          "jumpId": 14,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46342853034525,
+            "z": 100.35504600075168,
+            "y": 5.5
+          },
+          "score": 93,
+          "streak": 8
+        },
+        {
+          "tick": 1342,
+          "jumpId": 15,
+          "classification": "target-normal",
+          "foot": {
+            "x": 84.4634285409022,
+            "z": 113.24790314360882,
+            "y": 5.5
+          },
+          "score": 94,
+          "streak": 0
+        },
+        {
+          "tick": 1440,
+          "jumpId": 16,
+          "classification": "target-center",
+          "foot": {
+            "x": 99.42619244067694,
+            "z": 111.76857878389909,
+            "y": 5.5
+          },
+          "score": 96,
+          "streak": 1
+        },
+        {
+          "tick": 1538,
+          "jumpId": 17,
+          "classification": "target-center",
+          "foot": {
+            "x": 114.46190664638445,
+            "z": 111.76702768172588,
+            "y": 5.5
+          },
+          "score": 100,
+          "streak": 2
+        },
+        {
+          "tick": 1625,
+          "jumpId": 18,
+          "classification": "target-center",
+          "foot": {
+            "x": 126.55119236066997,
+            "z": 111.76702553196822,
+            "y": 5.5
+          },
+          "score": 106,
+          "streak": 3
+        },
+        {
+          "tick": 1727,
+          "jumpId": 19,
+          "classification": "target-center",
+          "foot": {
+            "x": 126.43257475243968,
+            "z": 127.87373161618748,
+            "y": 5.5
+          },
+          "score": 114,
+          "streak": 4
+        },
+        {
+          "tick": 1821,
+          "jumpId": 20,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.3964554049304,
+            "z": 127.76737075308948,
+            "y": 5.5
+          },
+          "score": 124,
+          "streak": 5
+        },
+        {
+          "tick": 1905,
+          "jumpId": 21,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30122161445533,
+            "z": 139.0526832194737,
+            "y": 5.5
+          },
+          "score": 136,
+          "streak": 6
+        },
+        {
+          "tick": 2003,
+          "jumpId": 22,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30192458711736,
+            "z": 154.08839748875477,
+            "y": 5.5
+          },
+          "score": 150,
+          "streak": 7
+        },
+        {
+          "tick": 2106,
+          "jumpId": 23,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30192346365428,
+            "z": 170.46339748875474,
+            "y": 5.5
+          },
+          "score": 166,
+          "streak": 8
+        },
+        {
+          "tick": 2179,
+          "jumpId": 24,
+          "classification": "miss",
+          "foot": {
+            "x": 140.3019234662056,
+            "z": 178.80268320304046,
+            "y": 5.5
+          },
+          "score": 166,
+          "streak": 8
+        }
+      ],
+      "events": [
+        {
+          "runId": 1,
+          "tick": 0,
+          "type": "Started",
+          "seed": 20260930
+        },
+        {
+          "runId": 1,
+          "tick": 0,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 5,
+          "type": "Jump",
+          "jumpId": 1,
+          "plan": {
+            "startFoot": {
+              "x": 0,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 4.053571428571429,
+            "flightTime": 0.6,
+            "targetId": 1,
+            "runId": 1,
+            "jumpId": 1,
+            "startTick": 5
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 41,
+          "type": "Landed",
+          "jumpId": 1,
+          "outcome": "current"
+        },
+        {
+          "runId": 1,
+          "tick": 42,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 69,
+          "type": "Jump",
+          "jumpId": 2,
+          "plan": {
+            "startFoot": {
+              "x": 4.053571428571429,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 9.946428571428573,
+            "flightTime": 0.6,
+            "targetId": 1,
+            "runId": 1,
+            "jumpId": 2,
+            "startTick": 69
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 105,
+          "type": "Landed",
+          "jumpId": 2,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 105,
+          "type": "Scored",
+          "jumpId": 2,
+          "delta": 2,
+          "score": 2,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 121,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 162,
+          "type": "Jump",
+          "jumpId": 3,
+          "plan": {
+            "startFoot": {
+              "x": 14.000000000000002,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 2,
+            "runId": 1,
+            "jumpId": 3,
+            "startTick": 162
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 198,
+          "type": "Landed",
+          "jumpId": 3,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 198,
+          "type": "Scored",
+          "jumpId": 3,
+          "delta": 4,
+          "score": 6,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 214,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 253,
+          "type": "Jump",
+          "jumpId": 4,
+          "plan": {
+            "startFoot": {
+              "x": 27.696428571428577,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 13.160714285714286,
+            "flightTime": 0.6,
+            "targetId": 3,
+            "runId": 1,
+            "jumpId": 4,
+            "startTick": 253
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 289,
+          "type": "Landed",
+          "jumpId": 4,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 289,
+          "type": "Scored",
+          "jumpId": 4,
+          "delta": 6,
+          "score": 12,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 305,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 358,
+          "type": "Jump",
+          "jumpId": 5,
+          "plan": {
+            "startFoot": {
+              "x": 40.85714285714286,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.006009723350763525,
+              "z": 0.9999819414495681
+            },
+            "distance": 16.91071428571429,
+            "flightTime": 0.6,
+            "targetId": 4,
+            "runId": 1,
+            "jumpId": 5,
+            "startTick": 358
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 394,
+          "type": "Landed",
+          "jumpId": 5,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 394,
+          "type": "Scored",
+          "jumpId": 5,
+          "delta": 8,
+          "score": 20,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 410,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 468,
+          "type": "Jump",
+          "jumpId": 6,
+          "plan": {
+            "startFoot": {
+              "x": 40.75551414262191,
+              "z": 16.91040890272752,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999971528165889,
+              "z": 0.002386285547844085
+            },
+            "distance": 18.25,
+            "flightTime": 0.6,
+            "targetId": 5,
+            "runId": 1,
+            "jumpId": 6,
+            "startTick": 468
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 504,
+          "type": "Landed",
+          "jumpId": 6,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 504,
+          "type": "Scored",
+          "jumpId": 6,
+          "delta": 1,
+          "score": 21,
+          "streak": 0
+        },
+        {
+          "runId": 1,
+          "tick": 520,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 554,
+          "type": "Jump",
+          "jumpId": 7,
+          "plan": {
+            "startFoot": {
+              "x": 59.00546218152466,
+              "z": 16.953958613975676,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.13381737436758592,
+              "z": 0.9910060092236401
+            },
+            "distance": 11.821428571428571,
+            "flightTime": 0.6,
+            "targetId": 6,
+            "runId": 1,
+            "jumpId": 7,
+            "startTick": 554
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 590,
+          "type": "Landed",
+          "jumpId": 7,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 590,
+          "type": "Scored",
+          "jumpId": 7,
+          "delta": 2,
+          "score": 23,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 606,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 649,
+          "type": "Jump",
+          "jumpId": 8,
+          "plan": {
+            "startFoot": {
+              "x": 57.42354964882213,
+              "z": 28.66906536586942,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.0006169404274186278,
+              "z": 0.9999998096922365
+            },
+            "distance": 14.23214285714286,
+            "flightTime": 0.6,
+            "targetId": 7,
+            "runId": 1,
+            "jumpId": 8,
+            "startTick": 649
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 685,
+          "type": "Landed",
+          "jumpId": 8,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 685,
+          "type": "Scored",
+          "jumpId": 8,
+          "delta": 4,
+          "score": 27,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 701,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 752,
+          "type": "Jump",
+          "jumpId": 9,
+          "plan": {
+            "startFoot": {
+              "x": 57.414769264524764,
+              "z": 42.901205514525,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.0000024527971913108587,
+              "z": 0.999999999996992
+            },
+            "distance": 16.375,
+            "flightTime": 0.6,
+            "targetId": 8,
+            "runId": 1,
+            "jumpId": 9,
+            "startTick": 752
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 788,
+          "type": "Landed",
+          "jumpId": 9,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 788,
+          "type": "Scored",
+          "jumpId": 9,
+          "delta": 6,
+          "score": 33,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 804,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 845,
+          "type": "Jump",
+          "jumpId": 10,
+          "plan": {
+            "startFoot": {
+              "x": 57.41472909997076,
+              "z": 59.27620551447575,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999997195477609,
+              "z": -0.0007489355110168679
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 9,
+            "runId": 1,
+            "jumpId": 10,
+            "startTick": 845
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 881,
+          "type": "Landed",
+          "jumpId": 10,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 881,
+          "type": "Scored",
+          "jumpId": 10,
+          "delta": 8,
+          "score": 41,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 897,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 937,
+          "type": "Jump",
+          "jumpId": 11,
+          "plan": {
+            "startFoot": {
+              "x": 71.11115383020527,
+              "z": 59.2659477727445,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999999995328,
+              "z": 9.667123747744392e-7
+            },
+            "distance": 13.428571428571429,
+            "flightTime": 0.6,
+            "targetId": 10,
+            "runId": 1,
+            "jumpId": 11,
+            "startTick": 937
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 973,
+          "type": "Landed",
+          "jumpId": 11,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 973,
+          "type": "Scored",
+          "jumpId": 11,
+          "delta": 10,
+          "score": 51,
+          "streak": 5
+        },
+        {
+          "runId": 1,
+          "tick": 989,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1034,
+          "type": "Jump",
+          "jumpId": 12,
+          "plan": {
+            "startFoot": {
+              "x": 84.53972525877042,
+              "z": 59.26596075431067,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.005210273054923235,
+              "z": 0.9999864264352258
+            },
+            "distance": 14.767857142857144,
+            "flightTime": 0.6,
+            "targetId": 11,
+            "runId": 1,
+            "jumpId": 12,
+            "startTick": 1034
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1070,
+          "type": "Landed",
+          "jumpId": 12,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1070,
+          "type": "Scored",
+          "jumpId": 12,
+          "delta": 12,
+          "score": 63,
+          "streak": 6
+        },
+        {
+          "runId": 1,
+          "tick": 1086,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1127,
+          "type": "Jump",
+          "jumpId": 13,
+          "plan": {
+            "startFoot": {
+              "x": 84.46278069062004,
+              "z": 74.03361744470232,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.00004738899910555258,
+              "z": 0.9999999988771415
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 12,
+            "runId": 1,
+            "jumpId": 13,
+            "startTick": 1127
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1163,
+          "type": "Landed",
+          "jumpId": 13,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1163,
+          "type": "Scored",
+          "jumpId": 13,
+          "delta": 14,
+          "score": 77,
+          "streak": 7
+        },
+        {
+          "runId": 1,
+          "tick": 1179,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1216,
+          "type": "Jump",
+          "jumpId": 14,
+          "plan": {
+            "startFoot": {
+              "x": 84.46342975066136,
+              "z": 87.73004600075174,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -9.665870114763029e-8,
+              "z": 0.9999999999999953
+            },
+            "distance": 12.625000000000002,
+            "flightTime": 0.6,
+            "targetId": 13,
+            "runId": 1,
+            "jumpId": 14,
+            "startTick": 1216
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1252,
+          "type": "Landed",
+          "jumpId": 14,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1252,
+          "type": "Scored",
+          "jumpId": 14,
+          "delta": 16,
+          "score": 93,
+          "streak": 8
+        },
+        {
+          "runId": 1,
+          "tick": 1268,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1306,
+          "type": "Jump",
+          "jumpId": 15,
+          "plan": {
+            "startFoot": {
+              "x": 84.46342853034525,
+              "z": 100.35504600075168,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 8.188216511405072e-10,
+              "z": 1
+            },
+            "distance": 12.892857142857144,
+            "flightTime": 0.6,
+            "targetId": 14,
+            "runId": 1,
+            "jumpId": 15,
+            "startTick": 1306
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1342,
+          "type": "Landed",
+          "jumpId": 15,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1342,
+          "type": "Scored",
+          "jumpId": 15,
+          "delta": 1,
+          "score": 94,
+          "streak": 0
+        },
+        {
+          "runId": 1,
+          "tick": 1358,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1404,
+          "type": "Jump",
+          "jumpId": 16,
+          "plan": {
+            "startFoot": {
+              "x": 84.4634285409022,
+              "z": 113.24790314360882,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9951481928591274,
+              "z": -0.09838736834173975
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 15,
+            "runId": 1,
+            "jumpId": 16,
+            "startTick": 1404
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1440,
+          "type": "Landed",
+          "jumpId": 16,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1440,
+          "type": "Scored",
+          "jumpId": 16,
+          "delta": 2,
+          "score": 96,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 1456,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1502,
+          "type": "Jump",
+          "jumpId": 17,
+          "plan": {
+            "startFoot": {
+              "x": 99.42619244067694,
+              "z": 111.76857878389909,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999946788845,
+              "z": -0.00010316118966696927
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 16,
+            "runId": 1,
+            "jumpId": 17,
+            "startTick": 1502
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1538,
+          "type": "Landed",
+          "jumpId": 17,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1538,
+          "type": "Scored",
+          "jumpId": 17,
+          "delta": 4,
+          "score": 100,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 1554,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1589,
+          "type": "Jump",
+          "jumpId": 18,
+          "plan": {
+            "startFoot": {
+              "x": 114.46190664638445,
+              "z": 111.76702768172588,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999999999842,
+              "z": -1.77823380831516e-7
+            },
+            "distance": 12.089285714285717,
+            "flightTime": 0.6,
+            "targetId": 17,
+            "runId": 1,
+            "jumpId": 18,
+            "startTick": 1589
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1625,
+          "type": "Landed",
+          "jumpId": 18,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1625,
+          "type": "Scored",
+          "jumpId": 18,
+          "delta": 6,
+          "score": 106,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 1641,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1691,
+          "type": "Jump",
+          "jumpId": 19,
+          "plan": {
+            "startFoot": {
+              "x": 126.55119236066997,
+              "z": 111.76702553196822,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.007364286098554982,
+              "z": 0.9999728832774709
+            },
+            "distance": 16.10714285714286,
+            "flightTime": 0.6,
+            "targetId": 18,
+            "runId": 1,
+            "jumpId": 19,
+            "startTick": 1691
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1727,
+          "type": "Landed",
+          "jumpId": 19,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1727,
+          "type": "Scored",
+          "jumpId": 19,
+          "delta": 8,
+          "score": 114,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 1743,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1785,
+          "type": "Jump",
+          "jumpId": 20,
+          "plan": {
+            "startFoot": {
+              "x": 126.43257475243968,
+              "z": 127.87373161618748,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999709930172395,
+              "z": -0.007616634697555342
+            },
+            "distance": 13.964285714285715,
+            "flightTime": 0.6,
+            "targetId": 19,
+            "runId": 1,
+            "jumpId": 20,
+            "startTick": 1785
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1821,
+          "type": "Landed",
+          "jumpId": 20,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1821,
+          "type": "Scored",
+          "jumpId": 20,
+          "delta": 10,
+          "score": 124,
+          "streak": 5
+        },
+        {
+          "runId": 1,
+          "tick": 1837,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1869,
+          "type": "Jump",
+          "jumpId": 21,
+          "plan": {
+            "startFoot": {
+              "x": 140.3964554049304,
+              "z": 127.76737075308948,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.00843843713070206,
+              "z": 0.9999643957555645
+            },
+            "distance": 11.285714285714285,
+            "flightTime": 0.6,
+            "targetId": 20,
+            "runId": 1,
+            "jumpId": 21,
+            "startTick": 1869
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1905,
+          "type": "Landed",
+          "jumpId": 21,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1905,
+          "type": "Scored",
+          "jumpId": 21,
+          "delta": 12,
+          "score": 136,
+          "streak": 6
+        },
+        {
+          "runId": 1,
+          "tick": 1921,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1967,
+          "type": "Jump",
+          "jumpId": 22,
+          "plan": {
+            "startFoot": {
+              "x": 140.30122161445533,
+              "z": 139.0526832194737,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.00004675352621519862,
+              "z": 0.999999998907054
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 21,
+            "runId": 1,
+            "jumpId": 22,
+            "startTick": 1967
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2003,
+          "type": "Landed",
+          "jumpId": 22,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 2003,
+          "type": "Scored",
+          "jumpId": 22,
+          "delta": 14,
+          "score": 150,
+          "streak": 7
+        },
+        {
+          "runId": 1,
+          "tick": 2019,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 2070,
+          "type": "Jump",
+          "jumpId": 23,
+          "plan": {
+            "startFoot": {
+              "x": 140.30192458711736,
+              "z": 154.08839748875477,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -6.860843178814968e-8,
+              "z": 0.9999999999999978
+            },
+            "distance": 16.375,
+            "flightTime": 0.6,
+            "targetId": 22,
+            "runId": 1,
+            "jumpId": 23,
+            "startTick": 2070
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2106,
+          "type": "Landed",
+          "jumpId": 23,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 2106,
+          "type": "Scored",
+          "jumpId": 23,
+          "delta": 16,
+          "score": 166,
+          "streak": 8
+        },
+        {
+          "runId": 1,
+          "tick": 2122,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 2143,
+          "type": "Jump",
+          "jumpId": 24,
+          "plan": {
+            "startFoot": {
+              "x": 140.30192346365428,
+              "z": 170.46339748875474,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 3.059424260208672e-10,
+              "z": 1
+            },
+            "distance": 8.339285714285715,
+            "flightTime": 0.6,
+            "targetId": 23,
+            "runId": 1,
+            "jumpId": 24,
+            "startTick": 2143
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2215,
+          "type": "Failed",
+          "jumpId": 24,
+          "reason": "miss"
+        }
+      ]
+    },
+    {
+      "fps": 120,
+      "endClockTick": 2216,
+      "finalState": {
+        "runId": 1,
+        "phase": "gameover",
+        "seed": 20260930,
+        "tick": 2215,
+        "score": 166,
+        "streak": 8,
+        "currentId": 22,
+        "targetId": 23,
+        "jumpId": 24,
+        "chargeStartTick": null,
+        "inputOwner": null,
+        "jumpPlan": {
+          "startFoot": {
+            "x": 140.30192346365428,
+            "z": 170.46339748875474,
+            "y": 5.5
+          },
+          "directionXZ": {
+            "x": 3.059424260208672e-10,
+            "z": 1
+          },
+          "distance": 8.339285714285715,
+          "flightTime": 0.6,
+          "targetId": 23,
+          "runId": 1,
+          "jumpId": 24,
+          "startTick": 2143
+        },
+        "resumePhase": null,
+        "landingOutcome": null
+      },
+      "platforms": [
+        {
+          "id": 0,
+          "modelKey": "block_00",
+          "horizontalScale": 1,
+          "centerXZ": {
+            "x": 0,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 5,
+            "z": 5
+          }
+        },
+        {
+          "id": 1,
+          "modelKey": "block_01",
+          "horizontalScale": 1,
+          "centerXZ": {
+            "x": 14,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 5,
+            "z": 5
+          }
+        },
+        {
+          "id": 2,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9699986284598708,
+          "centerXZ": {
+            "x": 27.826421110890806,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.849993142299354,
+            "z": 4.849993142299354
+          }
+        },
+        {
+          "id": 3,
+          "modelKey": "block_01",
+          "horizontalScale": 0.8867890671361238,
+          "centerXZ": {
+            "x": 40.755275229224935,
+            "z": 0
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.433945335680619,
+            "z": 4.433945335680619
+          }
+        },
+        {
+          "id": 4,
+          "modelKey": "block_04",
+          "horizontalScale": 0.985836325539276,
+          "centerXZ": {
+            "x": 40.755275229224935,
+            "z": 16.950162659864873
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.92918162769638,
+            "z": 4.92918162769638
+          }
+        },
+        {
+          "id": 5,
+          "modelKey": "block_03",
+          "horizontalScale": 0.9744185167830437,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 16.950162659864873
+          },
+          "topY": 5.5,
+          "shape": "circle",
+          "radius": 4.872092583915219
+        },
+        {
+          "id": 6,
+          "modelKey": "block_08",
+          "horizontalScale": 0.8463554239366204,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 28.734387167729437
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.231777119683102,
+            "z": 4.231777119683102
+          }
+        },
+        {
+          "id": 7,
+          "modelKey": "block_04",
+          "horizontalScale": 0.9701383428648114,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 42.966267579002306
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.850691714324057,
+            "z": 4.850691714324057
+          }
+        },
+        {
+          "id": 8,
+          "modelKey": "block_33",
+          "horizontalScale": 0.879826242197305,
+          "centerXZ": {
+            "x": 57.41472912509926,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.399131210986525,
+            "z": 4.399131210986525
+          }
+        },
+        {
+          "id": 9,
+          "modelKey": "block_35",
+          "horizontalScale": 0.8122496042866261,
+          "centerXZ": {
+            "x": 71.09391896100715,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.06124802143313,
+            "z": 4.06124802143313
+          }
+        },
+        {
+          "id": 10,
+          "modelKey": "block_00",
+          "horizontalScale": 0.8524204430636019,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 59.26596068055369
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.262102215318009,
+            "z": 4.262102215318009
+          }
+        },
+        {
+          "id": 11,
+          "modelKey": "block_34",
+          "horizontalScale": 0.965220075007528,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 73.90927841886878
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.82610037503764,
+            "z": 4.82610037503764
+          }
+        },
+        {
+          "id": 12,
+          "modelKey": "block_01",
+          "horizontalScale": 0.9986258360557259,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 87.70449214335531
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.993129180278629,
+            "z": 4.993129180278629
+          }
+        },
+        {
+          "id": 13,
+          "modelKey": "block_11",
+          "horizontalScale": 0.898079457320273,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 100.25837213592604
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.490397286601365,
+            "z": 4.490397286601365
+          }
+        },
+        {
+          "id": 14,
+          "modelKey": "block_04",
+          "horizontalScale": 0.8341297568287701,
+          "centerXZ": {
+            "x": 84.46342853968963,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.17064878414385,
+            "z": 4.17064878414385
+          }
+        },
+        {
+          "id": 15,
+          "modelKey": "block_35",
+          "horizontalScale": 0.8418305451516063,
+          "centerXZ": {
+            "x": 99.44190273992717,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.209152725758031,
+            "z": 4.209152725758031
+          }
+        },
+        {
+          "id": 16,
+          "modelKey": "block_00",
+          "horizontalScale": 0.9700437346007675,
+          "centerXZ": {
+            "x": 114.48254234297201,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.8502186730038375,
+            "z": 4.8502186730038375
+          }
+        },
+        {
+          "id": 17,
+          "modelKey": "block_01",
+          "horizontalScale": 0.8170217103790492,
+          "centerXZ": {
+            "x": 126.4333527428098,
+            "z": 111.76702555292286
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.085108551895246,
+            "z": 4.085108551895246
+          }
+        },
+        {
+          "id": 18,
+          "modelKey": "block_03",
+          "horizontalScale": 0.8596570174209774,
+          "centerXZ": {
+            "x": 126.4333527428098,
+            "z": 127.76809078920633
+          },
+          "topY": 5.5,
+          "shape": "circle",
+          "radius": 4.298285087104887
+        },
+        {
+          "id": 19,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9380534865427762,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 127.76809078920633
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.690267432713881,
+            "z": 4.690267432713881
+          }
+        },
+        {
+          "id": 20,
+          "modelKey": "block_12",
+          "horizontalScale": 0.8812784415204078,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 138.9695127750747
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.406392207602039,
+            "z": 4.406392207602039
+          }
+        },
+        {
+          "id": 21,
+          "modelKey": "block_12",
+          "horizontalScale": 0.9178556400351227,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 154.06446117977612
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.589278200175613,
+            "z": 4.589278200175613
+          }
+        },
+        {
+          "id": 22,
+          "modelKey": "block_34",
+          "horizontalScale": 0.9403320791199803,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 170.39990361151285
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.701660395599902,
+            "z": 4.701660395599902
+          }
+        },
+        {
+          "id": 23,
+          "modelKey": "block_08",
+          "horizontalScale": 0.8373123840428889,
+          "centerXZ": {
+            "x": 140.3019234680105,
+            "z": 184.70210208022036
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.186561920214444,
+            "z": 4.186561920214444
+          }
+        },
+        {
+          "id": 24,
+          "modelKey": "block_11",
+          "horizontalScale": 0.8251676353625954,
+          "centerXZ": {
+            "x": 152.16598491254263,
+            "z": 184.70210208022036
+          },
+          "topY": 5.5,
+          "shape": "rect",
+          "halfExtent": {
+            "x": 4.125838176812977,
+            "z": 4.125838176812977
+          }
+        }
+      ],
+      "results": [
+        {
+          "tick": 41,
+          "jumpId": 1,
+          "classification": "current",
+          "foot": {
+            "x": 4.053571428571429,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 0,
+          "streak": 0
+        },
+        {
+          "tick": 105,
+          "jumpId": 2,
+          "classification": "target-center",
+          "foot": {
+            "x": 14.000000000000002,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 2,
+          "streak": 1
+        },
+        {
+          "tick": 198,
+          "jumpId": 3,
+          "classification": "target-center",
+          "foot": {
+            "x": 27.696428571428577,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 6,
+          "streak": 2
+        },
+        {
+          "tick": 289,
+          "jumpId": 4,
+          "classification": "target-center",
+          "foot": {
+            "x": 40.85714285714286,
+            "z": 0,
+            "y": 5.5
+          },
+          "score": 12,
+          "streak": 3
+        },
+        {
+          "tick": 394,
+          "jumpId": 5,
+          "classification": "target-center",
+          "foot": {
+            "x": 40.75551414262191,
+            "z": 16.91040890272752,
+            "y": 5.5
+          },
+          "score": 20,
+          "streak": 4
+        },
+        {
+          "tick": 504,
+          "jumpId": 6,
+          "classification": "target-normal",
+          "foot": {
+            "x": 59.00546218152466,
+            "z": 16.953958613975676,
+            "y": 5.5
+          },
+          "score": 21,
+          "streak": 0
+        },
+        {
+          "tick": 590,
+          "jumpId": 7,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.42354964882213,
+            "z": 28.66906536586942,
+            "y": 5.5
+          },
+          "score": 23,
+          "streak": 1
+        },
+        {
+          "tick": 685,
+          "jumpId": 8,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.414769264524764,
+            "z": 42.901205514525,
+            "y": 5.5
+          },
+          "score": 27,
+          "streak": 2
+        },
+        {
+          "tick": 788,
+          "jumpId": 9,
+          "classification": "target-center",
+          "foot": {
+            "x": 57.41472909997076,
+            "z": 59.27620551447575,
+            "y": 5.5
+          },
+          "score": 33,
+          "streak": 3
+        },
+        {
+          "tick": 881,
+          "jumpId": 10,
+          "classification": "target-center",
+          "foot": {
+            "x": 71.11115383020527,
+            "z": 59.2659477727445,
+            "y": 5.5
+          },
+          "score": 41,
+          "streak": 4
+        },
+        {
+          "tick": 973,
+          "jumpId": 11,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.53972525877042,
+            "z": 59.26596075431067,
+            "y": 5.5
+          },
+          "score": 51,
+          "streak": 5
+        },
+        {
+          "tick": 1070,
+          "jumpId": 12,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46278069062004,
+            "z": 74.03361744470232,
+            "y": 5.5
+          },
+          "score": 63,
+          "streak": 6
+        },
+        {
+          "tick": 1163,
+          "jumpId": 13,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46342975066136,
+            "z": 87.73004600075174,
+            "y": 5.5
+          },
+          "score": 77,
+          "streak": 7
+        },
+        {
+          "tick": 1252,
+          "jumpId": 14,
+          "classification": "target-center",
+          "foot": {
+            "x": 84.46342853034525,
+            "z": 100.35504600075168,
+            "y": 5.5
+          },
+          "score": 93,
+          "streak": 8
+        },
+        {
+          "tick": 1342,
+          "jumpId": 15,
+          "classification": "target-normal",
+          "foot": {
+            "x": 84.4634285409022,
+            "z": 113.24790314360882,
+            "y": 5.5
+          },
+          "score": 94,
+          "streak": 0
+        },
+        {
+          "tick": 1440,
+          "jumpId": 16,
+          "classification": "target-center",
+          "foot": {
+            "x": 99.42619244067694,
+            "z": 111.76857878389909,
+            "y": 5.5
+          },
+          "score": 96,
+          "streak": 1
+        },
+        {
+          "tick": 1538,
+          "jumpId": 17,
+          "classification": "target-center",
+          "foot": {
+            "x": 114.46190664638445,
+            "z": 111.76702768172588,
+            "y": 5.5
+          },
+          "score": 100,
+          "streak": 2
+        },
+        {
+          "tick": 1625,
+          "jumpId": 18,
+          "classification": "target-center",
+          "foot": {
+            "x": 126.55119236066997,
+            "z": 111.76702553196822,
+            "y": 5.5
+          },
+          "score": 106,
+          "streak": 3
+        },
+        {
+          "tick": 1727,
+          "jumpId": 19,
+          "classification": "target-center",
+          "foot": {
+            "x": 126.43257475243968,
+            "z": 127.87373161618748,
+            "y": 5.5
+          },
+          "score": 114,
+          "streak": 4
+        },
+        {
+          "tick": 1821,
+          "jumpId": 20,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.3964554049304,
+            "z": 127.76737075308948,
+            "y": 5.5
+          },
+          "score": 124,
+          "streak": 5
+        },
+        {
+          "tick": 1905,
+          "jumpId": 21,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30122161445533,
+            "z": 139.0526832194737,
+            "y": 5.5
+          },
+          "score": 136,
+          "streak": 6
+        },
+        {
+          "tick": 2003,
+          "jumpId": 22,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30192458711736,
+            "z": 154.08839748875477,
+            "y": 5.5
+          },
+          "score": 150,
+          "streak": 7
+        },
+        {
+          "tick": 2106,
+          "jumpId": 23,
+          "classification": "target-center",
+          "foot": {
+            "x": 140.30192346365428,
+            "z": 170.46339748875474,
+            "y": 5.5
+          },
+          "score": 166,
+          "streak": 8
+        },
+        {
+          "tick": 2179,
+          "jumpId": 24,
+          "classification": "miss",
+          "foot": {
+            "x": 140.3019234662056,
+            "z": 178.80268320304046,
+            "y": 5.5
+          },
+          "score": 166,
+          "streak": 8
+        }
+      ],
+      "events": [
+        {
+          "runId": 1,
+          "tick": 0,
+          "type": "Started",
+          "seed": 20260930
+        },
+        {
+          "runId": 1,
+          "tick": 0,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 5,
+          "type": "Jump",
+          "jumpId": 1,
+          "plan": {
+            "startFoot": {
+              "x": 0,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 4.053571428571429,
+            "flightTime": 0.6,
+            "targetId": 1,
+            "runId": 1,
+            "jumpId": 1,
+            "startTick": 5
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 41,
+          "type": "Landed",
+          "jumpId": 1,
+          "outcome": "current"
+        },
+        {
+          "runId": 1,
+          "tick": 42,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 69,
+          "type": "Jump",
+          "jumpId": 2,
+          "plan": {
+            "startFoot": {
+              "x": 4.053571428571429,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 9.946428571428573,
+            "flightTime": 0.6,
+            "targetId": 1,
+            "runId": 1,
+            "jumpId": 2,
+            "startTick": 69
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 105,
+          "type": "Landed",
+          "jumpId": 2,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 105,
+          "type": "Scored",
+          "jumpId": 2,
+          "delta": 2,
+          "score": 2,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 121,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 162,
+          "type": "Jump",
+          "jumpId": 3,
+          "plan": {
+            "startFoot": {
+              "x": 14.000000000000002,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 2,
+            "runId": 1,
+            "jumpId": 3,
+            "startTick": 162
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 198,
+          "type": "Landed",
+          "jumpId": 3,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 198,
+          "type": "Scored",
+          "jumpId": 3,
+          "delta": 4,
+          "score": 6,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 214,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 253,
+          "type": "Jump",
+          "jumpId": 4,
+          "plan": {
+            "startFoot": {
+              "x": 27.696428571428577,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 1,
+              "z": 0
+            },
+            "distance": 13.160714285714286,
+            "flightTime": 0.6,
+            "targetId": 3,
+            "runId": 1,
+            "jumpId": 4,
+            "startTick": 253
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 289,
+          "type": "Landed",
+          "jumpId": 4,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 289,
+          "type": "Scored",
+          "jumpId": 4,
+          "delta": 6,
+          "score": 12,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 305,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 358,
+          "type": "Jump",
+          "jumpId": 5,
+          "plan": {
+            "startFoot": {
+              "x": 40.85714285714286,
+              "z": 0,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.006009723350763525,
+              "z": 0.9999819414495681
+            },
+            "distance": 16.91071428571429,
+            "flightTime": 0.6,
+            "targetId": 4,
+            "runId": 1,
+            "jumpId": 5,
+            "startTick": 358
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 394,
+          "type": "Landed",
+          "jumpId": 5,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 394,
+          "type": "Scored",
+          "jumpId": 5,
+          "delta": 8,
+          "score": 20,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 410,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 468,
+          "type": "Jump",
+          "jumpId": 6,
+          "plan": {
+            "startFoot": {
+              "x": 40.75551414262191,
+              "z": 16.91040890272752,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999971528165889,
+              "z": 0.002386285547844085
+            },
+            "distance": 18.25,
+            "flightTime": 0.6,
+            "targetId": 5,
+            "runId": 1,
+            "jumpId": 6,
+            "startTick": 468
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 504,
+          "type": "Landed",
+          "jumpId": 6,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 504,
+          "type": "Scored",
+          "jumpId": 6,
+          "delta": 1,
+          "score": 21,
+          "streak": 0
+        },
+        {
+          "runId": 1,
+          "tick": 520,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 554,
+          "type": "Jump",
+          "jumpId": 7,
+          "plan": {
+            "startFoot": {
+              "x": 59.00546218152466,
+              "z": 16.953958613975676,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.13381737436758592,
+              "z": 0.9910060092236401
+            },
+            "distance": 11.821428571428571,
+            "flightTime": 0.6,
+            "targetId": 6,
+            "runId": 1,
+            "jumpId": 7,
+            "startTick": 554
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 590,
+          "type": "Landed",
+          "jumpId": 7,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 590,
+          "type": "Scored",
+          "jumpId": 7,
+          "delta": 2,
+          "score": 23,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 606,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 649,
+          "type": "Jump",
+          "jumpId": 8,
+          "plan": {
+            "startFoot": {
+              "x": 57.42354964882213,
+              "z": 28.66906536586942,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.0006169404274186278,
+              "z": 0.9999998096922365
+            },
+            "distance": 14.23214285714286,
+            "flightTime": 0.6,
+            "targetId": 7,
+            "runId": 1,
+            "jumpId": 8,
+            "startTick": 649
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 685,
+          "type": "Landed",
+          "jumpId": 8,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 685,
+          "type": "Scored",
+          "jumpId": 8,
+          "delta": 4,
+          "score": 27,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 701,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 752,
+          "type": "Jump",
+          "jumpId": 9,
+          "plan": {
+            "startFoot": {
+              "x": 57.414769264524764,
+              "z": 42.901205514525,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.0000024527971913108587,
+              "z": 0.999999999996992
+            },
+            "distance": 16.375,
+            "flightTime": 0.6,
+            "targetId": 8,
+            "runId": 1,
+            "jumpId": 9,
+            "startTick": 752
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 788,
+          "type": "Landed",
+          "jumpId": 9,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 788,
+          "type": "Scored",
+          "jumpId": 9,
+          "delta": 6,
+          "score": 33,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 804,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 845,
+          "type": "Jump",
+          "jumpId": 10,
+          "plan": {
+            "startFoot": {
+              "x": 57.41472909997076,
+              "z": 59.27620551447575,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999997195477609,
+              "z": -0.0007489355110168679
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 9,
+            "runId": 1,
+            "jumpId": 10,
+            "startTick": 845
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 881,
+          "type": "Landed",
+          "jumpId": 10,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 881,
+          "type": "Scored",
+          "jumpId": 10,
+          "delta": 8,
+          "score": 41,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 897,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 937,
+          "type": "Jump",
+          "jumpId": 11,
+          "plan": {
+            "startFoot": {
+              "x": 71.11115383020527,
+              "z": 59.2659477727445,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999999995328,
+              "z": 9.667123747744392e-7
+            },
+            "distance": 13.428571428571429,
+            "flightTime": 0.6,
+            "targetId": 10,
+            "runId": 1,
+            "jumpId": 11,
+            "startTick": 937
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 973,
+          "type": "Landed",
+          "jumpId": 11,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 973,
+          "type": "Scored",
+          "jumpId": 11,
+          "delta": 10,
+          "score": 51,
+          "streak": 5
+        },
+        {
+          "runId": 1,
+          "tick": 989,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1034,
+          "type": "Jump",
+          "jumpId": 12,
+          "plan": {
+            "startFoot": {
+              "x": 84.53972525877042,
+              "z": 59.26596075431067,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.005210273054923235,
+              "z": 0.9999864264352258
+            },
+            "distance": 14.767857142857144,
+            "flightTime": 0.6,
+            "targetId": 11,
+            "runId": 1,
+            "jumpId": 12,
+            "startTick": 1034
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1070,
+          "type": "Landed",
+          "jumpId": 12,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1070,
+          "type": "Scored",
+          "jumpId": 12,
+          "delta": 12,
+          "score": 63,
+          "streak": 6
+        },
+        {
+          "runId": 1,
+          "tick": 1086,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1127,
+          "type": "Jump",
+          "jumpId": 13,
+          "plan": {
+            "startFoot": {
+              "x": 84.46278069062004,
+              "z": 74.03361744470232,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.00004738899910555258,
+              "z": 0.9999999988771415
+            },
+            "distance": 13.696428571428573,
+            "flightTime": 0.6,
+            "targetId": 12,
+            "runId": 1,
+            "jumpId": 13,
+            "startTick": 1127
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1163,
+          "type": "Landed",
+          "jumpId": 13,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1163,
+          "type": "Scored",
+          "jumpId": 13,
+          "delta": 14,
+          "score": 77,
+          "streak": 7
+        },
+        {
+          "runId": 1,
+          "tick": 1179,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1216,
+          "type": "Jump",
+          "jumpId": 14,
+          "plan": {
+            "startFoot": {
+              "x": 84.46342975066136,
+              "z": 87.73004600075174,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -9.665870114763029e-8,
+              "z": 0.9999999999999953
+            },
+            "distance": 12.625000000000002,
+            "flightTime": 0.6,
+            "targetId": 13,
+            "runId": 1,
+            "jumpId": 14,
+            "startTick": 1216
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1252,
+          "type": "Landed",
+          "jumpId": 14,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1252,
+          "type": "Scored",
+          "jumpId": 14,
+          "delta": 16,
+          "score": 93,
+          "streak": 8
+        },
+        {
+          "runId": 1,
+          "tick": 1268,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1306,
+          "type": "Jump",
+          "jumpId": 15,
+          "plan": {
+            "startFoot": {
+              "x": 84.46342853034525,
+              "z": 100.35504600075168,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 8.188216511405072e-10,
+              "z": 1
+            },
+            "distance": 12.892857142857144,
+            "flightTime": 0.6,
+            "targetId": 14,
+            "runId": 1,
+            "jumpId": 15,
+            "startTick": 1306
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1342,
+          "type": "Landed",
+          "jumpId": 15,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1342,
+          "type": "Scored",
+          "jumpId": 15,
+          "delta": 1,
+          "score": 94,
+          "streak": 0
+        },
+        {
+          "runId": 1,
+          "tick": 1358,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1404,
+          "type": "Jump",
+          "jumpId": 16,
+          "plan": {
+            "startFoot": {
+              "x": 84.4634285409022,
+              "z": 113.24790314360882,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9951481928591274,
+              "z": -0.09838736834173975
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 15,
+            "runId": 1,
+            "jumpId": 16,
+            "startTick": 1404
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1440,
+          "type": "Landed",
+          "jumpId": 16,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1440,
+          "type": "Scored",
+          "jumpId": 16,
+          "delta": 2,
+          "score": 96,
+          "streak": 1
+        },
+        {
+          "runId": 1,
+          "tick": 1456,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1502,
+          "type": "Jump",
+          "jumpId": 17,
+          "plan": {
+            "startFoot": {
+              "x": 99.42619244067694,
+              "z": 111.76857878389909,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999946788845,
+              "z": -0.00010316118966696927
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 16,
+            "runId": 1,
+            "jumpId": 17,
+            "startTick": 1502
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1538,
+          "type": "Landed",
+          "jumpId": 17,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1538,
+          "type": "Scored",
+          "jumpId": 17,
+          "delta": 4,
+          "score": 100,
+          "streak": 2
+        },
+        {
+          "runId": 1,
+          "tick": 1554,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1589,
+          "type": "Jump",
+          "jumpId": 18,
+          "plan": {
+            "startFoot": {
+              "x": 114.46190664638445,
+              "z": 111.76702768172588,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999999999999842,
+              "z": -1.77823380831516e-7
+            },
+            "distance": 12.089285714285717,
+            "flightTime": 0.6,
+            "targetId": 17,
+            "runId": 1,
+            "jumpId": 18,
+            "startTick": 1589
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1625,
+          "type": "Landed",
+          "jumpId": 18,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1625,
+          "type": "Scored",
+          "jumpId": 18,
+          "delta": 6,
+          "score": 106,
+          "streak": 3
+        },
+        {
+          "runId": 1,
+          "tick": 1641,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1691,
+          "type": "Jump",
+          "jumpId": 19,
+          "plan": {
+            "startFoot": {
+              "x": 126.55119236066997,
+              "z": 111.76702553196822,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.007364286098554982,
+              "z": 0.9999728832774709
+            },
+            "distance": 16.10714285714286,
+            "flightTime": 0.6,
+            "targetId": 18,
+            "runId": 1,
+            "jumpId": 19,
+            "startTick": 1691
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1727,
+          "type": "Landed",
+          "jumpId": 19,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1727,
+          "type": "Scored",
+          "jumpId": 19,
+          "delta": 8,
+          "score": 114,
+          "streak": 4
+        },
+        {
+          "runId": 1,
+          "tick": 1743,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1785,
+          "type": "Jump",
+          "jumpId": 20,
+          "plan": {
+            "startFoot": {
+              "x": 126.43257475243968,
+              "z": 127.87373161618748,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.9999709930172395,
+              "z": -0.007616634697555342
+            },
+            "distance": 13.964285714285715,
+            "flightTime": 0.6,
+            "targetId": 19,
+            "runId": 1,
+            "jumpId": 20,
+            "startTick": 1785
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1821,
+          "type": "Landed",
+          "jumpId": 20,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1821,
+          "type": "Scored",
+          "jumpId": 20,
+          "delta": 10,
+          "score": 124,
+          "streak": 5
+        },
+        {
+          "runId": 1,
+          "tick": 1837,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1869,
+          "type": "Jump",
+          "jumpId": 21,
+          "plan": {
+            "startFoot": {
+              "x": 140.3964554049304,
+              "z": 127.76737075308948,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -0.00843843713070206,
+              "z": 0.9999643957555645
+            },
+            "distance": 11.285714285714285,
+            "flightTime": 0.6,
+            "targetId": 20,
+            "runId": 1,
+            "jumpId": 21,
+            "startTick": 1869
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 1905,
+          "type": "Landed",
+          "jumpId": 21,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 1905,
+          "type": "Scored",
+          "jumpId": 21,
+          "delta": 12,
+          "score": 136,
+          "streak": 6
+        },
+        {
+          "runId": 1,
+          "tick": 1921,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 1967,
+          "type": "Jump",
+          "jumpId": 22,
+          "plan": {
+            "startFoot": {
+              "x": 140.30122161445533,
+              "z": 139.0526832194737,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 0.00004675352621519862,
+              "z": 0.999999998907054
+            },
+            "distance": 15.035714285714286,
+            "flightTime": 0.6,
+            "targetId": 21,
+            "runId": 1,
+            "jumpId": 22,
+            "startTick": 1967
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2003,
+          "type": "Landed",
+          "jumpId": 22,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 2003,
+          "type": "Scored",
+          "jumpId": 22,
+          "delta": 14,
+          "score": 150,
+          "streak": 7
+        },
+        {
+          "runId": 1,
+          "tick": 2019,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 2070,
+          "type": "Jump",
+          "jumpId": 23,
+          "plan": {
+            "startFoot": {
+              "x": 140.30192458711736,
+              "z": 154.08839748875477,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": -6.860843178814968e-8,
+              "z": 0.9999999999999978
+            },
+            "distance": 16.375,
+            "flightTime": 0.6,
+            "targetId": 22,
+            "runId": 1,
+            "jumpId": 23,
+            "startTick": 2070
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2106,
+          "type": "Landed",
+          "jumpId": 23,
+          "outcome": "target"
+        },
+        {
+          "runId": 1,
+          "tick": 2106,
+          "type": "Scored",
+          "jumpId": 23,
+          "delta": 16,
+          "score": 166,
+          "streak": 8
+        },
+        {
+          "runId": 1,
+          "tick": 2122,
+          "type": "Charge",
+          "action": "begin",
+          "source": "space"
+        },
+        {
+          "runId": 1,
+          "tick": 2143,
+          "type": "Jump",
+          "jumpId": 24,
+          "plan": {
+            "startFoot": {
+              "x": 140.30192346365428,
+              "z": 170.46339748875474,
+              "y": 5.5
+            },
+            "directionXZ": {
+              "x": 3.059424260208672e-10,
+              "z": 1
+            },
+            "distance": 8.339285714285715,
+            "flightTime": 0.6,
+            "targetId": 23,
+            "runId": 1,
+            "jumpId": 24,
+            "startTick": 2143
+          }
+        },
+        {
+          "runId": 1,
+          "tick": 2215,
+          "type": "Failed",
+          "jumpId": 24,
+          "reason": "miss"
+        }
+      ]
+    }
+  ],
+  "maximumFootDifference": 0,
+  "tolerance": 0.00001
+}

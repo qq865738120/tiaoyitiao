@@ -3,3 +3,7 @@ export * from './config';
 export * from './random';
 export * from './clock';
 export * from './state-machine';
+export * from './motion';
+export * from './geometry';
+export * from './platforms';
+export * from './gameplay';
