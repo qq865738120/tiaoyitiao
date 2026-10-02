@@ -1,1 +1,1 @@
-"use strict";var e=require("../../chunks/customModelSettingsPanel-tE3fJr3X.js");module.exports=Editor.Panel.define(e.createCustomModelSettingsPanelDefinition(3)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);
+"use strict";var e=require("../../chunks/customModelSettingsPanel-DmzdF26x.js");module.exports=Editor.Panel.define(e.createCustomModelSettingsPanelDefinition(3)),module.exports&&exports&&module.exports!==exports&&Object.assign(module.exports,exports);

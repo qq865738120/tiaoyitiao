@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "gitRevision": "bfbc6d684db92b00b8af2cad3601d722d4423378",
-  "sourceSha256": "53e4eb7ed3a0b8b4c64a2f533ede38a6d0e88d246ac48907a6b007b16ad6e2ac",
-  "toolContractSha256": "a49d10b6f1aa9a99b0a308d2a0900a4612ee46ab3a7b28270f00af122f207255",
-  "bundleSha256": "38498de78534d280a5ff274cec7f3b722bf69172735ccbaa87d62fd4264e0f8a"
+  "gitRevision": "977d9dc8369af24fc8c3392445a342883cf523df",
+  "sourceSha256": "a25fd6453cb9f1ccd5eae444d3905863b351ff891f8fa250371074a06640adaf",
+  "toolContractSha256": "c5fd5a49c4018df11411de7c4af75201450cdda5516cd9cdd6e601c380b45d06",
+  "bundleSha256": "d76dc67d732e4fa58fe47a0f8e445ba2edccfca1654cec93b3816e93e8300fea"
 }
