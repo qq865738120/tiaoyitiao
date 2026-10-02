@@ -1,0 +1,141 @@
+{
+  "project": {
+    "path": "/Users/zhengwenjun/tiaoyitiao",
+    "name": "tiaoyitiao",
+    "uuid": "4856b445-bfe4-49c2-8933-59e229f06792",
+    "creator": {
+      "version": "3.8.8"
+    }
+  },
+  "executedAt": "2026-10-02T09:42:43.439Z",
+  "node": "v22.23.1",
+  "compileCommand": "node '/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc' --strict --target ES2018 --module commonjs --moduleResolution node --lib ES2019,DOM --skipLibCheck --experimentalDecorators --rootDir . --outDir '<本轮授权scratch>/stage04-view-test' temp/declarations/cc.d.ts tests/jump/stage04-view-tests.ts assets/scripts/jump/view/AvatarView.ts assets/scripts/jump/view/JumpUI.ts assets/scripts/jump/view/BackgroundView.ts",
+  "executeCommand": "node '<本轮授权scratch>/stage04-view-test/tests/jump/stage04-view-tests.js' --evidence",
+  "sourceHashes": {
+    "assets/scripts/jump/view/README.md": "2dd6e0f3b1b854b6eda6ee69335afbc79b1176c1cfdfd7afe480983627d03caf",
+    "assets/scripts/jump/view/AvatarView.ts": "2bdda3a2f62cc618179137085ec8778081795e8c117bd6a4389f988cd6eb320e",
+    "assets/scripts/jump/view/JumpUI.ts": "505d5218b1f3a7e45973e9b87b148e89d6f4ce729317f00fe4f014984c189389",
+    "assets/scripts/jump/view/FeedbackTimeline.ts": "d4d9299ae2de1f09ebaa3b122deb2c628f2d5537fd78e0ef4e5ba6fd2a017131",
+    "assets/scripts/jump/view/BackgroundView.ts": "e522944c8d26a1595707e57424b47730b63303a267fe2c88fcff034ae56de8ef",
+    "assets/scripts/jump/core/gameplay.ts": "31efb5555f9baa83641681c145809346ca628add873301176290d7c8de3ebbda",
+    "assets/scripts/jump/core/platforms.ts": "617a17473873d78076cc9cd0869e0783c041e0004a2604ae4d7ed089fb498a5e",
+    "tests/jump/stage04-view-tests.ts": "12d9f64bafd1482a4f932ee80bd46c8e4bbdbacdfc4c8f8f847efe46d91bdbfa",
+    "tests/jump/run-stage04-view-tests.sh": "607d6703d7fe839d2f1414725b3103ccee08dc167553642994f0cc315abee6fa"
+  },
+  "firstImplementationTransaction": "CyB-2K2RU_nxy8_eYzQiS",
+  "cases": [
+    {
+      "id": "V01-seconds-30-60-120",
+      "status": "pass",
+      "assertions": 39,
+      "actual": [
+        {
+          "fps": 30,
+          "centerEnd": 0.36666666666666664,
+          "scoreEnd": 0.4666666666666667,
+          "launchEnd": 0.13333333333333333,
+          "landingEnd": 0.2,
+          "analyticalDurations": {
+            "chargeEase": 0.08,
+            "launch": 0.12,
+            "landing": 0.18,
+            "center": 0.35,
+            "score": 0.45
+          }
+        },
+        {
+          "fps": 60,
+          "centerEnd": 0.35,
+          "scoreEnd": 0.45,
+          "launchEnd": 0.13333333333333333,
+          "landingEnd": 0.18333333333333332,
+          "analyticalDurations": {
+            "chargeEase": 0.08,
+            "launch": 0.12,
+            "landing": 0.18,
+            "center": 0.35,
+            "score": 0.45
+          }
+        },
+        {
+          "fps": 120,
+          "centerEnd": 0.35,
+          "scoreEnd": 0.45,
+          "launchEnd": 0.125,
+          "landingEnd": 0.18333333333333332,
+          "analyticalDurations": {
+            "chargeEase": 0.08,
+            "launch": 0.12,
+            "landing": 0.18,
+            "center": 0.35,
+            "score": 0.45
+          }
+        }
+      ]
+    },
+    {
+      "id": "V02-pause-resume-dedupe-old-run",
+      "status": "pass",
+      "assertions": 91,
+      "actual": "all assertions passed"
+    },
+    {
+      "id": "V03-background-cycle-20-resets",
+      "status": "pass",
+      "assertions": 137,
+      "actual": "all assertions passed"
+    },
+    {
+      "id": "V04-avatar-pivot-shadow-20-resets",
+      "status": "pass",
+      "assertions": 28,
+      "actual": "all assertions passed"
+    },
+    {
+      "id": "V05-background-seven-frames-release",
+      "status": "pass",
+      "assertions": 74,
+      "actual": "all assertions passed"
+    },
+    {
+      "id": "V06-ui-one-ring-one-pulse-20-reset",
+      "status": "pass",
+      "assertions": 185,
+      "actual": "all assertions passed"
+    },
+    {
+      "id": "V07-R11-1000-historical-hash-independent-sequence",
+      "status": "pass",
+      "assertions": 1041,
+      "actual": {
+        "platforms": 1000,
+        "hash": "b2feb20384382a1c6b27c203d288cec709833231f77ef5a4955c0e332e606b74",
+        "expectedSource": "阶段02规则测试.json + 验收基准.json"
+      }
+    },
+    {
+      "id": "V08-real-core-24-jumps-with-without-sampling",
+      "status": "pass",
+      "assertions": 7176,
+      "actual": {
+        "jumps": 24,
+        "score": 328,
+        "fps": [
+          30,
+          60,
+          120
+        ]
+      }
+    }
+  ],
+  "assertions": 8771,
+  "passed": 8,
+  "failed": 0,
+  "limitations": [
+    "cc host mocks, not Creator rendering",
+    "30/60/120 sampler simulated seconds, not actual Preview FPS",
+    "ContactShadow alpha not implemented: material contract unavailable",
+    "parent must bind one Graphics/Camera and seven textures",
+    "no Preview, save/reopen, lights/material/transparent rendering acceptance"
+  ]
+}

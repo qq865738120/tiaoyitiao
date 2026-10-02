@@ -1,5 +1,6 @@
-import { _decorator, Component, Node, Label, Button, Graphics, UITransform, Color, TTFFont } from 'cc';
-import { Phase } from '../core';
+import { _decorator, Component, Node, Label, Button, Graphics, UITransform, Color, TTFFont, Camera, Vec3 } from 'cc';
+import { Phase, DomainEvent, FootPosition } from '../core';
+import { FeedbackTimeline } from './FeedbackTimeline';
 const { ccclass, property } = _decorator;
 export interface UIActions { start(): void; pause(): void; resume(): void; restart(): void; home(): void; }
 
@@ -23,6 +24,13 @@ export class JumpUI extends Component {
     @property(Button) pauseHome: Button | null = null;
     @property(Button) replay: Button | null = null;
     @property(Button) home: Button | null = null;
+    // Optional editor-owned HUD child with Graphics + UITransform; never created at runtime.
+    @property(Graphics) centerFlash: Graphics | null = null;
+    @property(Camera) worldCamera: Camera | null = null;
+    private readonly feedback = new FeedbackTimeline();
+    private centerFoot: Vec3 | null = null;
+    private scoreBase: Vec3 | null = null;
+    private readonly projected = new Vec3();
     private bindings: Array<{ button: Button; callback: () => void }> = [];
     private page = '';
     private shadeSizes = new Map<Node, string>();
@@ -32,6 +40,7 @@ export class JumpUI extends Component {
             !this.score || !this.resultScore || !this.bestScore ||
             !this.play || !this.pauseButton || !this.resumeButton || !this.pauseRestart || !this.pauseHome || !this.replay || !this.home)
             throw new Error('JumpUI phase03 references incomplete');
+        this.scoreBase = this.score.node.scale.clone();
         for (const label of [this.score, this.resultScore, this.bestScore]) {
             label.useSystemFont = false; label.font = this.numberFont;
         }
@@ -45,10 +54,41 @@ export class JumpUI extends Component {
     disconnect(): void {
         for (const { button, callback } of this.bindings) button.node.off(Button.EventType.CLICK, callback, this);
         this.bindings = [];
+        this.clearFeedback();
+    }
+    consume(event: DomainEvent, currentRunId: number, centerFoot?: FootPosition): void {
+        if (!this.feedback.consume(event, currentRunId)) return;
+        if (event.type === 'Started' || event.type === 'Returned' || event.type === 'Failed') {
+            this.centerFoot = null; this.restoreScore(); this.centerFlash?.clear();
+        } else if (event.type === 'Scored') {
+            this.centerFoot = event.streak > 0 && centerFoot ? new Vec3(centerFoot.x, centerFoot.y, centerFoot.z) : null;
+        }
+    }
+    resetFeedback(runId: number): void {
+        this.feedback.reset(runId); this.centerFoot = null; this.restoreScore();
+        if (this.centerFlash) { this.centerFlash.clear(); this.centerFlash.node.active = false; }
+    }
+    clearFeedback(): void { this.resetFeedback(-1); }
+    private restoreScore(): void { if (this.score && this.scoreBase) this.score.node.setScale(this.scoreBase); }
+    private renderFeedback(seconds: number): void {
+        const f = this.feedback.sample(seconds);
+        if (this.score && this.scoreBase) this.score.node.setScale(this.scoreBase.x * f.scoreScale, this.scoreBase.y * f.scoreScale, this.scoreBase.z);
+        const flash = this.centerFlash;
+        if (!flash) return;
+        flash.clear();
+        const parent = flash.node.parent;
+        flash.node.active = !!(f.centerActive && this.centerFoot && this.worldCamera && parent && parent.getComponent(UITransform));
+        if (!flash.node.active || !parent || !this.worldCamera || !this.centerFoot) return;
+        this.worldCamera.convertToUINode(this.centerFoot, parent, this.projected);
+        flash.node.setPosition(this.projected);
+        flash.lineWidth = 3;
+        flash.strokeColor = new Color(255, 255, 225, Math.round(235 * f.centerAlpha));
+        flash.circle(0, 0, f.centerRadius); flash.stroke();
     }
     onDestroy(): void { this.disconnect(); }
     setLocked(locked: boolean): void { for (const { button } of this.bindings) button.interactable = !locked; }
-    render(phase: Phase, score: number, best: number, firstJump: boolean, storageError: string | null): void {
+    render(phase: Phase, score: number, best: number, firstJump: boolean, storageError: string | null, simulationSeconds = 0): void {
+        this.renderFeedback(simulationSeconds);
         const page = phase === 'menu' ? 'home' : phase === 'paused' ? 'pause' : phase === 'gameover' ? 'result' : 'hud';
         if (page !== this.page) {
             this.page = page;

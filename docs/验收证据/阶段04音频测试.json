@@ -1,0 +1,365 @@
+{
+  "stage": "04-audio",
+  "project": "/Users/zhengwenjun/tiaoyitiao",
+  "package": {
+    "name": "tiaoyitiao",
+    "uuid": "4856b445-bfe4-49c2-8933-59e229f06792",
+    "creator": {
+      "version": "3.8.8"
+    }
+  },
+  "executedAt": "2026-10-02T09:29:29.509Z",
+  "node": "v22.23.1",
+  "typeScript": "Version 4.9.5",
+  "commands": {
+    "engineDeclarationTypecheck": "node '/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc' -p '<本轮授权scratch>/stage04-audio-test/engine-typecheck.json'",
+    "compile": "node '/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc' --strict --target ES2018 --module commonjs --moduleResolution node --lib ES2019,DOM --skipLibCheck --rootDir . --outDir '<本轮授权scratch>/stage04-audio-test' tests/jump/audio-mocks/cc.d.ts tests/jump/stage04-audio-tests.ts",
+    "execute": "NODE_PATH='/Users/zhengwenjun/tiaoyitiao/tests/jump/audio-mocks' node '<本轮授权scratch>/stage04-audio-test/tests/jump/stage04-audio-tests.js' --evidence"
+  },
+  "recoveredChecks": [
+    {
+      "check": "Initial scratch engine declaration config",
+      "result": "failed TS2688",
+      "reason": "Inherited relative types were resolved from scratch; fixed by explicit absolute current-project declaration paths",
+      "auditRunId": "ocTk64X7T2paoIaPJrrwY"
+    }
+  ],
+  "sourceHashes": {
+    "assets/scripts/jump/adapters/AudioAdapter.ts": "99d198f14e334e4b301e70bf19d0fdf0f686b7aaf09d016912ae8d1d4f44baf8",
+    "assets/scripts/jump/core/types.ts": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364",
+    "tests/jump/stage04-audio-tests.ts": "7370284ac639c249239c14f4a74a397f484b6e6feec24a6d7b7e6e052dc256a0",
+    "tests/jump/audio-mocks/cc.d.ts": "dfb7b80f4c1b4b0ec10aed5ae5b6136663b6492a58b2670b557709b4084b5655",
+    "tests/jump/audio-mocks/cc/index.js": "9d1147b5d8a89cae58e4a16bf4a5cc7f40a6e606be53e61678a562280d329466",
+    "tests/jump/audio-mocks/run.sh": "cf9afff3cde479a28987e943a3ea7949cf1f7e64284f7816d4e58222f3704039"
+  },
+  "firstWriteTransactions": {
+    "adapterReadme": "zUbc0_wtprL01-MqHuhrh",
+    "audioAdapter": "Hf3hsX5o-wchOAd5DRh84",
+    "ccDeclaration": "bIKtsM6Uh5ku0kbN_LwNe",
+    "ccMock": "jXT19iA6XuhWofIBYXHkQ",
+    "runner": "7d21IL1-G5VEsvSi6lPRX",
+    "testEntry": "4MrCh0wB7oMyZrADdSrgt"
+  },
+  "summary": {
+    "tests": 20,
+    "passed": 20,
+    "failed": 0,
+    "assertions": 466
+  },
+  "results": [
+    {
+      "id": "A01",
+      "name": "首手势前静音且开启不补播旧事件",
+      "passed": true,
+      "assertions": 10,
+      "error": null
+    },
+    {
+      "id": "A02",
+      "name": "首次手势后Started每run唯一与初始音量",
+      "passed": true,
+      "assertions": 11,
+      "error": null
+    },
+    {
+      "id": "A03",
+      "name": "intro ENDED进入loop及单一蓄力声道",
+      "passed": true,
+      "assertions": 12,
+      "error": null
+    },
+    {
+      "id": "A04",
+      "name": "释放Jump停止intro和loop",
+      "passed": true,
+      "assertions": 11,
+      "error": null
+    },
+    {
+      "id": "A05",
+      "name": "取消停止intro和loop",
+      "passed": true,
+      "assertions": 9,
+      "error": null
+    },
+    {
+      "id": "A06",
+      "name": "暂停冻结音频且恢复不续蓄力",
+      "passed": true,
+      "assertions": 13,
+      "error": null
+    },
+    {
+      "id": "A07",
+      "name": "core旧run Returned及新局不受旧Returned影响",
+      "passed": true,
+      "assertions": 9,
+      "error": null
+    },
+    {
+      "id": "A08",
+      "name": "Failed先停蓄力再唯一fall并拒绝终局旧得分",
+      "passed": true,
+      "assertions": 9,
+      "error": null
+    },
+    {
+      "id": "A09",
+      "name": "Scored普通success、combo1—8封顶且不堆叠",
+      "passed": true,
+      "assertions": 55,
+      "error": null
+    },
+    {
+      "id": "A10",
+      "name": "重复Scored/旧jump不会干扰新蓄力",
+      "passed": true,
+      "assertions": 6,
+      "error": null
+    },
+    {
+      "id": "A11",
+      "name": "旧run及逆向权威run拒绝",
+      "passed": true,
+      "assertions": 6,
+      "error": null
+    },
+    {
+      "id": "A12",
+      "name": "旧ENDED闭包及错误source不会启动loop",
+      "passed": true,
+      "assertions": 9,
+      "error": null
+    },
+    {
+      "id": "A13",
+      "name": "intro未加载cancel再用同clip无ABA",
+      "passed": true,
+      "assertions": 11,
+      "error": null
+    },
+    {
+      "id": "A14",
+      "name": "加载完成而底层play排队时reset立即静音",
+      "passed": true,
+      "assertions": 11,
+      "error": null
+    },
+    {
+      "id": "A15",
+      "name": "新局未加载start/score/fall全清且旧加载无声音",
+      "passed": true,
+      "assertions": 15,
+      "error": null
+    },
+    {
+      "id": "A16",
+      "name": "stopAll/暂停清理反馈，重复reset不重开去重",
+      "passed": true,
+      "assertions": 11,
+      "error": null
+    },
+    {
+      "id": "A17",
+      "name": "独占声道与JSON snapshot不谎称已播放",
+      "passed": true,
+      "assertions": 13,
+      "error": null
+    },
+    {
+      "id": "A18",
+      "name": "连续20新局无源/监听/声音增长（含帧末销毁）",
+      "passed": true,
+      "assertions": 203,
+      "error": null
+    },
+    {
+      "id": "A19",
+      "name": "20次同帧新局立即摘除静音，帧末回收全部退役源",
+      "passed": true,
+      "assertions": 30,
+      "error": null
+    },
+    {
+      "id": "A20",
+      "name": "destroy幂等且晚到ENDED/加载/后续调用无声音",
+      "passed": true,
+      "assertions": 12,
+      "error": null
+    }
+  ],
+  "lifecycle": [
+    {
+      "run": 1,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 2,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 3,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 4,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 5,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 6,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 7,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 8,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 9,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 10,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 11,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 12,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 13,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 14,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 15,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 16,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 17,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 18,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 19,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    },
+    {
+      "run": 20,
+      "sources": 0,
+      "players": 0,
+      "listeners": 0,
+      "attached": 0,
+      "pendingLoads": 0
+    }
+  ],
+  "coveredLayer": "Real AudioAdapter class under independent deterministic cc mock; real Creator declarations typecheck, NOT engine/runtime/audio execution",
+  "notExecuted": [
+    "Creator Preview and real listening/volume calibration",
+    "Actual browser AudioContext/DOM gesture policy and suspended-context playback",
+    "Actual engine loader, frame deferred destruction and platform interruption",
+    "Inspector binding of 13 AudioClips; parent integration"
+  ],
+  "limitations": [
+    "At most two attached voice slots; retired Node/Component destruction occurs at engine frame end.",
+    "In-flight engine loads are invalidated, not aborted; unresolved promises may retain retired sources until resolution.",
+    "DOM audio fallback late browser gesture callbacks are engine-owned; mock cannot prove browser callback cleanup."
+  ]
+}
