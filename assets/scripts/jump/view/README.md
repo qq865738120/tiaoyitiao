@@ -4,6 +4,6 @@ AvatarView逻辑根为脚底，Visual基准offset=-rawFootY。蓄力压缩/空�
 
 PlatformView按PlatformSpec设置台面根/scale/矩形或圆元数据。PlatformPool复用阶段01包装，按精确Prefab引用替换模型，最多8包装，保留有限历史与预告；回收清metadata、Tween/回调、局部变换与材质实例，未使用共享材质修改。原GLB只读。
 
-CameraFollow成功落地后按模拟tick在0.25秒平移，充能与飞行保持相机不变。对角正交角度/缩放固定，构图以当前/目标中点加既有offset；预告不要求全部可见。UI由场景Canvas负责。
+CameraFollow成功落地后按模拟tick在0.25秒平移，充能与飞行保持相机不变。对角正交角度/缩放固定，构图以当前/目标中点加既有offset；预告不要求全部可见。UI由场景Canvas负责。阶段03JumpUI仅消费唯一Gameplay的phase/score/best，拥有四页面显隐、数字字体与7个Button监听的bind/unbind；无第二状态机，不改规则。Shade的Widget拥有尺寸，Graphics按真实UITransform绘制暗罩；页面内容Widget锚定，图片RAW尺寸+等比scale；不写工具合同readonly尺寸字段。
 
 验证：core独立几何/弹道测试；Creator真Preview检查两方向、脚底、压缩、阴影和下一目标完整可见；保存重开检查绑定。

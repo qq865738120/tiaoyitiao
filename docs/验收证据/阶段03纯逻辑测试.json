@@ -1,0 +1,221 @@
+{
+  "project": {
+    "path": "/Users/zhengwenjun/tiaoyitiao",
+    "uuid": "4856b445-bfe4-49c2-8933-59e229f06792",
+    "creator": "3.8.8"
+  },
+  "executedAt": "2026-10-02T07:38:01.062Z",
+  "environment": {
+    "node": "v22.23.1",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "configVersion": "jump-learning-1.0",
+  "configHash": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178",
+  "seed": 20260930,
+  "key": "jump:4856b445-bfe4-49c2-8933-59e229f06792:best:v1",
+  "sourceHashes": [
+    {
+      "path": "package.json",
+      "sha256": "01e67f98bca82fd34a4c6fdb34d1af984801f67fcec2c20f94ce4fd2a63bb226"
+    },
+    {
+      "path": "assets/scripts/jump/adapters/StorageAdapter.ts",
+      "sha256": "e44f1ee48b7dc5490ed35e1be039ee4d844046b4d0b5a4a65cd23b4511533de8"
+    },
+    {
+      "path": "tests/jump/stage03-tests.ts",
+      "sha256": "ec0835658769ed14af477a75eb1d2a671481e77b2243df20bb5d12b4b0d7a843"
+    },
+    {
+      "path": "assets/scripts/jump/core/index.ts",
+      "sha256": "618f07e7c6e78bff2162463cb11991995c898f51636892664d5736fb44898430"
+    },
+    {
+      "path": "assets/scripts/jump/core/config.ts",
+      "sha256": "b7e39da934bdac99f3276551564b1ca8e4a7ff01a795214e18f175f887500178"
+    },
+    {
+      "path": "assets/scripts/jump/core/types.ts",
+      "sha256": "fe6306152235a0e5ed60e4ece001584d7d009450e173dff3998920b69c82a364"
+    },
+    {
+      "path": "assets/scripts/jump/core/state-machine.ts",
+      "sha256": "c01da700dbbf9612cffc7c1543f52c542793b688322887b2eb172e9d6a39697e"
+    },
+    {
+      "path": "assets/scripts/jump/core/gameplay.ts",
+      "sha256": "31efb5555f9baa83641681c145809346ca628add873301176290d7c8de3ebbda"
+    },
+    {
+      "path": "assets/scripts/jump/core/platforms.ts",
+      "sha256": "617a17473873d78076cc9cd0869e0783c041e0004a2604ae4d7ed089fb498a5e"
+    },
+    {
+      "path": "assets/scripts/jump/core/geometry.ts",
+      "sha256": "459e83d089bb88ac6630b49db93b608c1b19ef7e437a14d1da82f40c51806207"
+    },
+    {
+      "path": "assets/scripts/jump/core/motion.ts",
+      "sha256": "b3fa7b8fb82f98993460eabb4baf536af6a5f63953d0b6069b7f522e92d20b3a"
+    },
+    {
+      "path": "assets/scripts/jump/core/random.ts",
+      "sha256": "edb5d031623fe3061bb0daa094effe5f8580b4c5e3961e57c0a73b104a2ff49d"
+    }
+  ],
+  "commands": {
+    "pathRedaction": "临时编译目录以占位符替代，避免持久文档包含会话定位；其余参数保持实际执行记录。",
+    "compile": "node /Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc --strict --target ES2018 --module commonjs --moduleResolution node --skipLibCheck --rootDir . --outDir <本轮临时编译目录> tests/jump/stage03-tests.ts",
+    "execute": "/Users/zhengwenjun/.nvm/versions/node/v22.23.1/bin/node <本轮临时编译目录>/tests/jump/stage03-tests.js --evidence"
+  },
+  "summary": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0,
+    "assertions": 8501
+  },
+  "cases": [
+    {
+      "caseId": "R13-namespace-missing",
+      "expected": "fixed package namespace, missing=0, read-only construction, no network",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 4
+    },
+    {
+      "caseId": "R13-valid-integer",
+      "expected": "JSON numeric integers including0 load without writes",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 15
+    },
+    {
+      "caseId": "R13-json-or-garbage",
+      "expected": "invalid stored payload falls back0 without mutation or throw",
+      "actual": {
+        "payloads": 12
+      },
+      "status": "pass",
+      "assertions": 48
+    },
+    {
+      "caseId": "R13-negative-or-fraction",
+      "expected": "invalid stored payload falls back0 without mutation or throw",
+      "actual": {
+        "payloads": 4
+      },
+      "status": "pass",
+      "assertions": 16
+    },
+    {
+      "caseId": "R13-nonfinite",
+      "expected": "invalid stored payload falls back0 without mutation or throw",
+      "actual": {
+        "payloads": 4
+      },
+      "status": "pass",
+      "assertions": 16
+    },
+    {
+      "caseId": "R13-get-exception",
+      "expected": "get failure falls back0; subsequent valid record recovers",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 6
+    },
+    {
+      "caseId": "R13-max-never-lowers",
+      "expected": "lower/equal scores do not lower value or write; new instance reads persisted max",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 8
+    },
+    {
+      "caseId": "R13-invalid-record",
+      "expected": "negative/fraction/NaN/Infinity/runtime invalid rejected without storage mutation",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 32
+    },
+    {
+      "caseId": "R13-set-exception-memory-and-retry",
+      "expected": "set failure keeps memory max; lower record retries pending max; persisted old value visible on reload",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 11
+    },
+    {
+      "caseId": "R13-reset-success-and-isolation",
+      "expected": "reset removes only project key and zeroes memory; new adapter sees0",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 8
+    },
+    {
+      "caseId": "R13-remove-exception",
+      "expected": "remove failure returnsfalse and preserves best/persisted value; retry succeeds",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 7
+    },
+    {
+      "caseId": "R13-reset-pending-write",
+      "expected": "failed remove retains pending best; successful reset cancels pending write",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 10
+    },
+    {
+      "caseId": "R13-write-failure-restart-home",
+      "expected": "real scored event with failing storage does not block restart/home/new scored event",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 175
+    },
+    {
+      "caseId": "R12-old-run-restart",
+      "expected": "real dispatch rejects old callbacks even when new jumpId matches; noScored/Failed or state mutation",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 66
+    },
+    {
+      "caseId": "R12-old-run-home",
+      "expected": "real dispatch rejects old callbacks even when new jumpId matches; noScored/Failed or state mutation",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 81
+    },
+    {
+      "caseId": "R12-old-jump-same-run",
+      "expected": "closed old jump cannot score/fail/callback during next jump of same run; active event publishes once",
+      "actual": "all assertions passed",
+      "status": "pass",
+      "assertions": 52
+    },
+    {
+      "caseId": "R12-twenty-restart-home-cycles",
+      "expected": "20 cycles abort charging/airborne/landing/falling/paused; empty queue/plans/owner; no old delayed score/fail after120ticks",
+      "actual": {
+        "cycles": 20,
+        "abortPhases": [
+          "charging",
+          "airborne",
+          "landing",
+          "falling",
+          "paused"
+        ],
+        "finalScore": 2
+      },
+      "status": "pass",
+      "assertions": 7946
+    }
+  ],
+  "notCovered": [
+    "Creator Preview/UI and real sys.localStorage persistence across Preview restart",
+    "InputAdapter physical-down/listener cleanup and view/Tween/scene instances",
+    "Audio cleanup or old sound playback (stage03 has no audio implementation)",
+    "Physical touch devices"
+  ]
+}

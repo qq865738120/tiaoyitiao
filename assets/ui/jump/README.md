@@ -1,0 +1,5 @@
+# 阶段03 UI资源副本
+
+通过AssetDB复制title/play/replay/new_home四张原PNG，仅在本目录副本上用Creator导入设置生成SpriteFrame并clamp。保持PNG内容不变；不改assets/resources/jump原素材/UUID。num.ttf复用原TTFFont，中文默认字体。
+
+UI结构位于JumpMain/UI/SinglePlayerUI，复用既有Canvas/UI相机，世界控制器唯一GameBootstrap。页面绑定通过Inspector显式Node/Label/Button引用；页面采用Widget适配、Sprite RAW原图尺寸配合等比scale保持比例，所有按钮至少44设计像素。验证保存重开与414x736/375x667真实Preview，截图不是规则测试。

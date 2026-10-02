@@ -10,6 +10,23 @@ Gameplay的输入拥有者直接由唯一RunStateMachine约束，不新增第二
 
 入口 `run-tests.ts` 使用轻量同步断言。前16个随机整数直接读取 `docs/数据/验收基准.json`，该文件为预计算期望，不是测试结果；前100个随机值另做同seed重现。该旧入口保留阶段01范围：测试不得把其中注入的分类/奖励声称为算法验收；阶段02真实算法由新入口验证。
 
+## 阶段03独立入口
+
+`stage03-tests.ts`编译真实无cc的StorageAdapter、JumpGameplay和RunStateMachine。R13注入get/set/remove故障、异常存档和无效score，验证max、写失败内存保留/重试、reset明确失败/成功及写失败后的真实新局；R12真实dispatch/guardCallback拒绝旧run/jump并验证Scored/Failed去重，Gameplay执行20轮重开→主页→开始（覆盖charging/airborne/landing/falling/paused），检查计划/owner/事件/结果清空及120tick无旧事件。仅代表纯逻辑，不证明真实输入监听、场景/Tween或音频清理；阶段03音频不标通过。
+
+单独执行如下（新证据使用独占创建，已有同名报告时不加`--evidence`，不得覆盖历史）：
+
+```sh
+TSC=/Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/node_modules/typescript/bin/tsc
+OUT='<当前会话scratch>/stage03-test'
+node "$TSC" --strict --target ES2015 --module commonjs --moduleResolution node --skipLibCheck --noEmit assets/scripts/jump/adapters/StorageAdapter.ts
+COMPILE="node $TSC --strict --target ES2018 --module commonjs --moduleResolution node --skipLibCheck --rootDir . --outDir $OUT tests/jump/stage03-tests.ts"
+node "$TSC" --strict --target ES2018 --module commonjs --moduleResolution node --skipLibCheck --rootDir . --outDir "$OUT" tests/jump/stage03-tests.ts
+JUMP_STAGE03_COMPILE_COMMAND="$COMPILE" node "$OUT/tests/jump/stage03-tests.js" --evidence
+```
+
+新报告为`docs/验收证据/阶段03纯逻辑测试.json`，含项目身份、源码哈希、实际命令、用例/断言计数和未覆盖层。`--evidence`仅记录实际本次执行，不写历史阶段01/02证据。
+
 从工程根执行（OUT 为当前会话临时目录的 tests 编译子目录；不使用项目 tsconfig）：
 
 ```sh
